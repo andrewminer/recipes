@@ -1,5 +1,7 @@
 #!/bin/bash
 
+OUTPUT="docs"
+
 USAGE=$(cat <<- END
 USAGE: build.sh <command> <options>
 
@@ -17,7 +19,7 @@ END
 # Helper Functions #####################################################################################################
 
 function start-server {
-    cd dist
+    cd $OUTPUT
     python -m SimpleHTTPServer 8080 >/dev/null 2>&1 &
     SERVER_PID="$!"
     cd ..
@@ -36,7 +38,7 @@ function usage {
 # Command Functions ####################################################################################################
 
 function run-build {
-    mkdir -p dist
+    mkdir -p "$OUTPUT"
     
     cd src
     find . -type f | while read FILE; do
@@ -49,18 +51,18 @@ function run-build {
         # echo "file: $FILE, dirname: $DIRNAME, basename: $BASENAME, ext: $EXT"
         
         if [[ "$EXT" == "pug" ]]; then
-            TARGET="../dist/$DIRNAME/$BASENAME.html"
+            TARGET="../$OUTPUT/$DIRNAME/$BASENAME.html"
             if [[ "$TARGET" -ot "$FILE" ]]; then
-                pug -o "../dist/$DIRNAME" "$FILE"
+                pug -o "../$OUTPUT/$DIRNAME" "$FILE"
             fi
         elif [[ "$EXT" == "png" ]]; then
-            TARGET="../dist/$DIRNAME/$BASENAME.$EXT"
+            TARGET="../$OUTPUT/$DIRNAME/$BASENAME.$EXT"
             if [[ "$TARGET" -ot "$FILE" ]]; then
-                mkdir -p "../dist/$DIRNAME"
+                mkdir -p "../$OUTPUT/$DIRNAME"
                 cp "$FILE" "$TARGET"
             fi
         elif [[ "$EXT" == "scss" ]]; then
-            TARGET="../dist/$DIRNAME/$BASENAME.css"
+            TARGET="../$OUTPUT/$DIRNAME/$BASENAME.css"
             if [[ "$TARGET" -ot "$FILE" ]]; then
                 sass "$FILE" "$TARGET"
             fi
@@ -71,7 +73,7 @@ function run-build {
 COMMANDS="build"
 
 function run-clean {
-    rm -rf dist 2>/dev/null
+    rm -rf "$OUTPUT" 2>/dev/null
 }
 COMMANDS="$COMMANDS,clean"
 

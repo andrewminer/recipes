@@ -1,0 +1,88 @@
+.cookbook {
+  display: flex;
+  flex-wrap: wrap; }
+  .cookbook section {
+    padding: 0 0.125in; }
+    .cookbook section h1 {
+      font-family: sans-serif;
+      font-size: 24pt;
+      font-weight: bold; }
+    .cookbook section a {
+      flex: 1 1 auto;
+      min-width: 2in;
+      max-width: 3.5in;
+      border-radius: 0.0625in;
+      color: black;
+      font-family: serif;
+      font-size: 18pt;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      padding: 0.0625in;
+      padding-right: 0.125in;
+      transition: all 0.25s; }
+      .cookbook section a:visited {
+        color: black; }
+      .cookbook section a:hover {
+        background: #23B7F2;
+        color: white; }
+      .cookbook section a img {
+        border: 0.01in solid silver;
+        border-radius: 0.0625in;
+        margin-right: 0.125in;
+        max-height: 0.5in;
+        width: 0.5in; }
+
+.recipe {
+  margin: 0 auto;
+  max-width: 7in;
+  display: flex;
+  flex-direction: column; }
+  .recipe h1 {
+    margin-top: 0;
+    margin-bottom: 0.25in;
+    font-family: serif;
+    font-size: 24pt; }
+  .recipe .ingredients {
+    display: flex; }
+    .recipe .ingredients .image img {
+      border-radius: 0.25in;
+      border: 0.01in solid silver;
+      width: 3in;
+      max-height: 3in; }
+    .recipe .ingredients .list {
+      margin-left: 0.25in; }
+      .recipe .ingredients .list tr {
+        vertical-align: top; }
+        .recipe .ingredients .list tr td:nth-child(1) {
+          font-family: sans-serif;
+          font-size: 12pt;
+          padding-right: 0.125in;
+          text-align: right; }
+        .recipe .ingredients .list tr td:nth-child(2) {
+          font-family: sans-serif;
+          font-size: 12pt; }
+  .recipe .directions {
+    margin-top: 0.25in; }
+    .recipe .directions tr {
+      vertical-align: top; }
+      .recipe .directions tr td {
+        padding-bottom: 0.1875in; }
+    .recipe .directions td:nth-child(1) {
+      padding-right: 0.25in;
+      font-family: sans-serif;
+      font-size: 18pt;
+      font-weight: bold; }
+      .recipe .directions td:nth-child(1):after {
+        content: "."; }
+    .recipe .directions td:nth-child(2) {
+      width: 100%;
+      font-family: serif;
+      font-size: 14pt; }
+    .recipe .directions td:nth-child(3) {
+      padding-left: 0.25in;
+      font-family: sans-serif;
+      font-size: 9pt;
+      white-space: nowrap; }
+
+/*# sourceMappingURL=style.css.map */
