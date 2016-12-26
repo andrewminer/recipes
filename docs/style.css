@@ -99,6 +99,14 @@
 
 @media (max-width: 900px) {
   .cookbook {
-    column-count: 1; } }
+    column-count: 1; }
+
+  .recipe h1 {
+    text-align: center; }
+  .recipe .ingredients {
+    flex-direction: column;
+    align-items: center; }
+    .recipe .ingredients .list {
+      margin-top: 0.25in; } }
 
 /*# sourceMappingURL=style.css.map */
