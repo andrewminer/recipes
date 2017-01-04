@@ -157,11 +157,13 @@
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 500px) {
     .cookbook {
         column-count: 1;
     }
     .recipe {
+        padding: 0 0.125in;
+        
         h1 {
             text-align: center;
         }

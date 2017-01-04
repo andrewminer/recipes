@@ -97,16 +97,18 @@
       .recipe .attribution p a {
         color: gray; }
 
-@media (max-width: 900px) {
+@media (max-width: 500px) {
   .cookbook {
     column-count: 1; }
 
-  .recipe h1 {
-    text-align: center; }
-  .recipe .ingredients {
-    flex-direction: column;
-    align-items: center; }
-    .recipe .ingredients .list {
-      margin-top: 0.25in; } }
+  .recipe {
+    padding: 0 0.125in; }
+    .recipe h1 {
+      text-align: center; }
+    .recipe .ingredients {
+      flex-direction: column;
+      align-items: center; }
+      .recipe .ingredients .list {
+        margin-top: 0.25in; } }
 
 /*# sourceMappingURL=style.css.map */
