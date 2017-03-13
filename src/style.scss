@@ -36,7 +36,7 @@
             border: 0.01in solid silver;
             border-radius: 0.0625in;
             margin-right: 0.125in;
-            max-height: 0.5in;
+            height: 0.5in;
             width: 0.5in;
         }
     }
@@ -90,6 +90,7 @@
                         font-size: 12pt;
                         padding-right: 0.125in;
                         text-align: right;
+                        white-space: nowrap;
                     }
             
                     td:nth-child(2) {
