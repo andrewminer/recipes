@@ -1,0 +1,162 @@
+.recipe {
+  margin: 0 auto;
+  max-width: 7in; }
+  .recipe .header {
+    display: flex; }
+    .recipe .header .image {
+      background-size: cover;
+      background-position: center;
+      border: 1px solid #DDD;
+      border-radius: 0.25in;
+      display: flex;
+      flex: 0 0 2.5in;
+      text-align: center; }
+    .recipe .header .about {
+      flex: 1 1 100%;
+      margin: 0 0 0 0.125in;
+      padding: 0 0 0 0.125in; }
+      .recipe .header .about h1 {
+        font-family: sans-serif;
+        font-size: 24pt;
+        margin: 0 0 0 0;
+        text-align: center; }
+      .recipe .header .about .timing {
+        color: gray;
+        font-style: italic;
+        margin: 0 0 1em 0;
+        text-align: center; }
+      .recipe .header .about .servings {
+        margin: 0 0 0.125in 0;
+        text-align: center; }
+        .recipe .header .about .servings img {
+          height: 0.25in;
+          width: 0.25in; }
+        .recipe .header .about .servings img + img {
+          margin-left: 0.125in; }
+    .recipe .header .icons {
+      align-items: center;
+      display: flex;
+      font-family: sans-serif;
+      font-size: 0.25in;
+      justify-content: center;
+      margin: 0.25in 0 calc(0.25in + 8px) 0; }
+      .recipe .header .icons .icon {
+        background-position: center;
+        background-size: contain;
+        display: inline-block;
+        height: 0.375in;
+        margin: 0 0.5em 0 0;
+        position: relative;
+        width: 0.375in; }
+        .recipe .header .icons .icon:first-child {
+          margin-left: 0; }
+        .recipe .header .icons .icon:after {
+          font-family: sans-serif;
+          font-size: 8px;
+          position: absolute;
+          bottom: -2px;
+          left: 50%;
+          text-align: center;
+          transform: translate(-50%, 100%);
+          white-space: nowrap; }
+        .recipe .header .icons .icon.overnight {
+          background-image: url("../images/overnight.png"); }
+          .recipe .header .icons .icon.overnight:after {
+            color: #3700A3;
+            content: "overnight"; }
+        .recipe .header .icons .icon.gluten-free {
+          background-image: url("../images/gluten-free.png"); }
+          .recipe .header .icons .icon.gluten-free:after {
+            color: #ECB629;
+            content: "no gluten"; }
+        .recipe .header .icons .icon.low-carb {
+          background-image: url("../images/low-carb.png"); }
+          .recipe .header .icons .icon.low-carb:after {
+            color: #A83533;
+            content: "low carb"; }
+        .recipe .header .icons .icon.serving {
+          background-image: url("../images/serving.png"); }
+          .recipe .header .icons .icon.serving:after {
+            color: black;
+            content: "serves"; }
+        .recipe .header .icons .icon.vegetarian {
+          background-image: url("../images/vegetarian.png"); }
+          .recipe .header .icons .icon.vegetarian:after {
+            color: #0EA822;
+            content: "veggie"; }
+    .recipe .header .description {
+      font-style: italic;
+      color: gray; }
+  .recipe .instructions {
+    margin: 0.25in 0 0.25in 0; }
+    .recipe .instructions .step {
+      align-items: top;
+      display: flex;
+      overflow: visible;
+      position: relative; }
+      .recipe .instructions .step + .step {
+        margin-top: 0.25in; }
+      .recipe .instructions .step h3 {
+        flex: 0 0 0.375in;
+        font-family: sans-serif;
+        font-size: 24pt;
+        margin: 0;
+        position: relative;
+        top: -0.125em; }
+      .recipe .instructions .step .ingredients {
+        flex: 0 0 2.125in;
+        font-size: 10pt; }
+        .recipe .instructions .step .ingredients ul {
+          list-style: none;
+          margin: 0;
+          padding: 0; }
+          .recipe .instructions .step .ingredients ul li {
+            display: flex; }
+            .recipe .instructions .step .ingredients ul li:nth-child(even) {
+              background: rgba(0, 0, 0, 0.1); }
+            .recipe .instructions .step .ingredients ul li .amount {
+              flex: 0 0 25%;
+              font-family: sans-serif;
+              padding: 0 1em 0.25em 0.25em;
+              white-space: nowrap; }
+            .recipe .instructions .step .ingredients ul li .item {
+              flex: 1 1 75%;
+              font-family: sans-serif;
+              padding: 0 1em 0.25em 0; }
+      .recipe .instructions .step .detail {
+        border-left: 1px solid silver;
+        flex: 1 1 100%;
+        font-size: 12pt;
+        margin: 0 0 0 0.125in;
+        padding: 0 0 0 0.125in; }
+  .recipe .credits {
+    color: gray;
+    font-size: 10pt;
+    font-style: italic;
+    text-align: center; }
+
+@media (max-width: 5in) {
+  .recipe .header {
+    flex-direction: column;
+    align-items: center; }
+    .recipe .header .image {
+      border: 0;
+      border-radius: 0;
+      width: 100%; }
+    .recipe .header .about {
+      margin: 0.125in 0 0 0; }
+      .recipe .header .about .description {
+        width: 90%; }
+  .recipe .instructions .step {
+    align-items: center;
+    flex-direction: column; }
+    .recipe .instructions .step h3 {
+      margin: 0.25in 0 0.125in 0; }
+    .recipe .instructions .step .ingredients {
+      flex: 0 0 auto;
+      margin: 0 0 0.125in;
+      width: 90%; }
+    .recipe .instructions .step .detail {
+      border: 0; } }
+
+/*# sourceMappingURL=style2.css.map */
