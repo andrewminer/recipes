@@ -80,35 +80,35 @@
                     white-space: nowrap;
                 }
                 &.overnight {
-                    background-image: url("../images/overnight.png");
+                    background-image: url("/images/overnight.png");
                     &:after {
                         color: #3700A3;
                         content: "overnight";
                     }
                 }
                 &.gluten-free {
-                    background-image: url("../images/gluten-free.png");
+                    background-image: url("/images/gluten-free.png");
                     &:after {
                         color: #ECB629;
                         content: "no gluten";
                     }
                 }
                 &.low-carb {
-                    background-image: url("../images/low-carb.png");
+                    background-image: url("/images/low-carb.png");
                     &:after {
                         color: #A83533;
                         content: "low carb";
                     }
                 }
                 &.serving {
-                    background-image: url("../images/serving.png");
+                    background-image: url("/images/serving.png");
                     &:after {
                         color: black;
                         content: "serves";
                     }
                 }
                 &.vegetarian {
-                    background-image: url("../images/vegetarian.png");
+                    background-image: url("/images/vegetarian.png");
                     &:after {
                         color: #0EA822;
                         content: "veggie";

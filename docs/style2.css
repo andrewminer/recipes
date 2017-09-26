@@ -60,27 +60,27 @@
           transform: translate(-50%, 100%);
           white-space: nowrap; }
         .recipe .header .icons .icon.overnight {
-          background-image: url("../images/overnight.png"); }
+          background-image: url("/images/overnight.png"); }
           .recipe .header .icons .icon.overnight:after {
             color: #3700A3;
             content: "overnight"; }
         .recipe .header .icons .icon.gluten-free {
-          background-image: url("../images/gluten-free.png"); }
+          background-image: url("/images/gluten-free.png"); }
           .recipe .header .icons .icon.gluten-free:after {
             color: #ECB629;
             content: "no gluten"; }
         .recipe .header .icons .icon.low-carb {
-          background-image: url("../images/low-carb.png"); }
+          background-image: url("/images/low-carb.png"); }
           .recipe .header .icons .icon.low-carb:after {
             color: #A83533;
             content: "low carb"; }
         .recipe .header .icons .icon.serving {
-          background-image: url("../images/serving.png"); }
+          background-image: url("/images/serving.png"); }
           .recipe .header .icons .icon.serving:after {
             color: black;
             content: "serves"; }
         .recipe .header .icons .icon.vegetarian {
-          background-image: url("../images/vegetarian.png"); }
+          background-image: url("/images/vegetarian.png"); }
           .recipe .header .icons .icon.vegetarian:after {
             color: #0EA822;
             content: "veggie"; }
