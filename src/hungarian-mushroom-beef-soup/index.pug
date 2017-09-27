@@ -1,88 +1,124 @@
 doctype html
 html
     head
-        link(href="../style.css" rel="stylesheet" type="text/css")
+        link(href="../style2.css" rel="stylesheet" type="text/css")
         meta(charset="UTF-8")
         meta(name="viewport" content="user-scalable=no, width=device-width")
-    
+
     body.recipe
-        h1 Hungarian Mushroom Beef Soup
-        
-        section.ingredients
-            .image
-                img(src="final.png")
-            .list
-                table
-                    tr
-                        td 1 lb
-                        td beef stew meat
-                    tr
-                        td 4 tbsp
-                        td butter
-                    tr
-                        td 1
-                        td large onion (chopped)
-                    tr
-                        td 1 lb
-                        td brown mushrooms (chopped)
-                    tr
-                        td 2 tsp
-                        td dill weed (minced)
-                    tr
-                        td 1 tsp
-                        td hungarian paprika
-                    tr
-                        td 1 tbsp
-                        td tamari
-                    tr
-                        td 2 cups
-                        td beef broth
-                    tr
-                        td &nbsp;
-                        td salt &amp; pepper
-                    tr
-                        td 3 tbsp
-                        td flour
-                    tr
-                        td 1 cup
-                        td whole milk
-                    tr
-                        td 2 tsp
-                        td lemon juice
-                    tr
-                        td 1 cup
-                        td sour cream
-        
-        section.directions
-            table
-                tr
-                    td 1
-                    td Heat the oil in a large soup pot and brown the beef in batches. Set aside to cool.
-                    td 10 min
-                tr
-                    td 2
-                    td Add half the butter and sautée onions until soft and just starting to brown.
-                    td 3 min
-                tr
-                    td 3
-                    td Add salt, pepper, dill, paprika, meat, and broth. Bring to a boil and then reduce to a simmer.
-                    td 1 hour
-                tr
-                    td 4
-                    td While the meat is simmering, add the remaining butter to a large saucepan and heat on medium 
-                        | until it foams.
-                    td 2 min
-                tr
-                    td 5
-                    td Add flour to the butter and whisk until smooth. Allow to heat through.
-                    td 2 min
-                tr
-                    td 6
-                    td Add milk and whisk thoroughly to remove all lumps.  Allow to simmer while stirring continually 
-                        | until the roux has thickened.  Add to the soup pot when finished.
-                    td 5 min
-                tr
-                    td 7
-                    td When the meat is tender, add the lemon juice, adust spices to taste, and finally stir in the 
-                        | sour cream.
-                    td 2 min
+        section.header
+            .image(style="background-image: url('./large.png')")
+
+            .about
+                h1 Hungarian Mushroom Beef Soup
+
+                .timing prep 25 min, cook 60 min
+
+                .icons
+                    .icon.gluten-free
+                    .icon.serving
+                    | × 4
+
+                .description.
+                    This soup combines a smooth, rich broth with soft chunks of beef and just a little bit of zing from
+                    the paprika for an absolutly luxurious overall experience whether as a stand-alone dinner or as a
+                    supplement to another dish.
+
+        section.instructions
+            .step
+                h3 1
+                .ingredients
+                    ul
+                        li
+                            .amount 2 tbsp
+                            .item olive oil
+                        li
+                            .amount 1 lb
+                            .item beef stew meat
+                .detail.
+                    Heat the oil in a large soup pot and brown the beef in batches. Set aside to cool.
+
+            .step
+                h3 2
+                .ingredients
+                    ul
+                        li
+                            .amount 2 tbsp
+                            .item butter (unsalted)
+                        li
+                            .amount 1
+                            .item yellow onion (chopped)
+                .detail.
+                    Add butter to the soup pot and sautée the onions until soft and just starting to brown.
+
+            .step
+                h3 3
+                .ingredients
+                    ul
+                        li
+                            .amount ~
+                            .item salt &amp; pepper
+                        li
+                            .amount 2 tsp
+                            .item dill weed (minced)
+                        li
+                            .amount 1 tsp
+                            .item hungarian paprika
+                        li
+                            .amount 1 tbsp
+                            .item tamari (or soy sauce)
+                        li
+                            .amount 2 tbsp
+                            .item dry sherry
+                        li
+                            .amount 4 cups
+                            .item beef broth
+                        li
+                            .amount 1 lb
+                            .item brown mushrooms (chopped)
+                .detail.
+                    Add salt, pepper, dill, paprika, tamari, sherry, and broth to the onions along with the browned
+                    meat and mushrooms. Bring to a boil and then reduce to a simmer for 1 hour.
+
+            .step
+                h3 4
+                .ingredients
+                    ul
+                        li
+                            .amount 2 tbsp
+                            .item butter (unsalted)
+                        li
+                            .amount 3 tbsp
+                            .item gluten-free flour (or all-purpose)
+                .detail.
+                    While the meat is nearly done simmering (about 10 min remaining), add butter to a large saucepan and
+                    heat on medium until it foams. Add flour gradually while whisking continously, taking care to mix it
+                    in completely.
+
+            .step
+                h3 5
+                .ingredients
+                    ul
+                        li
+                            .amount 1 cup
+                            .item whole milk
+                .detail.
+                    Stir in milk gradually, while continuing to whisk continuously. Take care to completely remove any
+                    lumps. Continue to whisk until the roux thickens and then add it to the soup pot.
+
+            .step
+                h3 6
+                .ingredients
+                    ul
+                        li
+                            .amount 2 tsp
+                            .item lemon juice
+                        li
+                            .amount 1 cup
+                            .item sour cream
+                .detail.
+                    Once the meat is tender (after roughly an hour simmering), add the lemon juice, sour cream, and
+                    adjust the spices to taste (adding more paprika to the desired level of heat).
+
+        section.credits.
+            Recipe by David Miner
