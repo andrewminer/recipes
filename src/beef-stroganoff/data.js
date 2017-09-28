@@ -1,0 +1,71 @@
+module.exports = require("../helpers")({
+    title: "Beef Stroganoff",
+    timings: {
+        prep: "20 min",
+        cook: "60 min",
+    },
+    icons: ["gluten-free", "low-carb"],
+    servings: 4,
+    description: "The sauce from this recipe is just amazing... rich, creamy, spicy, tangy... a little bit of " +
+        "everything wonderful. This is traditionally served over egg noodles, but it works fine on its own, too.",
+    steps: [{
+        ingredients: [
+            { amount: 2, unit: "lb", item: "beef (stew meat)" },
+            { amount: 1/2, unit: "cup", item: "red wine" },
+            { amount: 1, unit: "tsp", item: "salt" },
+            { amount: 1/2, unit: "tsp", item: "black pepper" },
+        ],
+        directions: "Place the beef in a large bowl with the other ingredients. Mix thoroughly and place in the " +
+            "refigerator to marinade while you proceed with the next steps."
+    }, {
+        ingredients: [
+            { amount: 2, unit: "tbsp", item: "butter" },
+            { amount: 1, unit: "", item: "yellow onion" },
+            { amount: 3, unit: "cloves", item: "garlic" },
+        ],
+        directions: "Melt the butter in a medium skillet. Add the onions and garlic and sautée until golden and " +
+            "transparent, but not yet brown. Set aside in a large bowl."
+    }, {
+        ingredients: [
+            { amount: 2, unit: "tbsp", item: "olive oil" },
+        ],
+        directions: "Heat the oil in the same skillet. Remove the meat from the bowl, but reserve the remaining " +
+            "marinade. Pat the beef dry, and then lightly brown in batches. Set aside when finished."
+    }, {
+        ingredients: [
+            { amount: 2, unit: "tbsp", item: "butter" },
+            { amount: 1, unit: "cup", item: "mushrooms (sliced)" },
+        ],
+        directions: "Using the again emptied skillet, melt more butter and add in the mushrooms. Sautée until " +
+            "reduced in size and golden. Set these aside separately from the meat and onions."
+    }, {
+        ingredients: [
+            { amount: 1/4, unit: "cup", item: "butter" },
+            { amount: 1/4, unit: "cup", item: "gluten-free flour (or all-purpose)" },
+            { amount: 1 + 1/3, unit: "cups", item: "beef broth" },
+            { amount: 1, unit: "tbsp", item: "Worcestershire sauce" },
+            { amount: 1, unit: "tsp", item: "yellow mustard" },
+            { amount: 2, unit: "tsp", item: "red pepper flakes" },
+        ],
+        directions: "In the same skillet, melt even more butter. Work the flour in a little at a time " +
+            "with a whisk until everything is completely mixed and little pellets start to form. Next, slowly add " +
+            "the beef broth while continuing to whisk constantly. Bring to a boil, and then reduce to a simmer. " +
+            "Finally, add the reserved marinade, Worcestershire sauce, mustard, and red pepper flakes."
+    }, {
+        ingredients: [],
+        directions: "Combine everything in a medium stock pot, mix well, bring to a boil, and reduce to a low " +
+            "simmer. Leave to cook for at least 45 min. Cook uncovered until the sauce thickens to the desired " +
+            "consistency, then cover for the remaining time."
+    }, {
+        ingredients: [
+            { amount: 1/3, unit: "cup", item: "sour cream" },
+            { amount: 3, unit: "oz", item: "cream cheese" },
+        ],
+        directions: "Once the beef it tender, add in the mushrooms, sour cream, and cream cheese. Mix carefully and " +
+            "adjust seasoning as needed."
+    }],
+    credit: {
+        name: "SANFRANCOOK, AllRecipes.com",
+        url: "http://allrecipes.com/recipe/219046/rich-and-creamy-beef-stroganoff"
+    },
+})

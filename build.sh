@@ -6,7 +6,7 @@ USAGE=$(cat <<- END
 USAGE: build.sh <command> <options>
 
     Commands:
-    
+
     build       rebuild the site
     clean       remove all build artifacts
     help        display this help message
@@ -23,7 +23,7 @@ function start-server {
     python -m SimpleHTTPServer 8080 >/dev/null 2>&1 &
     SERVER_PID="$!"
     cd ..
-    
+
     trap "kill $SERVER_PID; exit" SIGINT
 }
 
@@ -39,18 +39,24 @@ function usage {
 
 function run-build {
     mkdir -p "$OUTPUT"
-    
+
     cd src
-    find . -type f | while read FILE; do
+    find . -type f | grep -v templates | while read FILE; do
         BASENAME=$(basename "$FILE")
         DIRNAME=$(dirname "$FILE")
-        
+
         EXT=$(echo "$BASENAME" | cut -d. -f2)
         BASENAME=$(echo "$BASENAME" | cut -d. -f1)
-        
+
         # echo "file: $FILE, dirname: $DIRNAME, basename: $BASENAME, ext: $EXT"
-        
-        if [[ "$EXT" == "pug" ]]; then
+        mkdir -p "../$OUTPUT/$DIRNAME"
+
+        if [[ "$BASENAME.$EXT" == "data.js" ]]; then
+            TARGET="../$OUTPUT/$DIRNAME/index.html"
+            if [[ "$TARGET" -ot "$FILE" ]]; then
+                pug -O $FILE < templates/recipe.pug > $TARGET
+            fi
+        elif [[ "$EXT" == "pug" ]]; then
             TARGET="../$OUTPUT/$DIRNAME/$BASENAME.html"
             if [[ "$TARGET" -ot "$FILE" ]]; then
                 pug -o "../$OUTPUT/$DIRNAME" "$FILE"
@@ -58,13 +64,12 @@ function run-build {
         elif [[ "$EXT" == "png" ]]; then
             TARGET="../$OUTPUT/$DIRNAME/$BASENAME.$EXT"
             if [[ "$TARGET" -ot "$FILE" ]]; then
-                mkdir -p "../$OUTPUT/$DIRNAME"
                 cp "$FILE" "$TARGET"
             fi
         elif [[ "$EXT" == "scss" ]]; then
             TARGET="../$OUTPUT/$DIRNAME/$BASENAME.css"
             if [[ "$TARGET" -ot "$FILE" ]]; then
-                sass "$FILE" "$TARGET"
+                sass --sourcemap=none "$FILE" "$TARGET"
             fi
         fi
     done
@@ -84,7 +89,7 @@ COMMANDS="$COMMANDS,help"
 
 function run-server {
     start-server
-    
+
     echo "Running server. Press ^C to stop"
     while true; do
         sleep 60
@@ -95,7 +100,7 @@ COMMANDS="$COMMANDS,server"
 function run-watch {
     start-server
     echo "Watching. Press ^C to cancel"
-    
+
     while true; do
         run-build
         sleep 2

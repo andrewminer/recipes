@@ -1,0 +1,40 @@
+doctype html
+html
+    head
+        link(href="../style2.css" rel="stylesheet" type="text/css")
+        meta(charset="UTF-8")
+        meta(name="viewport" content="user-scalable=no, width=device-width")
+
+    body.recipe
+        section.header
+            .image(style="background-image: url('./large.png')")
+
+            .about
+                h1 #{title}
+
+                .timing prep #{timings.prep}, cook #{timings.cook}
+
+                .icons
+                    each icon in icons
+                        .icon(class=icon)
+                    .icon.serving
+                    | × #{servings}
+
+                .description #{description}
+
+        section.instructions
+            - let stepNumber = 1
+            each step in steps
+                .step
+                    h3 #{stepNumber}
+                    .ingredients
+                        ul
+                            each ingredient in step.ingredients
+                                li
+                                    .amount #{asFraction(ingredient.amount)} #{ingredient.unit}
+                                    .item #{ingredient.item}
+                    .detail #{step.directions}
+                - stepNumber++
+
+        if credit
+            section.credits #{credit.name}, <a href=#{credit.url}>#{credit.url}</a>
