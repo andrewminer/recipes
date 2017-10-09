@@ -17,8 +17,9 @@ html
                 .icons
                     each icon in icons
                         .icon(class=icon)
-                    .icon.serving
-                    | × #{servings}
+                    if servings
+                        .icon.serving
+                        | × #{servings}
 
                 .description #{description}
 
@@ -29,10 +30,11 @@ html
                     h3 #{stepNumber}
                     .ingredients
                         ul
-                            each ingredient in step.ingredients
-                                li
-                                    .amount #{asFraction(ingredient.amount)} #{ingredient.unit}
-                                    .item #{ingredient.item}
+                            if step.ingredients
+                                each ingredient in step.ingredients
+                                    li
+                                        .amount #{asFraction(ingredient.amount)} #{ingredient.unit}
+                                        .item #{ingredient.item}
                     .detail #{step.directions}
                 - stepNumber++
 
