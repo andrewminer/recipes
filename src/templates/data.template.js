@@ -28,5 +28,9 @@ module.exports = require("../helpers")({
             { amount: , unit: "", item: "" },
         ],
         directions: ""
-    }]
+    }],
+    credits: {
+        name: "",
+        url: ""
+    }
 })

@@ -37,5 +37,9 @@ module.exports = require("../helpers")({
             "peppers about ¾ full of the mixture. Mix the tomato soup with enough water to create a gravy-like " +
             "consistency and fill the remaining space in each pepper. Bake until the soup is bubbling and the " +
             "peppers have just started to singe (about 15-20 min)."
-    }]
+    }],
+    credit: {
+        name: "Suzanne M. Munson",
+        url: "http://allrecipes.com/recipe/17991/stuffed-green-peppers-i"
+    }
 })

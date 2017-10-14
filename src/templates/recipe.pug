@@ -12,7 +12,13 @@ html
             .about
                 h1 #{title}
 
-                .timing prep #{timings.prep}, cook #{timings.cook}
+                .timing
+                    if timings.prep
+                        | prep #{timings.prep}
+                    if timings.prep && timings.cook
+                        | ,
+                    if timings.cook
+                        | cook #{timings.cook}
 
                 .icons
                     each icon in icons
