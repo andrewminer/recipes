@@ -41,7 +41,7 @@ html
                                     li
                                         .amount #{asFraction(ingredient.amount)} #{ingredient.unit}
                                         .item #{ingredient.item}
-                    .detail #{step.directions}
+                    .detail !{step.directions}
                 - stepNumber++
 
         if credit
