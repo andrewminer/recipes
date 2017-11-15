@@ -29,7 +29,7 @@ module.exports = require("../helpers")({
         ],
         directions: ""
     }],
-    credits: {
+    credit: {
         name: "",
         url: ""
     }
