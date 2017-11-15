@@ -1,43 +1,61 @@
 .cookbook {
-    column-count: 2;
-    column-gap: 0.25in;
-    
-    h1 {
-        font-family: sans-serif;
-        font-size: 24pt;
-        font-weight: bold;
-    }
-    
-    a {
-        border-radius: 0.0625in;
-        break-inside: avoid;
-        color: black;
-        font-family: serif;
-        font-size: 18pt;
-        text-decoration: none;
+    section {
+        h1 {
+            font-family: sans-serif;
+            font-size: 24pt;
+            font-weight: bold;
+        }
 
-        display: flex;
-        align-items: center; 
-        padding: 0.0625in;
-        padding-right: 0.125in;
-        
-        transition: all 0.25s;
-        
-        &:visited {
-            color: black;
-        }
-        
-        &:hover {
-            background: #23B7F2;
-            color: white;
-        }
-        
-        img {
-            border: 0.01in solid silver;
-            border-radius: 0.0625in;
-            margin-right: 0.125in;
-            height: 0.5in;
-            width: 0.5in;
+        .list {
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            a {
+                flex: 0 1 4in;
+
+                border-radius: 0.0625in;
+                break-inside: avoid;
+                color: black;
+                overflow: hidden;
+                text-decoration: none;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+
+                display: flex;
+                align-items: center;
+                padding: 0.0625in;
+                padding-right: 0.125in;
+
+                transition: all 0.25s;
+
+                &:visited {
+                    color: black;
+                }
+
+                &:hover {
+                    background: #23B7F2;
+                    color: white;
+                }
+
+                img {
+                    border: 0.01in solid silver;
+                    border-radius: 0.0625in;
+                    margin-right: 0.125in;
+                    height: 0.5in;
+                    width: 0.5in;
+                }
+
+                p {
+                    font-family: serif;
+                    font-size: 18pt;
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+            }
         }
     }
 }
@@ -45,28 +63,28 @@
 .recipe {
     margin: 0 auto;
     max-width: 7in;
-    
+
     display: flex;
     flex-direction: column;
-    
+
     h1 {
         margin-top: 0;
         margin-bottom: 0.25in;
-        
+
         font-family: serif;
         font-size: 24pt;
     }
-            
+
     h2 {
         font-size: 12pt;
         margin: 0;
         margin-bottom: 0.125in;
         text-transform: uppercase;
     }
-    
+
     .ingredients {
         display: flex;
-        
+
         .image {
             img {
                 border-radius: 0.25in;
@@ -75,16 +93,16 @@
                 max-height: 3in;
             }
         }
-        
+
         .list {
             margin-left: 0.25in;
-            
+
             table {
                 margin-bottom: 0.25in;
-                
+
                 tr {
                     vertical-align: top;
-            
+
                     td:nth-child(1) {
                         font-family: sans-serif;
                         font-size: 12pt;
@@ -92,7 +110,7 @@
                         text-align: right;
                         white-space: nowrap;
                     }
-            
+
                     td:nth-child(2) {
                         font-family: sans-serif;
                         font-size: 12pt;
@@ -101,56 +119,56 @@
             }
         }
     }
-    
+
     .directions {
         margin-top: 0.25in;
-        
+
         tr {
             vertical-align: top;
-            
+
             td {
                 padding-bottom: 0.1875in;
             }
         }
-        
+
         td:nth-child(1) {
             padding-right: 0.25in;
-            
+
             font-family: sans-serif;
             font-size: 18pt;
             font-weight: bold;
-            
+
             &:after {
                 content: ".";
             }
         }
-        
+
         td:nth-child(2) {
             width: 100%;
-            
+
             font-family: serif;
             font-size: 14pt;
         }
-        
+
         td:nth-child(3) {
             padding-left: 0.25in;
-            
+
             font-family: sans-serif;
             font-size: 9pt;
             white-space: nowrap;
         }
     }
-    
+
     .attribution {
         margin: 0 0.25in;
-        
+
         color: gray;
         font-family: sans-serif;
         font-size: 10pt;
-        
+
         p {
             margin: 0;
-            
+
             a {
                 color: gray;
             }
@@ -158,21 +176,19 @@
     }
 }
 
-@media (max-width: 500px) {
-    .cookbook {
-        column-count: 1;
-    }
+
+@media (max-width: 600px) {
     .recipe {
         padding: 0 0.125in;
-        
+
         h1 {
             text-align: center;
         }
-        
+
         .ingredients {
             flex-direction: column;
             align-items: center;
-            
+
             .list {
                 margin-top: 0.25in;
             }
