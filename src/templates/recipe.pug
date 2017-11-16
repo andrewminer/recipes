@@ -45,4 +45,10 @@ html
                 - stepNumber++
 
         if credit
-            section.credits #{credit.name}, <a href=#{credit.url}>#{credit.url}</a>
+            section.credits
+                if credit.name
+                    | #{credit.name}
+                if credit.name && credit.url
+                    | ,
+                if credit.url
+                    a(href=credit.url) credit.url
