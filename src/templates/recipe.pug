@@ -49,6 +49,6 @@ html
                 if credit.name
                     | #{credit.name}
                 if credit.name && credit.url
-                    | ,
+                    | ,&nbsp;
                 if credit.url
-                    a(href=credit.url) credit.url
+                    a(href=credit.url) #{credit.url}
