@@ -136,6 +136,10 @@
     text-align: center; }
     .recipe .credits a {
       color: gray; }
+  .recipe .navigation {
+    font-size: 14pt;
+    font-style: italic;
+    margin-top: 0.5in; }
 
 @media (max-width: 5in) {
   .recipe .header {
@@ -160,3 +164,9 @@
       width: 90%; }
     .recipe .instructions .step .detail {
       border: 0; } }
+@media print {
+  .navigation {
+    display: none; } }
+@media screen {
+  .recipe {
+    margin-top: 0.25in; } }

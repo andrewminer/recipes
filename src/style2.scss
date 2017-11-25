@@ -195,6 +195,12 @@
             color: gray;
         }
     }
+
+    .navigation {
+        font-size: 14pt;
+        font-style: italic;
+        margin-top: 0.5in;
+    }
 }
 
 @media (max-width: 5in) {
@@ -235,5 +241,17 @@
                 }
             }
         }
+    }
+}
+
+@media print {
+    .navigation {
+        display: none;
+    }
+}
+
+@media screen {
+    .recipe {
+        margin-top: 0.25in;
     }
 }
