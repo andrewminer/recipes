@@ -20,7 +20,7 @@ END
 
 function start-server {
     cd $OUTPUT
-    python -m SimpleHTTPServer 8080 >/dev/null 2>&1 &
+    python -m http.server 8080 >/dev/null 2>&1 &
     SERVER_PID="$!"
     cd ..
 
@@ -40,7 +40,7 @@ function usage {
 function run-build {
     mkdir -p "$OUTPUT"
 
-    cd src
+    pushd src >/dev/null
     find . -type f | grep -v templates | while read FILE; do
         BASENAME=$(basename "$FILE")
         DIRNAME=$(dirname "$FILE")
@@ -73,7 +73,7 @@ function run-build {
             fi
         fi
     done
-    cd ..
+    popd >/dev/null
 }
 COMMANDS="build"
 
