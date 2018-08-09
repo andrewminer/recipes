@@ -197,9 +197,21 @@
     }
 
     .navigation {
-        font-size: 14pt;
+        font-family: sans-serif;
+        font-size: 12pt;
         font-style: italic;
-        margin-top: 0.5in;
+        margin-top: 0.75in;
+        text-align: center;
+
+        a, a:visited {
+            color: grey;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: blue;
+            text-decoration: none;
+        }
     }
 }
 

@@ -137,9 +137,17 @@
     .recipe .credits a {
       color: gray; }
   .recipe .navigation {
-    font-size: 14pt;
+    font-family: sans-serif;
+    font-size: 12pt;
     font-style: italic;
-    margin-top: 0.5in; }
+    margin-top: 0.75in;
+    text-align: center; }
+    .recipe .navigation a, .recipe .navigation a:visited {
+      color: grey;
+      text-decoration: none; }
+    .recipe .navigation a:active {
+      color: blue;
+      text-decoration: none; }
 
 @media (max-width: 5in) {
   .recipe .header {
