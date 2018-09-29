@@ -20,11 +20,17 @@ module.exports = require("../helpers")({
             "bacon."
     }, {
         ingredients: [
+            { amount: 24, unit: "", item: "onions (small, white)" },
+        ],
+        directions: "Partially cook the onions until soft and translucent with just a touch of singing around the " +
+            "edges. Set them aside in a small bowl to be used later."
+    }, {
+        ingredients: [
             { amount: 1, unit: "lb", item: "mushrooms (brown)" },
         ],
         directions: "Partially cook the mushrooms in the same skillet using the bacon grease and drippings from the " +
             "meat until they've just started to reduce and have soaked up the remaining bacon grease. Then, set " +
-            "them aside."
+            "them aside to be used later"
     }, {
         ingredients: [
             { amount: 2, unit: "tbsp", item: "flour" },
@@ -56,7 +62,6 @@ module.exports = require("../helpers")({
             "meat is soft and crumbling, stirring occasionally. (3-4 hours)"
     }, {
         ingredients: [
-            { amount: 24, unit: "", item: "onions (small, white)" },
             { amount: 1/2, unit: "cups", item: "beef stock" },
             { amount: 1, unit: "tbsp", item: "butter" },
             { amount: 1, unit: "tbsp", item: "olive oil" },
