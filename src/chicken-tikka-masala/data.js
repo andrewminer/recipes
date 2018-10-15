@@ -64,5 +64,9 @@ module.exports = require("../helpers")({
         ],
         directions: "Once the chicken is finished, remove from the oven and set aside for a few minutes. Then, chop " +
             "it into bite-sized pieces and mix into the sauce.  Garnish with cilantro and serve."
-    }]
+    }],
+    credit: {
+        name: "America's Test Kitchen",
+        url: "https://www.onlinecookingschool.com/learn/course/chicken-tikka-masala/cook-along-in-the-test-kitchen/video-steps"
+    }
 })
