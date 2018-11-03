@@ -16,7 +16,7 @@ module.exports = require("../helpers")({
             { amount: 3/4, unit: "cup", item: "light brown sugar" },
             { amount: 1, unit: "tbsp", item: "garlic powder" },
             { amount: 1, unit: "tbsp", item: "paprika" },
-            { amount: 1, unit: "tsp", item: "hicory smoke salt" },
+            { amount: 1, unit: "tsp", item: "hickory smoke salt" },
             { amount: 1, unit: "tsp", item: "red pepper flakes" },
         ],
         directions: "Cut the ribs into portions of 2-3 ribs each, and lay flat on a portion of aluminum foil large " +
