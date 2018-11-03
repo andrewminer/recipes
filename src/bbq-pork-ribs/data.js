@@ -5,7 +5,7 @@ module.exports = require("../helpers")({
         prep: "20 min",
         cook: "2—2½ hours",
     },
-    icons: ["gluten-free", "low-carb", "overnight"],
+    icons: ["gluten-free", "overnight"],
     servings: 6,
     description: "This receipe really depends upon the BBQ sauce you use to determine the outcome. I personally " +
         "prefer something a little smokey and sweet, but feel free to use whatever suites you best. To stay " +
