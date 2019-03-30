@@ -101,7 +101,7 @@ function run-watch {
     start-server
     echo "Watching. Press ^C to cancel"
 
-    while true; do
+    fswatch src -i 'js$' -i 'png$' -i 'scss$' -i 'pug$' -e '.*' | while read FILE; do
         run-build
         sleep 2
     done
