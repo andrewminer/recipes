@@ -53,9 +53,9 @@ module.exports = require("../helpers")({
             "Finally, add the reserved marinade, Worcestershire sauce, mustard, and red pepper flakes."
     }, {
         ingredients: [],
-        directions: "Combine everything in a medium stock pot, mix well, bring to a boil, and reduce to a low " +
-            "simmer. Leave to cook for at least 45 min. Cook uncovered until the sauce thickens to the desired " +
-            "consistency, then cover for the remaining time."
+        directions: "Combine everything except the mushrooms in a medium stock pot, mix well, bring to a boil, and " +
+            "reduce to a low simmer. Leave to cook for at least 45 min. Cook uncovered until the sauce thickens to " +
+            "the desired consistency, then cover for the remaining time."
     }, {
         ingredients: [
             { amount: 1/3, unit: "cup", item: "sour cream" },
