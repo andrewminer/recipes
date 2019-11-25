@@ -1,0 +1,33 @@
+title: "Buffalo Wings"
+timings:
+  prep: "15 min"
+  cook: "2 hours"
+icons: []
+servings: 4
+description: >
+  These spicy, tangy wings are maded with the original Buffalo sauce (a strong mix of vinegar and cayenne pepper), but
+  baked instead of deep-fried.
+steps:
+  - ingredients:
+      - { amount: 20, item: "chicken wings" }
+      - { amount: 3/4, unit: "cup", item: "flour" }
+      - { amount: 1/2, unit: "tsp", item: "cayenne pepper" }
+      - { amount: 1/2, unit: "tsp", item: "garlic powder" }
+      - { amount: 1/2, unit: "tsp", item: "salt" }
+    directions: >
+      Prepare a large ziploc bag with the flour and spices. Then, cover a baking sheet with aluminum foil and grease
+      lightly with oil. A few at a time, drop the chicken wings into the bag, seal, and shake to cover the chicken.  Lay
+      out the wings on the tray as you go along. Place the tray in the refigerator for an hour to set.
+  - ingredients:
+      - { amount: 1/2, unit: "cup", item: "Frank's RedHot Buffalo Sauce" }
+      - { amount: 1/2, unit: "cup", item: "butter" }
+    directions: >
+      Melt the better and hot sauce in a tall, narrow container (e.g., a coffee mug). Using tongs, dunk the wings, one
+      at a time, and return to the baking sheet. Reserve the remaining sauce.
+  - ingredients: []
+    directions: >
+      Pre-heat the oven to 400°F. Bake the wings for 45 minutes, turning them over mid-way. The remaining sauce can be
+      placed in a small bowl to serve with the wings along with some ranch dressing.
+credit:
+    name: "Leesah"
+    url: "https://www.allrecipes.com/recipe/166638/baked-buffalo-wings"

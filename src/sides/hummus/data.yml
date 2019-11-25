@@ -1,0 +1,23 @@
+title: Hummus
+timings:
+  prep: 10 minutes
+icons: [gluten-free, vegetarian]
+servings: 6
+description: >
+  Fresh hummus is pretty amazing stuff, but you'll definitely need a powerful blender or food processor to manage as it
+  gets very thick by the end.  This recipe deliberately keeps it very simple, but hummus is a great platform to
+  experiment with adding various other flavors (e.g., red pepper flakes, dill, etc.).
+steps:
+  - ingredients:
+      - { amount: 5, unit: cloves, item: "garlic" }
+      - { amount: 30, unit: oz, item: "garbanzo beans (pre-cooked, canned)" }
+      - { amount: 1, unit: cups, item: "olive oil, extra-virgin" }
+      - { amount: 1, unit: cup, item: "tahini" }
+      - { amount: 0.5, unit: cup, item: "lemon juice" }
+      - { amount: 1, unit: tsp, item: "salt" }
+    directions: >
+      Using a food processor or a powerful blender, add one ingredient at a time, blending to a purée after each.
+  - ingredients:
+      - { amount: 0.25, unit: cups, item: "olive oil, extra-virgin" }
+    directions: >
+      Transfer to a serving bowl, and drizzle the remaining olive oil over the top.

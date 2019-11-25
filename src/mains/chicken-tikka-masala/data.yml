@@ -1,0 +1,60 @@
+title: Chicken Tikka Masala
+timings:
+    prep: 20 min
+    cook: 45 min
+icons: [gluten-free, low-carb]
+servings: 4
+description: >
+  This recipe produces a creamy, flavorful dish which is one of the most popular at Indian restaurants all over the US.
+steps:
+  - ingredients:
+      - { amount: 2, unit: lbs, item: chicken breast (boneless, skinless) }
+      - { amount: 1, unit: tsp, item: salt }
+      - { amount: 0.5, unit: tsp, item: cumin seed (ground) }
+      - { amount: 0.5, unit: tsp, item: coriander (ground) }
+      - { amount: 0.25, unit: tsp, item: cayenne pepper }
+    directions: >
+      Combine all the spices in a small bowl, making sure to mix completely.  Then apply the mixture to the chicken,
+      pressing gently so that it sticks well.  Place the chicken on a plate, cover with plastic wrap, and refigerate for
+      30 minutes.
+  - ingredients:
+      - { amount: 1, unit: cup, item: yogurt (plain, whole-milk) }
+      - { amount: 2, unit: tbsp, item: olive oil }
+      - { amount: 2, unit: tbsp, item: garlic (minced) }
+      - { amount: 2, unit: tsp, item: ginger (minced) }
+    directions: >
+      In a large bowl, whisk together the yogurt, olive oil, garlic, and ginger, and place back in refigerator to cool
+      until needed.
+  - ingredients:
+      - { amount: 2, unit: tbsp, item: butter (unsalted) }
+      - { amount: 1, item: onion (large, yellow) }
+    directions: >
+      Saute the onion and butter in a deep-walled cast-iron pan until golden brown (about 10 minutes).
+  - ingredients:
+      - { amount: 28, unit: oz, item: tomatoes (crushed) }
+      - { amount: 1, item: chili pepper (minced) }
+      - { amount: 2, unit: tbsp, item: garlic (minced) }
+      - { amount: 1, unit: tbsp, item: ginger (minced) }
+      - { amount: 2, unit: tsp, item: sugar }
+      - { amount: 0.5, unit: tsp, item: salt }
+    directions: >
+      Add crushed tomatoes, garlic, ginger, peppers, sugar, and salt. Bring the mixture to a boil then reduce the heat
+      to medium-low, cover, and simmer for 15 minutes, stirring occasionally.
+    directions: >
+      Preheat the oven to 400°F, and cover a cooking sheet with tin foil. Place a wire rack in the cooking sheet.
+      Dredge the chicken in the yogurt mixture so that each piece is well covered, and then lay it out on the cooking
+      sheet. Discard the remaining yogurt mixture.  Broil the chicken until it reaches 160°F in the center (10-15
+      minutes), flipping midway. The exterior should be lightly chared in places.
+  - ingredients:
+      - { amount: 0.66, unit: cup, item: heavy cream }
+    directions: >
+      While the chicken is cooking, and after the sauce has had its time to simmer, add in the heavy cream. Bring the
+      sauce just short of a boil, and remove from the heat. Set it aside to rest, covered until the chicken is ready.
+  - ingredients:
+      - { amount: 0.33, unit: cup, item: cilantro (chopped) }
+    directions: >
+      Once the chicken is finished, remove from the oven and set aside for a few minutes. Then, chop it into bite-sized
+      pieces and mix into the sauce.  Garnish with cilantro and serve.
+credit:
+    name: America's Test Kitchen
+    url: https://www.onlinecookingschool.com/learn/course/chicken-tikka-masala/cook-along-in-the-test-kitchen/video-steps

@@ -1,0 +1,36 @@
+title: Winter Lentil Soup
+timings:
+    prep: 20 min
+    cook: 60 min
+icons: ["gluten-free"]
+servings: 8
+description: ""
+steps:
+  - ingredients:
+      - { amount: 4, unit: "tbsp", item: "butter, unsalted" }
+      - { amount: 1, unit: "", item: "onion, yellow" }
+    directions: >
+      Heat the oil in a dutch oven and sautée the onion until golden and translucent.
+  - ingredients:
+      - { amount: 10, unit: "cups", item: "water" }
+      - { amount: 5, unit: "cups", item: "chicken broth" }
+      - { amount: 3, unit: "cups", item: "lentils, brown" }
+      - { amount: 1, unit: "", item: "butternut squash (peeled, cubed)" }
+      - { amount: 1, unit: "bunch", item: "swiss chard (chopped)" }
+      - { amount: 3, unit: "stalks", item: "celery (diced)" }
+    directions: >
+      Add the water, broth, vegetables, and lentils.  Bring to a boil, and reduce to a simmer.
+  - ingredients:
+      - { amount: 3, unit: "tbsp", item: "curry powder" }
+      - { amount: 2, unit: "tbsp", item: "honey" }
+      - { amount: 2, unit: "", item: "bay leaves" }
+      - { amount: 1, unit: "sprig", item: "thyme, fresh" }
+      - { amount: 2, unit: "tsp", item: "salt" }
+      - { amount: 2, unit: "tsp", item: "black pepper" }
+    directions: >
+      Add the next set of ingredients and simmer until the squash is soft (about an hour).
+  - ingredients:
+      - { amount: 8, unit: "tsp", item: "coconut oil" }
+      - { amount: 2, unit: "tsp", item: "red pepper flakes" }
+    directions: >
+      Add coconut oil and red pepper flakes immediately before serving.

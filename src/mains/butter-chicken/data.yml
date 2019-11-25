@@ -1,0 +1,56 @@
+title: Butter Chicken
+timings:
+    prep: 35 min
+    cook: 30 min
+icons: [overnight, gluten-free, low-carb]
+servings: 6
+description: >
+  This is a fairly simple Indian dish which turns out a large amount of amazingly spiced chicken with fairly little
+  effort. Our first time, we doubled the recipe and used pre-cut chunks of chicken, and it was tasty both the day of and
+  for several days afterward.
+steps:
+  - ingredients:
+      - { amount: 3, unit: lbs, item: "chicken thighs, on the bone" }
+      - { amount: 1.5, unit: cups, item: greek yogurt (full-fat) }
+      - { amount: 2, unit: tbsp, item: lemon juice }
+      - { amount: 2, unit: tbsp, item: garam masala }
+      - { amount: 2, unit: tbsp, item: cumin (ground) }
+      - { amount: 1.5, unit: tbsp, item: tumeric (ground) }
+    directions: >
+      Whisk the yogurt, lemon juice, tumeric, garam masala, and cumin in a large bowl. Add the chicken and coat
+      throughly with the marinade. Cover and place in the refrigerator overnight
+  - ingredients:
+      - { amount: 1/4, unit: lb, item: butter (unsalted) }
+      - { amount: 4, unit: tsp, item: vegetable oil }
+      - { amount: 2, unit: , item: onions (yellow, diced) }
+      - { amount: 4, unit: cloves, item: garlic (minced) }
+      - { amount: 3, unit: tbsp, item: ginger (peeled, grated) }
+      - { amount: 1, unit: tbsp, item: cumin seeds }
+    directions: >
+      In a large pan, over medium heat, melt the butter until it starts to foam. Add the onions and cook until
+      translucent. Add garlic, ginger, and cumin seeds. Continue to cook until the onions start to brown.
+  - ingredients:
+      - { amount: 1, unit: stick, item: cinnamon }
+      - { amount: 2, item: tomatoes (diced) }
+      - { amount: 2, item: "red chilies (e.g., jalapeño)" }
+      - { unit: ~, item: kosher salt }
+    directions: >
+      Add the cinnamon stick, tomatoes, chilies, and salt. Cook until the chilies are soft.
+  - ingredients:
+      - { amount: 3/4, unit: cup, item: chicken stock }
+    directions: >
+      Add the chicken and marinade to a large pan, and cook until heated through. Add the chicken stock, and bring to a
+      boil. Reduce the heat and simmer, uncovered, for 30 minutes.
+  - ingredients:
+      - { amount: 1.5, unit: cups, item: cream }
+      - { amount: 1.5, unit: tbsp, item: tomato paste }
+    directions: >
+      Stir in the cream and tomato paste. Simmer until completely mixed and heated through.
+  - ingredients:
+      - { amount: 3, unit: tbsp, item: almonds (slivered) }
+      - { amount: 1/2, unit: cup, item: cilantro }
+    directions: >
+      Add the almonds and cook until softened. Add the cilantro as a garnish and serve.
+credit:
+    name: Sam Sifton, NYTimes Cooking Section
+    url: https://cooking.nytimes.com/recipes/1016754-butter-chicken

@@ -1,0 +1,34 @@
+title: Kielbasa and Cabbage
+timings:
+    prep:
+    cook:
+icons: ["gluten-free", "low-carb"]
+servings:
+description: >
+  pass
+steps:
+  - ingredients:
+      - { amount: 6, unit: "slices", item: "bacon" }
+    directions: >
+      Fry the bacon in a dutch oven until browned and crispy. Set the bacon aside, leaving the drippings in the
+      skillet.
+  - ingredients:
+      - { amount: 0.25, unit: "cup", item: "water" }
+      - { amount: 2, unit: "tbsp", item: "sugar" }
+      - { amount: 2, unit: "cups", item: "onion, yellow (diced)" }
+      - { amount: 2, unit: "tsp", item: "garlic (minced)" }
+      - { amount: 0.25, unit: "tsp", item: "red pepper flakes" }
+      - { amount: 0.25, unit: "tsp", item: "salt" }
+      - { amount: 3, unit: "tsp", item: "caraway seeds" }
+      - { amount: 1, unit: "head", item: "cabbage, green (chopped)" }
+    directions: >
+      Add water, sugar, onion, garlic, red pepper flakes, salt and caraway seeds to the bacon drippings. Mix evenly, and
+      then add the cabbage. Toss gently until the cabbage is evenly coated with grease and seasonings.  Cover and cook
+      on medium until the cabbage is soft and translucent (about 10 minutes).
+  - ingredients:
+      - { amount: 1, unit: "lb", item: "kielbasa" }
+    directions: >
+      Add the kielbasa and continue cooking on medium until it is heated all the way through.
+  - ingredients: []
+    directions: >
+      Crumble the bacon on top and serve.

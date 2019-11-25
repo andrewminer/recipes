@@ -1,0 +1,29 @@
+title: Deviled Eggs
+timings:
+  prep: 30 minutes
+icons: [gluten-free, low-carb]
+servings: 6
+description: >
+  Deviled eggs are one of my favorite appetizers, and very easy to make. If you like to hurry the process along, buy
+  hard-boiled eggs from the grocery store so you can skip straight to the last step.
+steps:
+  - ingredients:
+      - { amount: 12, item: "eggs" }
+    directions: >
+      Place the eggs in a medium-sized pot, cover with 1" of water, and bring to a boil over high heat. As soon as it
+      gets to a rolling boil, turn off the heat and allow the pot to rest. While it is resting, fill a
+      large bowl with ice and water (1 ice cube per egg). After the eggs have rested for 10 minutes, transfer them to
+      the ice water.
+  - ingredients:
+      - { amount: 0.75, unit: tsp, item: "mustard, yellow" }
+      - { amount: 3, unit: tbsp, item: "mayonnaise" }
+      - { amount: 1.5, unit: tsp, item: "vinegar, white" }
+      - { amount: 0.25, unit: tsp, item: "Worcestershire sauce" }
+      - { amount: 0.25, unit: tsp, item: "salt" }
+      - { amount: 0.25, unit: tsp, item: "white pepper" }
+      - { amount: 1, unit: tsp, item: "paprika" }
+    directions: >
+      Peel the eggs, and very carefully slice in half with a sharp knife. Gently pop out the yolks into mixing bowl, and
+      set the whites aside on a platter.  Add the the remaining ingredients and whisk until creamy and smooth. Transfer
+      the mixture into a pastry bag (or a ziploc bag with a corner cut off).  Gently squeeze the bag and pipe the
+      mixture into the remaining egg halves. Dust the finished eggs with paprika.

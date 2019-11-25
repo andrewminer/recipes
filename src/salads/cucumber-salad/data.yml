@@ -1,0 +1,30 @@
+title: Cucumber Salad
+timings:
+    prep: 20 min
+    cook:
+icons: ["gluten-free", "low-carb", "overnight"]
+servings: 4
+description: >
+  This salad is zesty and refreshing as the vinegar from the pickled onions combines with the flavors of the fresh
+  vegetables, olive oil, and cheese.
+steps:
+  - ingredients:
+      - { amount: 2, unit: "cups", item: "onion, red (thinly sliced)" }
+      - { amount: 0.5, unit: "cup", item: "vinegar, white" }
+      - { amount: 0.5, unit: "cup", item: "water" }
+      - { amount: 2, unit: "tbsp", item: "sugar" }
+    directions: >
+      Combine vinegar, water, and sugar in a small saucepan and bring to a boil. Add the onions and simmer until soft.
+      Bottle onions with their juice overnight before using.
+  - ingredients:
+      - { amount: 3, unit: "cups", item: "cucumbers (thinly sliced)" }
+      - { amount: 1.5, unit: "cups", item: "cherry tomatoes (quartered)" }
+      - { amount: 1, unit: "cup", item: "picked red onion" }
+      - { amount: 8, unit: "oz", item: "mozzerella (diced)" }
+      - { amount: 0.5, unit: "cup", item: "basil (shredded)" }
+      - { amount: 3, unit: "tbsp", item: "picked red onion juice" }
+      - { amount: 3, unit: "tbsp", item: "olive oil, extra-virgin" }
+      - { amount: 1, unit: "tsp", item: "black pepper" }
+      - { amount: 1, unit: "tsp", item: "salt" }
+    directions: >
+      Combine ingredients in a large bowl and toss. Chill before serving.

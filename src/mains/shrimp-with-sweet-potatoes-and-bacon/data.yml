@@ -1,0 +1,39 @@
+title: Shrimp with Sweet Potato
+timings:
+  prep: 10 minutes
+  cook: 10 minutes
+icons: [gluten-free]
+servings: 5
+description: >
+  This is a delightful dish in all the various flavors it brings.  Sweet from the potatoes, salty from the bacon, a
+  little bit of the sea from shrimp... all mixed together in a single, delightful package.
+steps:
+  - ingredients:
+      - { amount: 2, item: "sweet potatos / yams (chopped)" }
+      - { amount: 1, unit: cup, item: "yogurt, greek" }
+      - { amount: 2, unit: tbsp, item: "maple syrup" }
+      - { amount: 0.25, unit: tsp, item: "cinnamon" }
+    directions: >
+      Boil the sweet potatoes until soft (about 10 minutes).  The purée in a food processor with the yogurt, honey, and
+      cinnamon.  Set aside until needed.
+  - ingredients:
+      - { amount: 4, unit: slices, item: "bacon" }
+      - { amount: 2, unit: tbsp, item: "butter" }
+      - { amount: 1, unit: tsp, item: "salt" }
+      - { amount: 1, unit: tsp, item: "black pepper" }
+    directions: >
+      Roughly chop the bacon into 1" pieces and cook until crispy in a large skillet. Once cooked, dice and set aside
+      in a serving bowl.
+  - ingredients:
+      - { amount: 2, unit: tbsp, item: "butter" }
+      - { amount: 1, unit: tsp, item: "salt" }
+      - { amount: 1, unit: tsp, item: "black pepper" }
+      - { amount: 20, item: "shrimp, large" }
+    directions: >
+      Melt the butter in the same skillet over high heat, and season with the salt and pepper.  Drop the de-shelled,
+      raw shrimp into the pan and cook, stirring constantly.  Cook until the tails have only just curled into a "C"
+      shape, and the flesh has only just turned pink. Be careful <i>not</i> to overcook!
+  - ingredients: []
+    directions: >
+      Optionally serve by placing several small dollops of sweet potato on the plate with a single shrimp on each.
+      Sprinkle generously with bacon bits.

@@ -1,0 +1,44 @@
+title: "Caldo Verde"
+timings:
+    prep: "15 min"
+    cook: "45 min"
+icons: ["gluten-free"]
+servings: 8
+description: >
+  This spicy spanish soup packs a full meal (greens, carbs, and protein) into a single bowl.
+steps:
+  - ingredients:
+      - { amount: 2, unit: "tbsp", item: "olive oil" }
+      - { amount: 1+1/2, unit: "lb", item: "chorizo sausage" }
+    directions: >
+      Add olive oil to a skillet on medium-high heat, and cook the chorizo until browned (about 165°F inside) and set
+      aside in a bowl."
+  - ingredients:
+      - { amount: 2, unit: "", item: "onions (yellow, chopped)" }
+      - { amount: 8, unit: "clovese", item: "garlic" }
+      - { amount: 1/2, unit: "tsp", item: "red pepper flakes" }
+      - { amount: 1, unit: "tsp", item: "black pepper" }
+    directions: >
+      Reduce the heat to medium, and, in the same skillet, add the onion, garlic, salt, red pepper flakes, and black
+      pepper. Cook until the onion is golden and translucent. Set the skillet aside.
+  - ingredients:
+      - { amount: 8, unit: "cups", item: "water" }
+      - { amount: 8, unit: "cups", item: "chicken broth" }
+      - { amount: 4, unit: "lbs", item: "potatoes (cubed)" }
+    directions: >
+      In a large stock pot, add the water and broth. Bring to a boil, add the potatoes, and cook until they start to
+      turn tender. Then reduce to a simmer and cook until soft.
+  - ingredients: []
+    directions: >
+      Add the onion mix to the stock pot, and mix. Transfer 1½ cups of solids and another 1½ cups of liquids to a
+      blender and set aside.
+  - ingredients:
+      - { amount: 2, unit: "lbs", item: "collard greens" }
+    directions: >
+      Slice the chorizo into bite-sized pieces and add to the stock pot. Add the collard greens and continue to simmer
+      until the greens are soft and limp.
+    ingredients:
+      - { amount: 1/3, unit: "cup", item: "olive oil" }
+      - { amount: 4, unit: "tsp", item: "white wine vinegar" }
+    directions: >
+      Add the oil to the blender and purée. Turn off the heat, and add the purée and vinegar to the stock pot.

@@ -1,0 +1,33 @@
+title: Roast Leg of Lamb
+timings:
+  prep: 10 minutes
+  cook: 60 minutes
+icons: [gluten-free, low-carb, overnight]
+servings: 10
+description: >
+  The trick to a really good leg of lamb is to get it as fresh as possible, and to avoid overcooking it.  Both will help
+  avoid the overly gamey flavor that some people object to in lamb. Done correctly, though, it makes for a rich and
+  delightful change from beef or pork.
+steps:
+  - ingredients:
+      - { amount: 5, unit: lb, item: "leg of lamb" }
+      - { amount: 0.25, unit: cup, item: "honey" }
+      - { amount: 2, unit: tbsp, item: "mustard, dijon" }
+      - { amount: 1, unit: tsp, item: "black pepper" }
+      - { amount: 3, unit: tbsp, item: "garlic (minced)" }
+      - { amount: 1, unit: tsp, item: "lemon zest" }
+      - { amount: 2, unit: tbsp, item: "rosemary, fresh (minced)" }
+      - { amount: 1, unit: tsp, item: "salt, coarse" }
+    directions: >
+      Combine the honey, mustard, pepper, garlic, lemon zest and rosemary in a small bowl. Cover the leg of lamb with
+      the marinade and place in the refrigerator overnight.
+  - ingredients:
+      - { amount: 1, unit: tsp, item: "salt, coarse" }
+    directions: >
+      Pre-heat the oven to 450°F. Place the leg of lamb on the rack of a roasting pan, and add enough water to come just
+      below the rack. Sprinkle the roast with salt, and then tent it with foil.  Place the roasting pan in the oven to
+      cook until the internal temperature reaches 130°F (about 45 minutes).
+  - ingredients: []
+    directions: >
+      Remove the foil, and continue to cook until the roast has reached 140°F in the center.  Remove the roast from the
+      oven, and allow to rest on a cutting board for 5 minutes before carving.

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="user-scalable=no, width=device-width" />
+    </head>
+
+    <body class="cookbook">
+        {% for section in sections %}
+            <section>
+                <h1>{{ section.title }}</h1>
+                <div class="list">
+                    {% for recipe in section.recipes %}
+                        <a href="{{section.id}}/{{recipe.id}}">
+                            <img src="{{section.id}}/{{recipe.id}}/image.png" />
+                            <p>{{ recipe.title }}</p>
+                        </a>
+                    {% endfor %}
+                </div>
+            </section>
+        {% endfor %}
+    </body>
+</html>

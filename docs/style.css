@@ -2,6 +2,7 @@
   font-family: sans-serif;
   font-size: 24pt;
   font-weight: bold; }
+
 .cookbook section .list {
   display: flex;
   justify-content: flex-start;

@@ -1,0 +1,120 @@
+#!/usr/bin/env python
+
+import os
+import subprocess
+import sys
+import time
+import venv
+
+from io import FileIO
+from threading import Thread
+
+
+# Variables ############################################################################################################
+
+usage = f"""
+{sys.argv[0]} <sub-command> <options>*
+
+    This script will perform various activities related to building this
+    package and managing tests, development servers, etc.  It provides the
+    follow sub-commands:
+
+        init : initialize the virtual environment for this package in the
+            ./usr directory. This includes making a copy of Python, Pip,
+            and installing any dependencies specified in requirements.txt.
+            It allows the following options:
+
+            --clear : Remove any existing ./usr directory before initialization
+
+        generate : generate HTML/CSS/JS for the site from the raw source files
+
+        server : run a local server which serves up a copy of the website as it
+            will be shown on GitHub pages
+
+"""
+
+DATA_FILE = "data.yaml"
+
+command = None
+clear = False
+
+project_root = os.path.dirname(os.path.abspath(sys.argv[0]))
+docs_dir = os.path.join(project_root, "docs")
+src_dir = os.path.join(project_root, "src")
+template_dir = os.path.join(src_dir, "templates")
+venv_dir = os.path.join(project_root, "usr")
+bin_dir = os.path.join(venv_dir, "bin")
+
+activate = os.path.join(bin_dir, "activate")
+pip = os.path.join(bin_dir, "pip")
+python = os.path.join(bin_dir, "python")
+requirements_file = os.path.join(project_root, "requirements.txt")
+
+
+# Helper Functions #####################################################################################################
+
+def shell(*args, **kwargs):
+    kwargs["shell"] = True
+    return subprocess.run(*args, **kwargs)
+
+
+# Command Functions ####################################################################################################
+
+def command_generate():
+    os.makedirs(docs_dir, exist_ok=True)
+    shell(f"cp -R {src_dir}/images {docs_dir}/")
+    shell(f"{python} src/generate_styles.py {src_dir} {docs_dir}")
+    shell(f"{python} src/generate.py {template_dir} {src_dir} {docs_dir}")
+
+
+def command_init():
+    builder = venv.EnvBuilder(clear=clear, symlinks=False, with_pip=True)
+    builder.create(venv_dir)
+
+    shell(f"{pip} install --upgrade pip")
+    shell(f"{pip} install -r {requirements_file}")
+
+
+def command_python():
+    shell(f"{python}")
+
+
+def command_server():
+    server_func = lambda: shell(f"cd {docs_dir} && {python} -m http.server 8080")
+    thread = Thread(target=server_func, daemon=True)
+    thread.start()
+
+    while True:
+        command_generate()
+        time.sleep(2)
+
+
+# Startup Script #######################################################################################################
+
+if __name__ == "__main__":
+    if sys.version_info < (3, 5):
+        print(f"Python {sys.version} provided, but at least version 3.5 is required.")
+        sys.exit(1)
+
+    for arg in sys.argv[1:]:
+        if arg == "generate":
+            command = command_generate
+        elif arg == "init":
+            command = command_init
+        elif arg == "python":
+            command = command_python
+        elif arg == "server":
+            command = command_server
+        elif arg == "--clear":
+            clear = True
+        else:
+            print(f"{usage}\nUnexpected argument: {arg}\n")
+            sys.exit(1)
+
+    if command is not None:
+        try:
+            command()
+        except KeyboardInterrupt:
+            print("\nCancelled.")
+    else:
+        print(f"{usage}\nPlease choose a subcommand.\n")

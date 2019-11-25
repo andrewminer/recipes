@@ -1,0 +1,49 @@
+title: Orange Chicken
+timings:
+  prep: 45 minutes
+icons: [gluten-free, overnight]
+servings: 1
+description: >
+  Zesty, tangy, sweet, and altogether marvelous.  It is, however, a lot of preparation and work to cook, so it's not one
+  you'll want to make except for a special treat.
+steps:
+  - ingredients:
+      - { amount: 3, unit: cups, item: "water" }
+      - { amount: 2, item: "oranges" }
+      - { amount: 0.5, unit: cup, item: "lemon juice" }
+      - { amount: 0.75, unit: cup, item: "rice vinegar" }
+      - { amount: 5, unit: tbsp, item: "tamari" }
+      - { amount: 2, unit: cups, item: "sugar, brown" }
+      - { amount: 1, unit: tsp, item: "ginger root (minced)" }
+      - { amount: 1, unit: tsp, item: "garlic (minced)" }
+      - { amount: 4, unit: tbsp, item: "green onions (chopped)" }
+      - { amount: 0.5, unit: tsp, item: "red pepper flakes" }
+    directions: >
+      Zest the oranges and squeeze all their juice into a large saucepan. Add the remaining ingredients and bring the
+      whole mixture to a boil.  Once at a boil, remove from the heat and allow to cool.
+  - ingredients:
+      - { amount: 4, item: "chicken breasts, boneless, skinless" }
+    directions: >
+      Cut the chicken into bite-sized pieces and set aside. Once the marinade is cool, place it and the chicken in a
+      sealed container and refrigerate overnight.
+  - ingredients:
+      - { amount: 2, unit: cups, item: "flour, gluten-free mixture" }
+      - { amount: 0.5, unit: tsp, item: "salt" }
+      - { amount: 0.5, unit: tsp, item: "black pepper" }
+    directions: >
+      Separate the flour, salt, and pepper into two zip-loc bags and place half the chicken in each, reserving the
+      excess marinade. Shake well, until the chicken is evenly covered and dry.
+  - ingredients:
+      - { amount: 1, unit: cup, item: "cooking oil" }
+    directions: >
+      Fill the bottom of a large skillet with ¼” of a high-heat frying oil. Heat until quite hot. Working in batches,
+      fry the chicken until crisp and lightly browned on all sides. Once cooked, set aside the chicken on a plate lined
+      with paper towels.
+  - ingredients:
+      - { amount: 3, unit: tbsp, item: "cornstarch" }
+      - { amount: 0.33, unit: cup, item: "water, cold" }
+    directions: >
+      Mix the cornstarch and water in a small dish. Drain the skillet of oil and wipe clean. Pour in half of the
+      reserved marinade and heat on medium-high.  Once it starts to bubble, slowly whisk in the cornstarch mixture.
+      Reduce the marinade until it is the desired thickness.  Then add in the reserved chicken and cook until heated
+      through.

@@ -1,0 +1,45 @@
+title: Ricotta Meatballs
+timings:
+  prep: 20 minutes
+  cook: 40 minutes
+icons: [gluten-free]
+servings: 8
+description: >
+  Ricotta-spiked meatballs are so tender, so flavorful, and so delicious. There are hardly any ingredients. Of course
+  we're going to throw this over some spaghetti, because we're Americans and that's what we do with meatballs.
+steps:
+  - ingredients: []
+    directions: >
+      Pre-heat the oven to 400°F.
+  - ingredients:
+      - { amount: 0.5, item: "onion, yellow (diced)" }
+      - { amount: 2, unit: tbsp, item: "olive oil" }
+      - { amount: 3, unit: tbsp, item: "garlic (minced)" }
+    directions: >
+      Saute the onions in olive in a medium skillet until translucent and soft (about 5 minutes). The add the garlic and
+      continue to sautee for another 2 minutes.
+  - ingredients:
+      - { amount: 1, unit: lb, item: "beef (ground)" }
+      - { amount: 1, unit: cup, item: "ricotta cheese, whole milk" }
+      - { amount: 0.25, unit: cup, item: "parsley, italian (packed)" }
+      - { amount: 1, item: "egg" }
+      - { amount: 1.5, unit: tsp, item: "salt" }
+      - { amount: 0.5, unit: tsp, item: "black pepper" }
+      - { amount: 0.125, unit: tsp, item: "cayenne pepper" }
+      - { amount: 0.33, unit: cup, item: "oatmeal, gluten-free" }
+    directions: >
+      Combine the sauteed onions and garlic with the beef, cheese, parsley, egg, salt, black pepper, and cayenne pepper.
+      Mix until completely combined. Add the oatmeal, and continue to mix until fully combined.
+  - ingredients: []
+    directions: >
+      Form 1" diameter balls out of the meat mixture and set aside on a tray covered in parchment paper.
+  - ingredients:
+      - { amount: 2, unit: tbsp, item: "olive oil" }
+      - { amount: 28, unit: oz, item: "tomato, crushed" }
+    directions: >
+      Lightly brown the meatballs in olive oil in batches using a large skillet. Place the finished meatballs in an
+      oven-safe casserole dish. Once they're all browned, pour the tomatoes over the meatballs and cover with foil.
+      Cook in the oven until the centers of the meatballs have reached 130°F.
+credits:
+  name: Chef John
+  url: https://www.allrecipes.com/recipe/235710/chef-johns-ricotta-meatballs/

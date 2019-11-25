@@ -1,0 +1,35 @@
+title: Ruth's Chris Chop Salad
+timings:
+    prep: 20 min
+    cook:
+icons: ["gluten-free", "low-carb"]
+servings: 4
+description: >
+  This is complex salad with many textures, flavors, and layers. It's a bit of work to put together, but an absolute
+  delight to eat.
+steps:
+  - ingredients:
+      - { amount: 0.25, unit: "cup", item: "basil leaves (dried)" }
+      - { amount: 4, unit: "tbsp", item: "lemon juice" }
+      - { amount: 0.5, unit: "tsp", item: "salt" }
+      - { amount: 1, unit: "tsp", item: "garlic powder" }
+    directions: >
+      Put all the ingredients in a blender and purée. Allow to chill in the refrigerator overnight.
+  - ingredients:
+      - { amount: 8, unit: "cups", item: "lettuce, iceberg (sliced thin)" }
+      - { amount: 1, unit: "cup", item: "spinach, baby" }
+      - { amount: 0.5, unit: "cup", item: "onion, red (diced)" }
+      - { amount: 6, unit: "oz", item: "mushrooms, white (quartered)" }
+      - { amount: 4, unit: "", item: "eggs (hard-boiled, sliced)" }
+      - { amount: 0.5, unit: "lb", item: "bacon (cooked crispy, crumbled)" }
+      - { amount: 14, unit: "oz", item: "heart of palm (chilled, sliced)" }
+      - { amount: 1, unit: "cup", item: "cheese, gorgonzola (crumbled)" }
+      - { amount: 0.5, unit: "cup", item: "croutons" }
+      - { amount: 10, unit: "", item: "tomatoes, cherry (halved)" }
+      - { amount: 0.5, unit: "cup", item: "crispy fried onions" }
+    directions: >
+      In a large salad bowl, layer the ingredients in order: lettuce, spinach, red onion, olives, mushrooms, hearts of
+      palm, eggs, and bacon.  Top with crispy onions, gorgonzola, and bacon bits.  Chill for at least 10 minutes.
+  - ingredients: []
+    directions: >
+      Drizzle the dressing over the salad just before serving.

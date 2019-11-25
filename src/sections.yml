@@ -1,0 +1,20 @@
+- id: drinks
+  title: Drinks
+
+- id: appetizers
+  title: Appetizers
+
+- id: soups
+  title: Soups
+
+- id: salads
+  title: Salads
+
+- id: baking
+  title: Baking
+
+- id: mains
+  title: Main Courses
+
+- id: sides
+  title: Vegetables & Sides

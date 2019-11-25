@@ -1,0 +1,31 @@
+title: "Scrambled Eggs"
+timings:
+  prep: "15 min"
+icons: [ "gluten-free", "low-carb", "vegetarian" ]
+servings: 3
+description: >
+  This recipe has been in my family for at least 4 generations that I'm aware of, and possibly more. The resulting
+  eggs are rich and creamy—almost a custard—with little spots of cream cheese still unmelted and waiting to be
+  found...
+steps:
+  - ingredients:
+      - { amount: 9, item: "eggs (large)" }
+      - { amount: 2, unit: "tbsp", item: "half-n-half" }
+    directions: >
+      Whisk the eggs and half-n-half together in a mixing bowl until completely homogeneous in texture and color.
+  - ingredients:
+      - { amount: 1, unit: "tbsp", item: "butter" }
+    directions: >
+      Heat the butter in a skillet over medium heat. Once it starts to foam, reduce heat to very low and pour in the egg
+      mixture. Allow to cook slowly, stirring frequently, taking care to constantly lift the bottom layer of egg off the
+      pan.
+  - ingredients:
+      - { amount: 3, unit: "oz", item: "cream cheese" }
+      - { unit: "~", item: "celery salt" }
+    directions: >
+      Cut the cream cheese into ½” cubes and set aside until the eggs have started to firm up. When bare patches are
+      first left behind by stirring the eggs, add in the cream cheese chunks and fold them into the eggs very gently: do
+      not mix them. Continue gently folding the eggs until they the liquid has only just evaporated. Season with celery
+      salt and serve hot.
+credit:
+    name: "Larry Miner, David Miner, and Andrew Miner"

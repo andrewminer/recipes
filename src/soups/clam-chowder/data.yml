@@ -1,0 +1,33 @@
+title: "Clam Chowder"
+timings:
+  prep: "15 min"
+  cook: "25 min"
+icons: ["gluten-free"]
+servings: 8
+description: >
+  Clam chowder the is the quinessential comfort food of New England: rich, creamy, and with enough flavor and texture to
+  add real substence.  This recipe makes perfect re-creation of the very best I remember from back home.
+steps:
+  - ingredients:
+      - { amount: 20, unit: "oz", item: "minced clams" }
+      - { amount: 1, unit: "cup", item: "onion, yellow (chopped)" }
+      - { amount: 1, unit: "cup", item: "celery (chopped)" }
+      - { amount: 1, unit: "cup", item: "potato (diced)" }
+      - { amount: 1, unit: "cup", item: "carrots (diced)" }
+    directions: >
+      Drain the liquid from the clams into a dutch oven and add the carrots, onions, celery, and potatoes. Add enough
+      water to cover, and then cook over medium-high heat until tender. Set the clams aside for later.
+  - ingredients:
+      - { amount: 6, unit: "oz", item: "butter" }
+      - { amount: 6, unit: "oz", item: "gluten-free flour blend" }
+      - { amount: 1, unit: "qt", item: "half-n-half" }
+    directions: >
+      Melt the butter in a large saucepan, and whisk in the flour until smooth. Whisk in the cream until smooth as well.
+  - directions: >
+      Add the flour mixture in with the vegetables, and heat to a simmer, but do not allow to boil.
+  - ingredients:
+      - { amount: 2, unit: "tbsp", item: "red wine vinegar" }
+      - { amount: 1.5, unit: "tsp", item: "salt" }
+      - { amount: 1, unit: "tsp", item: "black pepper" }
+    directions: >
+      Add the clams and other remaining ingredients to the dutch oven. Bring up to temperature and serve.

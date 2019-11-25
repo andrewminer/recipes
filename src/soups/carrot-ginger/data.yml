@@ -1,0 +1,36 @@
+title: Carrot Ginger Soup
+timings:
+    prep: 30 min
+icons: [gluten-free]
+servings: 8
+description: >
+  The sweetness of the carrots and the spicy zing of the ginger make this soup a hearty base for adding some basic
+  protein (e.g., chicken or shrimp) or just to eat on its own.
+steps:
+  - ingredients:
+      - { amount: 1, item: "onion, yellow (diced)" }
+      - { amount: 2, unit: tbsp, item: "olive oil" }
+    directions: >
+      Sautée the onion in olive oil until translucent in a dutch oven.
+  - ingredients:
+      - { amount: 10, item: "carrots, large (chopped)" }
+      - { amount: 1, item: "leek, white portion (chopped)" }
+    directions: >
+      Add the leeks and carrots, and continue to cook, stirring occasionally, until the carrots are soft (about 10
+      minutes).
+  - ingredients:
+      - { amount: 2, unit: tbsp, item: "ginger (peeled, diced)" }
+      - { amount: 1, unit: tbsp, item: "water" }
+    directions: >
+      While the carrots are cooking, use a small food processor to puree the ginger and water into a paste.
+  - ingredients:
+      - { amount: 4, unit: cups, item: "chicken broth" }
+      - { amount: 1, unit: tsp, item: "salt" }
+      - { amount: 1, unit: tsp, item: "black pepper" }
+    directions: >
+      Combine the broth, salt, pepper, and ginger with the vegetables. Bring to a boil, and then turn off the heat.
+  - ingredients:
+      - { amount: 0.25, unit: cup, item: "chives (chopped)" }
+    directions: >
+      Purée the soup in batches in a large blender. Return to the dutch oven when finished, and bring back to
+      temperature. Serve with a sprinkling of chopped chives on top.

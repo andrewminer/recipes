@@ -1,0 +1,28 @@
+title: Chicken Breasts with Caper Cream Sauce
+timings:
+    prep: 20 min
+    cook: 10 min
+icons: [gluten-free, vegetarian]
+servings: 4
+description: >
+  This is a quick, easy way to bring some creamy, salty richness to plain chicken breasts.
+steps:
+  - ingredients:
+      - { amount: 4, unit: , item: chicken breasts (boneless, skinless) }
+      - { amount: 1, unit: tsp, item: lemon pepper }
+      - { amount: 1, unit: tsp, item: salt }
+      - { amount: 1, unit: tsp, item: dill weed }
+      - { amount: 1, unit: tsp, item: garlic powder }
+    directions: >
+      Season the chicken breasts with the lemon pepper, salt, dill weed, and garlic powder and set aside.
+  - ingredients:
+      - { amount: 3, unit: tbsp, item: butter }
+    directions: >
+      Melt the butter in a large skillet over medium heat. Sautée the chicken over medium-high heat until browned evenly
+      all over. Then reduce the heat and cook until the chicken is 170°F in the center (5–10 min).
+  - ingredients:
+      - { amount: 0.5, unit: cup, item: whipping cream}
+      - { amount: 2, unit: tbsp, item: capers }
+    directions: >
+      Set the chicken aside on a serving platter, and add the whipping cream to the skillet. Stir continuously until the
+      sauce thickens. Stir in the capers, then pour over the chicken to serve.

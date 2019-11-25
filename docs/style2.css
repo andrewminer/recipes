@@ -10,6 +10,7 @@
       border-radius: 0.25in;
       display: flex;
       flex: 0 0 2.5in;
+      min-height: 2.5in;
       text-align: center; }
     .recipe .header .about {
       flex: 1 1 100%;
@@ -172,9 +173,11 @@
       width: 90%; }
     .recipe .instructions .step .detail {
       border: 0; } }
+
 @media print {
   .navigation {
     display: none; } }
+
 @media screen {
   .recipe {
     margin-top: 0.25in; } }

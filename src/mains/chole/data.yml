@@ -1,0 +1,33 @@
+title: Chole
+timings:
+    prep: 20 min
+icons: [gluten-free, vegetarian]
+servings: 4
+description: >
+  Chole is an Indian dish featuring garbanzo beans in a highly-seasoned, tomato-based sauce.
+steps:
+  - ingredients:
+      - { amount: 1, unit: "tbsp", item: "olive oil" }
+      - { amount: 1, unit: "cup", item: "onions, yellow (diced)" }
+      - { amount: 1, unit: "tsp", item: "garlic (minced)" }
+      - { amount: 0.5, unit: "cup", item: "tomatoes (diced)" }
+    directions: >
+      Sautée the onions in olive oil in a large skillet over medium-high heat until soft and transluscent. Then stir in
+      the garlic and continue to sautée until the garlic has browned as well. Finally, add the tomatoes and cook covered
+      for a further 5 minutes.
+  - ingredients:
+      - { amount: 0.25, unit: "cups", item: "water" }
+      - { amount: 0.5, unit: "tsp", item: "chili powder" }
+      - { amount: 1.5, unit: "tsp", item: "coriander powder" }
+      - { amount: 0.5, unit: "tsp", item: "cumin powder" }
+      - { amount: 0.75, unit: "tsp", item: "garam masala" }
+      - { amount: 1, unit: "tsp", item: "salt" }
+      - { amount: 0.5, unit: "tsp", item: "tumeric" }
+    directions: >
+      Add in the dry spices and a little water.  Allow to cook for a further 5 minutes.
+  - ingredients:
+      - { amount: 16, unit: "oz", item: "garbanzo beans (rinsed, drained)" }
+      - { amount: 1.25, unit: "cups", item: "water" }
+      - { amount: 2, unit: "tbsp", item: "cilantro (minced)" }
+    directions: >
+      Add in the remaining water, garbanzo beans, and cilantro.  Cook, uncovered, until the sauce has thickened.

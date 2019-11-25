@@ -1,0 +1,46 @@
+title: Cream of Spinach Soup
+timings:
+  prep: 15 min
+  cook: 25 min
+icons: ["gluten-free"]
+servings: 8
+description: ""
+steps:
+  - ingredients:
+      - { amount: 1.5, unit: "cups", item: "water" }
+      - { amount: 3, unit: "tsp", item: "chicken stock" }
+      - { amount: 10, unit: "oz", item: "spinach" }
+    directions: >
+      Add the spinach, water, and chicken stock to a dutch oven and cook until the spinach is soft.
+  - ingredients:
+      - { amount: 3, unit: "tbsp", item: "butter (unsalted)" }
+      - { amount: 1, unit: "", item: "onion, yellow (diced)" }
+      - { amount: 3, unit: "cloves", item: "garlic" }
+      - { amount: 0.25, unit: "cup", item: "gluten-free flour blend" }
+      - { amount: 2, unit: "cups", item: "whole milk" }
+      - { amount: 1, unit: "cup", item: "heavy cream" }
+      - { amount: 0.25, unit: "cup", item: "parmesan cheese (shredded)" }
+      - { amount: 1, unit: "tsp", item: "salt" }
+      - { amount: 1, unit: "tsp", item: "black pepper" }
+    directions: >
+      Set the spinach aside in a bowl.  Sautée the onion in the butter until golden and translucent.  Add the garlic and
+      continue to sautée until browned.
+  - ingredients:
+      - { amount: 0.25, unit: "cup", item: "gluten-free flour blend" }
+    directions: >
+      Slowly add in the flour while stirring constantly. Continue to cook until it turns a golden brown.
+  - ingredients:
+      - { amount: 2, unit: "cups", item: "whole milk" }
+      - { amount: 1, unit: "cup", item: "heavy cream" }
+      - { amount: 0.25, unit: "cup", item: "parmesan cheese (shredded)" }
+      - { amount: 1, unit: "tsp", item: "salt" }
+      - { amount: 1, unit: "tsp", item: "black pepper" }
+    directions: >
+      Whisk in the milk and cream, breaking up any lumps until the entire mixture is smooth and slightly thickened.
+  - ingredients:
+      - { amount: 0.25, unit: "cup", item: "parmesan cheese (shredded)" }
+      - { amount: 1, unit: "tsp", item: "salt" }
+      - { amount: 1, unit: "tsp", item: "black pepper" }
+    directions: >
+      Add back the reserved spinach along with the parmesan cheese, salt, and pepper.  Bring back to temperature, and
+      then purée in a blender, working in batches as necessary.

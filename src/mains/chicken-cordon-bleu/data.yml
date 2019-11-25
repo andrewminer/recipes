@@ -1,0 +1,39 @@
+title: Chicken Cordon Bleu
+timings:
+    prep: 25 min
+    cook: 40 min
+icons: []
+servings:
+description: >
+  This classic dish provides a delightful mixture of flavors and textures, although its a bit of work to get it.
+steps:
+  - ingredients: []
+    directions: >
+      Pre-heat the oven to 400°F.
+  - ingredients:
+      - { amount: 8, unit: slices, item: ham }
+      - { amount: 8, unit: slices, item: "swiss cheese (2\" lardons)" }
+      - { amount: 1, unit: tsp, item: salt }
+      - { amount: 1, unit: tsp, item: black pepper }
+      - { amount: 1, unit: tsp, item: thyme}
+    directions: >
+      Place slivers of cheese in the center of a piece of ham and sprinkle with the salt, pepper, and thyme.  Roll up
+      each slice and put aside.
+  - ingredients:
+      - { amount: 8, unit: , item: chicken breasts (skinless, boneless) }
+    directions: >
+      Place each chicken breast between two pieces of parchment paper and pound with a meat hammer until about ¼"
+      thick. Wrap each chicken breast around a a ham and cheese roll and pin closed with toothpicks.
+  - ingredients:
+      - { amount: 0.25, unit: cup, item: butter (melted) }
+      - { amount: 0.5, unit: cup, item: cornflakes (crushed) }
+    directions: >
+      Place the chicken breasts in a baking dish and brush with butter. Coat with the crushed cornflakes. Bake at 400°F
+      until the chicken has reached 170°F at the center (about 40 min).
+  - ingredients:
+      - { amount: 10, unit: oz, item: cream of chicken soup }
+      - { amount: 1, unit: tsp, item: lemon juice }
+      - { amount: 0.5, unit: cup, item: sour cream }
+    directions: >
+      Mix the soup, lemon juice, and sour cream in a small saucepan. Simmer over a low heat until heated all the way
+      through.  Pour over the cooked checken breasts and serve.

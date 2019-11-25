@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="../../style2.css" rel="stylesheet" type="text/css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="user-scalable=no, width=device-width" />
+
+    <body class="recipe">
+        <section class="header">
+            <div class="image" style="background-image: url('./image.png')"></div>
+
+            <div class="about">
+                <h1>{{ title }}</h1>
+
+                <div class="timing">
+                    {% if timings.prep -%}
+                        prep {{ timings.prep }}
+                    {%- endif -%}
+                    {%- if timings.prep and timings.cook -%}
+                        ,&nbsp;
+                    {%- endif -%}
+                    {%- if timings.cook -%}
+                        cook {{ timings.cook }}
+                    {%- endif %}
+                </div>
+
+                <div class="icons">
+                    {% for icon in icons %}
+                        <div class="icon {{ icon }}"></div>
+                    {% endfor %}
+                    {% if servings %}
+                        <div class="icon serving"></div>× {{ servings }}
+                    {% endif %}
+                </div>
+
+                <div class="description">{{ description }}</div>
+            </div>
+        </section>
+
+        <section class="instructions">
+            {% for step in steps %}
+                <div class="step">
+                    <h3>{{ loop.index }}</h3>
+                    <div class="ingredients">
+                        <ul>
+                            {% if step.ingredients %}
+                                {% for ingredient in step.ingredients %}
+                                    <li>
+                                        <div class="amount">
+                                            {{ as_fraction(ingredient.amount) }} {{ ingredient.unit }}
+                                        </div>
+                                        <div class="item">{{ ingredient.item }}</div>
+                                {% endfor %}
+                            {% endif %}
+                        </ul>
+                    </div>
+                    <div class="detail">{{ step.directions }}</div>
+                </div>
+            {% endfor %}
+        </section>
+
+        {% if credit %}
+            <section class="credits">
+                {% if credit.name %}
+                    {{ credit.name -}}
+                {% endif -%}
+                {%- if credit.name and credit.url -%}
+                    ,&nbsp;
+                {% endif %}
+                {% if credit.url %}
+                    <a href="{{ credit.url }}">{{ credit.url }}</a>
+                {% endif %}
+            </section>
+        {% endif %}
+
+        <section class="navigation">
+            <a href="../..">« Back</a>
+        </section>
+    </body>
+</html

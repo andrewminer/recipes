@@ -1,0 +1,28 @@
+title: Gnocchi
+timings:
+  prep: 20 minutes
+  cook: 30 minutes
+icons: [gluten-free, vegetarian]
+servings: 4
+description: >
+  Gnocchi is a delicate potato-based form of pasta. When prepared well, each piece is light and fluffy, and a perfect
+  delight whether served with a flavorful sauce (e.g., pesto, marinara) or simply on its own with a little butter.
+steps:
+  - ingredients:
+      - { amount: 2, unit: lbs, item: "potatoes, yukon gold (roughly chopped)" }
+    directions: >
+      Bring a pot of water to a boil and drop in the potatoes. Cook until tender (about 10 minutes). Then drain the
+      water and mash the potatoes.  Allow the potatoes to cool until they aren't too warm to handle.
+  - ingredients:
+      - { amount: 2, unit: cups, item: "flour, all-purpose" }
+      - { amount: 1, item: "egg" }
+    directions: >
+      Combine the potatoes, flour, and egg in a large mixing bowl.  Knead until the dough forms a ball.  On a floured
+      surface, roll out small portions of the dough into long, ½" diameter cylinders.  Cut these into 1" segments and
+      set aside.
+  - ingredients:
+      - { amount: 1, unit: tsp, item: "salt" }
+    directions: >
+      Bring a pot of lightly-salted water to a boil and drop in the gnocchi a handful at a time. They will sink to the
+      bottom initially, but then rise to the surface when fully cooked. Use a skimmer to remove them when the rise to
+      the surface.

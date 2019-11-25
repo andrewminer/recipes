@@ -1,0 +1,8 @@
+Flask~=1.1
+jedi
+jinja2~=2.10
+libsass
+python-dotenv~=0.0
+pyyaml
+simplejson~=3.17
+watchdog~=0.9

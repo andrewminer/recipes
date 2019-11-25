@@ -1,0 +1,37 @@
+title: Ratatouille
+timings:
+  prep: 30 minutes
+  cook: 30 minutes
+icons: [gluten-free, low-carb]
+servings: 6
+description: >
+  This dish was inspired by the Pixar movie of the same name, but has really developed quite a long way.  It now
+  includes sausage, italian herbs, and plenty of cheese. Plus, it makes for a glorious presentation on the table.
+steps:
+  - ingredients:
+      - { amount: 4, unit: links, item: "sausage, mild italian" }
+    directions: >
+      Boil the sausages in a large pot until nearly cooked (120°F in the centers).  Pre-heat the oven to 400°F.
+  - ingredients:
+      - { amount: 2, item: "zucchini" }
+      - { amount: 2, item: "summer squash" }
+    directions: >
+      Use a mandoline to slice the sausage, zucchini, and summer squash into ⅛" rounds. Place each of these in separate
+      bowls.
+  - ingredients:
+      - { amount: 16, unit: oz, item: "tomato purée" }
+      - { amount: 8, unit: oz, item: "smoked gouda cheese (shredded)" }
+      - { amount: 8, unit: oz, item: "assiago cheese (shredded)" }
+    directions: >
+      Spread a thin layer of tomatoe purée on the bottom of a large baking dish.  Add in alternating slices of sausage,
+      zucchini, and squash slices slightly overlapping with one another in concentric circles until the entire bottom of
+      the dish has been covered. Add a layer of shredded cheese.  Then, repeat these layers until all the materials have
+      been used up, or the the dish is completely full.
+  - ingredients:
+      - { amount: 1, item: "bell pepper, red" }
+      - { amount: 2, unit: tsp, item: "fennel seeds" }
+      - { amount: 1, unit: tsp, item: "paprika" }
+    directions: >
+      Cut the pepper into ribbons and lay out across the top layer of cheese.  Sprinkle the fennel seeds evenly across
+      the entire surface, and dust with paprika.  Place the entire dish in the oven and cook until the sauce is bubbling
+      and the cheese has started to brown (about 30 minutes).

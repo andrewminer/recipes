@@ -1,0 +1,36 @@
+title: Lemon Chicken with Mushroom Sauce
+timings:
+  prep:
+  cook:
+icons: [gluten-free, low-carb]
+servings: 4
+description: >
+  This preparation for chicken has a light and zesty taste, and the mushrooms add a lovely earthy contrast.
+steps:
+  - ingredients: []
+    directions: Pre-heat the oven to 400°F.
+  - ingredients:
+      - { amount: 1, unit: tbsp, item: "olive oil" }
+      - { amount: 8, item: "chicken breasts" }
+      - { amount: 1, item: "lemon" }
+    directions: >
+      Coat each chicken breast in olive oil and arrange in a single layer in a baking dish. Squeeze the juice from half
+      a lemon over them. Slice the other half and arrange the slices on top of the chicken. Place in the oven and cook
+      until the centers reach 170°F (around 15 minutes).
+  - ingredients:
+      - { amount: 0.25, unit: cup, item: "butter, unsalted" }
+      - { amount: 3, unit: cups, item: "mushrooms, crimini (sliced)" }
+      - { amount: 2, unit: tbsp, item: "flour, gluten-free" }
+    directions: >
+      While the chicken is cooking, melt the butter in a large saucepan. Add the mushrooms and cook until they are
+      golden brown and the liquid has evaporated. Sprinkle flour over the mushrooms and cook while stirring constantly
+      for about 1 minute.
+  - ingredients:
+      - { amount: 0.5, unit: cup, item: "chicken broth" }
+      - { amount: 1, unit: tbsp, item: "parsley, fresh (minced)" }
+    directions: >
+      Add the chicken broth to the saucepan and stir until all the flour is evenly incorporated. Cook over a medium
+      heat until the sauce begins to thicken.  Add the parsley just as the sauce is finishing up.
+  - ingredients: []
+    directions: >
+      Once the chicken is out of the oven, plate each piece and cover with the mushroom sauce.

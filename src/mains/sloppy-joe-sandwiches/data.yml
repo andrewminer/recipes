@@ -1,0 +1,37 @@
+title: Sloppy Joe Sandwiches
+timings:
+  prep: 15 minutes
+  cook: 45 minutes
+icons: [gluten-free]
+servings: 1
+description: >
+  Rich and tangy, this sloppy joe recipe is a major favorite in my house. It's also very flexible: serve on a bun, by
+  itself, or in many other possible presentations.
+steps:
+  - ingredients:
+      - { amount: 2, unit: tbsp, item: "olive oil" }
+      - { amount: 2, item: "onions, yellow (diced)" }
+    directions: >
+      In a dutch oven, sautée the onions until soft and translucent (about 5 minutes).
+  - ingredients:
+      - { amount: 3, unit: lbs, item: "ground beef" }
+    directions: >
+      Add the ground beef, and cook, stirring constantly and breaking up the pieces of beef, until it is evenly browned
+      and crumbled into small pieces.
+  - ingredients:
+      - { amount: 3, unit: cups, item: "ketchup" }
+      - { amount: 3, unit: tbsp, item: "sugar, brown" }
+      - { amount: 3, unit: tsp, item: "Worcestershire sauce" }
+      - { amount: 3, unit: tsp, item: "mustard, yellow" }
+      - { amount: 3, unit: tsp, item: "vinegar, white" }
+      - { amount: 3, unit: tsp, item: "chili powder" }
+      - { amount: 0.75, unit: tsp, item: "garlic powder" }
+      - { amount: 0.75, unit: tsp, item: "onion powder" }
+      - { amount: 0.75, unit: tsp, item: "salt" }
+    directions: >
+      Stir in the remaining ingredients, mix well, and bring to a boil.  Reduce to a very low simmer and cover.  Cook
+      for about 45 minutes to allow the flavors to mix completely.
+  - ingredients:
+      - { amount: 8, item: "hamburger buns" }
+    directions: >
+      If so desired, serve on soft hamburger buns. Otherwise, simply serve in bowls with a spoon.

@@ -1,0 +1,26 @@
+title: Roasted Sweet Potatoes
+timings:
+  prep: 10 minutes
+  cook: 45 minutes
+icons: [gluten-free, vegetarian]
+servings: 1
+description: >
+  So often, they only way you encounter sweet potatoes is puréed with ton of sugar (maple syrup, marshmallow, etc.).
+  This is a delicious alternative which, while still sweet, allows the natural flavor of the sweet potatoes to shine.
+steps:
+  - ingredients: []
+    directions: >
+      Pre-heat the oven to 350°F.
+  - ingredients:
+      - { amount: 2, unit: tbsp, item: "olive oil" }
+      - { amount: 0.25, unit: cup, item: "honey" }
+      - { amount: 2, unit: tbsp, item: "rosemary, fresh (minced)" }
+      - { amount: 1, unit: tsp, item: "salt, course" }
+      - { amount: 1, unit: tsp, item: "black pepper" }
+    directions: >
+      Mix the olive oil, honey, rosemary, salt, and black pepper in a small mixing bowl.
+  - ingredients:
+      - { amount: 3, item: "sweet potatoes / yams (peeled, chopped)" }
+    directions: >
+      Add the sweet potatoes to the mixing bowl, and mix until coated with the sauce. Lay out in a single layer on a
+      cooking sheet lined with foil. Cook in the oven until tender (about 45 minutes).

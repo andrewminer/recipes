@@ -1,0 +1,52 @@
+title: Hungarian Mushroom Beef Soup
+timings:
+    prep: 25 min
+    cook: 60 min
+icons: ["gluten-free"]
+servings: 4
+description: >
+  This soup combines a smooth, rich broth with soft chunks of beef and just a little bit of zing from the paprika for an
+  absolutly luxurious overall experience whether as a stand-alone dinner or as a supplement to another dish.
+steps:
+  - ingredients:
+      - { amount: 2, unit: "tbsp", item: "olive oil" }
+      - { amount: 1, unit: "lb", item: "stew beef" }
+    directions: >
+      Heat the oil in a large soup pot and brown the beef in batches. Set aside to cool.
+  - ingredients:
+      - { amount: 2, unit: "tbsp", item: "butter, unsalted" }
+      - { amount: 1, unit: "", item: "onion, yellow (diced)" }
+    directions: >
+      Add butter to the soup pot and sautée the onions until soft and just starting to brown.
+  - ingredients:
+      - { amount: 4, unit: "cups", item: "beef broth" }
+      - { amount: 2, unit: "tbsp", item: "dry sherry" }
+      - { amount: 1, unit: "tbsp", item: "tamari" }
+      - { amount: 1, unit: "lb", item: "mushrooms, crimini" }
+      - { amount: 2, unit: "tsp", item: "dill, fresh (minced)" }
+      - { amount: 2, unit: "tsp", item: "paprika, hungarian" }
+      - { amount: 1, unit: "tsp", item: "salt" }
+      - { amount: 1, unit: "tsp", item: "black pepper" }
+      - { amount: 0.25, unit: "tsp", item: "cayenne pepper" }
+    directions: >
+      Add the broth, sherry, tamari, mushrooms and spices to the onions along with the browned meat. Bring to a boil and then
+      reduce to a simmer for 1 hour.
+  - ingredients:
+      - { amount: 3, unit: "tbsp", item: "gluten-free flour blend" }
+      - { amount: 2, unit: "tbsp", item: "butter, unsalted" }
+    directions: >
+      When the meat is nearly done simmering (about 10 min remaining), add butter to a large saucepan and heat on medium
+      until it foams. Gradually add the flour while whisking continously, taking care to mix it in completely.
+  - ingredients:
+      - { amount: 1, unit: "cup", item: "milk, whole" }
+    directions: >
+      Stir in milk gradually, while continuing to whisk continuously. Take care to completely remove any lumps. Continue
+      to whisk until the roux thickens and then add it to the soup pot.
+  - ingredients:
+      - { amount: 2, unit: "tsp", item: "lemon juice" }
+      - { amount: 1, unit: "cup", item: "sour cream" }
+    directions: >
+      Once the meat is tender (after roughly an hour simmering), add the lemon juice, sour cream, and adjust the spices
+      to taste (adding more paprika to the desired level of heat).
+credit:
+    name: David Miner

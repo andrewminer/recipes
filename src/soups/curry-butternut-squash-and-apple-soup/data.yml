@@ -1,0 +1,31 @@
+title: Curry Butternut Squash & Apple Soup
+timings:
+  prep:
+  cook:
+icons: ["gluten-free"]
+servings: 4
+description: >
+  This is a delightfully creamy soup between the squash and heavy cream, and the spices add a wonderful flavor.
+steps:
+  - ingredients:
+      - { amount: 2, unit: "tbsp", item: "olive oil, extra-virgin" }
+      - { amount: 1, unit: "", item: "onion, yellow (diced)" }
+      - { amount: 1, unit: "", item: "carrot" }
+    directions: >
+      Heat oil in a dutch oven. Add the onions and carrots and cook until the latter are soft.
+  - ingredients:
+      - { amount: 4, unit: "cups", item: "chicken broth" }
+      - { amount: 4, unit: "cups", item: "butternut squash (chopped)" }
+      - { amount: 1, unit: "", item: "apple (cored, peeled, diced)" }
+      - { amount: 1, unit: "tsp", item: "cinnamon" }
+      - { amount: 1.5, unit: "tsp", item: "yellow curry powder" }
+      - { amount: 0.5, unit: "tsp", item: "salt" }
+      - { amount: 0.5, unit: "tsp", item: "black pepper" }
+    directions: >
+      Add the chicken broth, squash, apple, and spices.  Bring to a boil, and then reduce to a simmer until the squash
+      is tender (about 30 min).
+  - ingredients:
+      - { amount: 0.5, unit: "cup", item: "heavy cream" }
+    directions: >
+      Purée the soup (in batches, if necessary), and return to the dutch oven. Add the cream, and reheat gently until
+      just barely simmering.

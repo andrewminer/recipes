@@ -1,0 +1,30 @@
+title: "Limoncello"
+timings:
+    prep: "30 min"
+    cook: "7 days"
+icons: ["gluten-free"]
+servings: 32
+description: >
+  One of the most delightful treats when travelling in Italy is to have fresh Limoncello available after nearly every
+  meal! Fortunately, it's quite simple to make your own at home, so you can always have it available there as well.
+steps:
+  - ingredients:
+      - { amount: 10, item: "lemons (fresh)" }
+      - { amount: 750, unit: "ml", item: "pure alcohol (e.g., Everclear)" }
+    directions: >
+      Using a microplane zester, remove the zest from all the lemons, and drop into a sealable, glass jar.  Leave the
+      jar to steep for a week at room temperature in an out-of-the-way location.
+  - ingredients:
+      - { amount: 3.5, unit: "cups", item: "water" }
+      - { amount: 2.5, unit: "cups", item: "white sugar" }
+    directions: >
+      Heat the water and sugar mixture until all the sugar has been completely absorbed.  Allow the water to return to
+      room temperature and then pour into the jar with the alcohol and lemon mixture.  Allow to steep again overnight.
+  - ingredients: []
+    directions: >
+      Strain the final mixture through a fine mesh (e.g., cheesecloth, paper towel, etc.) until all the pieces of lemon
+      zest have been completely removed, and only liquid remains.  For storage, pour into bottles with an airtight
+      stopper.
+credit:
+    name: Glada De Laurentils
+    url: https://www.foodnetwork.com/recipes/giada-de-laurentiis/limoncello-recipe-1916618

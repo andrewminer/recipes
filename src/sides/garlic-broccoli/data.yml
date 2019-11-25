@@ -1,0 +1,33 @@
+title: Garlic Broccoli
+timings:
+  prep: 10 minutes
+icons: [gluten-free, low-carb, overnight, vegetarian]
+servings: 1
+description: >
+  Broccoli is one of those vegetables which some people like raw, and some people like cooked: but only with a lot of
+  added flavor. Not a lot of people like plain, steamed broccoli.  This dish splits the different very successfully. A
+  bit of light steaming sofens the broccoli without turning it into bitter mush, and the marinade adds all the flavor
+  you could want.
+steps:
+  - ingredients:
+      - { amount: 1, unit: head, item: "broccoli (cut into florets)" }
+    directions: >
+      Lightly steam the broccoli florets until somewhat sofened, but still al dente.
+  - ingredients:
+      - { amount: 4, unit: cloves, item: "garlic" }
+      - { amount: 1, unit: tsp, item: "olive oil, extra virgin" }
+      - { amount: 1.5, unit: tsp, item: "salt" }
+    directions: >
+      Use a small food processor to purée the garlic, olive oil, and salt into a paste.
+  - ingredients:
+      - { amount: 0.33, unit: cup, item: "olive oil, extra virgin" }
+      - { amount: 0.25, unit: cup, item: "vinegar, red wine" }
+      - { amount: 1, unit: tbsp, item: "mustard, dijon" }
+    directions: >
+      In a small mixing bowl, whisk the garlic paste, mustard, vinegar, and olive oil until completely combined.  Add
+      the broccoli and toss until completely coated.  Cover the bowl and place in the refrigerator for at least 3 hours,
+      and up to overnight.
+  - ingredients:
+      - { amount: 0.5, unit: cup, item: "parmesan cheese (grated)" }
+    directions: >
+      Just before serving, sprinkle the grated cheese over the broccoli.
