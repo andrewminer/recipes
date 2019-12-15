@@ -1,0 +1,42 @@
+title: Tomato Soup
+timings:
+  prep: 30 minutes
+icons: [gluten-free, low-carb]
+servings: 1
+description: >
+  This tomato soup is thick, slighly creamy, and very hearty.  Unlike store-bought tomato soup, it's also not
+  overburdened with sugar to make it taste good. Instead, I use canned San Marzano tomatoes (often kept in a separate
+  section in the supermarket) as they add a whole different dimension to any tomato dish than even fresh tomatoes grown
+  in the US.
+steps:
+  - ingredients:
+      - { amount: 2, item: "28oz cans diced tomatoes" }
+      - { amount: 0.75, unit: cup, item: "chicken broth" }
+    directions: >
+      Drain the tomatoes into a colander over a large pot, pressing lightly to release the liquid. Add the chicken broth
+      to the tomato juice and set aside.
+  - ingredients:
+      - { amount: 3, unit: tbsp, item: "butter, unsalted" }
+      - { amount: 1, item: "onion, yellow (chopped)" }
+      - { amount: 1, item: "bay leaf" }
+      - { amount: 1, unit: tsp, item: "sugar, brown" }
+    directions: >
+      Melt the butter in a dutch oven over medium heat. Add the onion and cook until soft and translucent. Add ⅔ of the
+      tomatoes, bay leaf, and brown sugar.  Cook, stirring occasionally, until the tomatoes begin to brown (about 5
+      minutes).
+  - ingredients:
+      - { amount: 2, unit: tbsp, item: "tomato paste" }
+      - { amount: 2, unit: tbsp, item: "flour, gluten-free mix" }
+      - { amount: 0.5, unit: tsp, item: "baking soda" }
+      - { amount: 1, unit: tsp, item: "salt" }
+    directions: >
+      Add the tomato paste and flour to the pot. Continue cooking, stirring frequently now, until the paste begins to
+      darken. Slowly stir in the reserved tomato juice mixture, the remaining tomatoes, baking soda, and salt. Bring to
+      a boil, and then reduce to medium-low heat to simmer until slightly thickened (about 5 minutes). Then, remove from
+      the heat.
+  - ingredients:
+      - { amount: 0.5, unit: cup, item: "heavy cream" }
+      - { amount: 1, unit: tsp, item: "black pepper" }
+    directions: >
+      Discard the bay leaf. Purée the soup in batches in a large blender.  Return the puréed soup to the pot and bring
+      back to a low simmer.  Add the heavy cream and pepper.
