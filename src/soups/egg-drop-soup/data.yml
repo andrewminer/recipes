@@ -1,0 +1,34 @@
+title: Egg Drop Soup
+timings:
+  prep: 20 minutes
+icons: [gluten-free, low-carb, overnight, vegetarian]
+servings: 4
+description: >
+  This Egg Drop soup is born from a love of the soup and MANY trips to my favorite Chinese restaurant (asking them many
+  questions) resulting in this variation. Compare it to your local restaurant...The simplicity is the key. Soup can be
+  re-heated or frozen and re-heated.
+steps:
+  - ingredients:
+      - { amount: 3.25, unit: cups, item: "chicken broth" }
+      - { amount: 0.125, unit: tsp, item: "ginger, powdered" }
+      - { amount: 2, unit: tbsp, item: "chives, fresh (diced)" }
+      - { amount: 0.25, unit: tsp, item: "salt" }
+      - { amount: 2, item: "eggs" }
+      - { amount: 1, item: "egg yolk" }
+    directions: >
+      Combine the broth, salt, ginger, and chives in a large saucepan and bring to a rolling boil.
+  - ingredients:
+      - { amount: 0.75, unit: cups, item: "chicken broth" }
+      - { amount: 1.5, unit: tbsp, item: "cornstarch" }
+    directions: >
+      In a small mixing bowl, stir the broth and cornstarch together until smooth and set aside.
+  - ingredients:
+      - { amount: 2, item: "eggs" }
+      - { amount: 1, item: "egg yolk" }
+    directions: >
+      In a small mixing bowl, combine the eggs and extra egg yolk with a fork until fully combined.  Then, drizzle a
+      little egg at a time into the hot broth mixture.  Once all of the egg has been added, gently stir in the
+      cornstarch mixture a little at a time until the desired consistency is reached.
+credit:
+  - name: W.J. Cory
+  - url: https://www.allrecipes.com/recipe/45515/restaurant-style-egg-drop-soup
