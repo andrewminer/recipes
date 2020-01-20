@@ -1,0 +1,18 @@
+title: Spinach Feta Salad
+timings:
+  prep: 5 minutes
+icons: [low-carb, vegetarian]
+servings: 4
+description: >
+  This salad is extremely simple to make and very tasty.  It is my go-to salad for when I'm in a hurry or have a lot of
+  other dishes in progress at the same time. It's improved by chilling for a while before serving.
+steps:
+  - ingredients:
+      - { amount: 1, unit: lb, item: "spinach, baby" }
+      - { amount: 0.5, unit: cup, item: "feta cheese" }
+      - { amount: 0.25, unit: cup, item: "cranberries, dried" }
+      - { amount: 0.5, unit: cup, item: "olive oil, extra virgin" }
+      - { amount: 0.25, unit: cup, item: "vinegar, balsamic" }
+    directions: >
+      Wash the spinach and place in a large serving bowl.  Add the cheese and cranberries, and then the oil and vinegar.
+      Toss by hand so that the cheese is somewhat pulverized and mixed into the oil and vinegar.

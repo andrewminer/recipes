@@ -11,3 +11,6 @@ steps:
       - { amount: , unit: , item: "" }
     directions: >
       pass
+credit:
+    name:
+    url:

@@ -1,7 +1,7 @@
 title: Egg Drop Soup
 timings:
   prep: 20 minutes
-icons: [gluten-free, low-carb, overnight, vegetarian]
+icons: [gluten-free, low-carb]
 servings: 4
 description: >
   This Egg Drop soup is born from a love of the soup and MANY trips to my favorite Chinese restaurant (asking them many
@@ -30,5 +30,5 @@ steps:
       little egg at a time into the hot broth mixture.  Once all of the egg has been added, gently stir in the
       cornstarch mixture a little at a time until the desired consistency is reached.
 credit:
-  - name: W.J. Cory
-  - url: https://www.allrecipes.com/recipe/45515/restaurant-style-egg-drop-soup
+  name: W.J. Cory
+  url: https://www.allrecipes.com/recipe/45515/restaurant-style-egg-drop-soup

@@ -13,13 +13,14 @@ steps:
     directions: >
       Pre-heat the oven to 500°F. Place the roast out on the counter until it reaches room temperature.
   - ingredients:
-      - { amount: 10, unit: "tbsp", item: "garlic (minced)" }
-      - { amount: 2, unit: "tbsp", item: "olive oil" }
-      - { amount: 2, unit: "tsp", item: "salt" }
-      - { amount: 2, unit: "tsp", item: "black pepper" }
-      - { amount: 2, unit: "tsp", item: "thyme (dried)" }
+      - { amount: 4, unit: "tbsp", item: "garlic (minced)" }
+      - { amount: 3, unit: "tbsp", item: "rosemary, dried" }
+      - { amount: 0.5, unit: "cup", item: "parsley, fresh (minced)" }
+      - { amount: 2, unit: "tbsp", item: "salt" }
+      - { amount: 1, unit: "tsp", item: "black pepper" }
+      - { amount: 0.5, unit: "cup", item: "olive oil, extra virgin" }
     directions: >
-      Mix the spices with the olive oil in a small bowl.
+      Whisk the spices with the olive oil in a small bowl until fully combined.
   - ingredients: []
     directions: >
       Place the roast on a rack in a roasting pan. Cover evenly with the marinade, and add about ½" of water in the

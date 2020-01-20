@@ -1,0 +1,20 @@
+title: Horseradish Cream
+timings:
+  prep: 5 minutes
+icons: [gluten-free, low-carb, vegetarian]
+servings: 8
+description: >
+  Most horseradish sauces are pretty overwhelming, but this one is so subtle that you could almost eat it by itself. It
+  makes a great addition to any rich, meaty dish (roasts, prime rib, etc.). Even better, this can be made up to several
+  days ahead of time and stored in the refrigerator.
+steps:
+  - ingredients:
+      - { amount: 1, unit: cup, item: "yogurt, plain greek" }
+      - { amount: 1, unit: cup, item: "mayonnaise" }
+      - { amount: 2.5, unit: oz, item: "horseradish, creamed" }
+      - { amount: 0.5, unit: tsp, item: "pepper, black" }
+    directions: >
+      Combine all ingredients in a mixing bowl, whisking vigorously until smooth, creamy, and completely blended.
+credit:
+    name: Emilie Abijanac
+    url: https://justcook.butcherbox.com/garlic-herb-crusted-ribeye-roast-with-horseradish-cream-and-bacon-shallot-marmalade/

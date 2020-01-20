@@ -1,0 +1,61 @@
+title: Lasagna
+timings:
+  prep: 30 minutes
+  cook: 2½ hours
+icons: []
+servings: 12
+description: >
+  While sticking very close to the traditional formula, this recipe adds interest by adding some sausage and extra
+  spices to make it really stand out.
+steps:
+  - ingredients:
+      - { amount: 1, unit: lb, item: "sausage, Italian" }
+      - { amount: 0.75, unit: lb, item: "ground beef, lean" }
+      - { amount: 0.5, unit: cup, item: "onion (minced)" }
+      - { amount: 2, unit: tbsp, item: "garlic (minced)" }
+    directions: >
+      In a dutch oven, cook the meat, onions, and garlic over a medium heat until browned.
+  - ingredients:
+      - { amount: 28, unit: oz, item: "tomatoes, crushed" }
+      - { amount: 12, unit: oz, item: "tomato paste" }
+      - { amount: 13, unit: oz, item: "tomato purée" }
+      - { amount: 0.5, unit: cup, item: "water" }
+      - { amount: 2, unit: tbsp, item: "sugar, granulated" }
+      - { amount: 1.5, unit: tsp, item: "basil, dried" }
+      - { amount: 0.5, unit: tsp, item: "fennel seeds" }
+      - { amount: 1, unit: tsp, item: "Italian seasoning" }
+      - { amount: 1, unit: tbsp, item: "salt" }
+      - { amount: 0.25, unit: tsp, item: "pepper, black" }
+      - { amount: 2, unit: tbsp, item: "parsley, fresh (chopped)" }
+    directions: >
+      Stir in the tomatoes, water, sugar, and spices. Cover and simmer for about 90 minutes, stirring occasionally.
+  - ingredients:
+      - { amount: 12, item: "lasagna noodles" }
+    directions: >
+      Bring a large pot of lightly salted water to a boil.  Cook the noodles until they are slightly al dente (about
+      8–10 minutes).  Drain the noodles and rinse in cold water.
+  - ingredients: []
+    directions: >
+      Pre-heat the oven to 375°F.
+  - ingredients:
+      - { amount: 16, unit: oz, item: "ricotta cheese" }
+      - { amount: 1, item: "egg" }
+      - { amount: 0.5, unit: tsp, item: "salt" }
+      - { amount: 2, unit: tbsp, item: "parsley, fresh (chopped)" }
+    directions: >
+      In a mixing bowl, combine the ricotta cheese with the egg, parsley, and salt.
+  - ingredients:
+      - { amount: 0.75, unit: lb, item: "mozzarella cheese (shredded)" }
+      - { amount: 0.75, unit: cup, item: "parmesan cheese (grated)" }
+    directions: >
+      Spread 1½ cups of meat sauce in the bottom of a 9”⨉13” baking dish. Arrange half the noodles lengthwise over the
+      sauce. Spread half the ricotta cheese mixure over the noodles. Cover with ⅓ of the mozzerella cheese.  Spoon
+      over another 1½ cups of meat sauce, and then layer with ¼ cup of parmesean cheese.  Repeat the layers starting
+      with the noodles.
+  - ingredients: []
+    directions: >
+      Lightly grease a sheet of foil and cover the baking dish with the greased side down. Cook in the oven for 25
+      minutes, remove the foil, and then cook for another 25 minutes.  Allow to cool for 15 minutes before serving.
+credit:
+    name: John Chandler
+    url: https://www.allrecipes.com/recipe/23600/worlds-best-lasagna

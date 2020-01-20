@@ -1,0 +1,28 @@
+title: Bacon Shallot Marmalade
+timings:
+  prep: 20 minutes
+icons: [gluten-free, low-carb]
+servings: 12
+description: >
+  This marmalade has a lot going on!  Salty, tangy, sweet, and positively delicious.  I've used it to augment beef,
+  lamb, and other strong-flavored dishes.
+steps:
+  - ingredients:
+      - { amount: 1, unit: lb, item: "bacon (diced)" }
+    directions: >
+      Fry the bacon on medium high heat until it has released all its fat and become crispy. Set aside in a small bowl.
+  - ingredients:
+      - { amount: 1, unit: lb, item: "shallots (julienned)" }
+    directions: >
+      Sautée the shallots in the bacon grease until lightly carmelized. Once finished, add the shallots to the bowl with
+      the bacon.
+  - ingredients:
+      - { amount: 1, unit: cup, item: "vinegar, balsamic" }
+      - { amount: 0.5, unit: tsp, item: "salt" }
+      - { amount: 0.5, unit: tsp, item: "pepper, black" }
+    directions: >
+      Deglaze the pan with the vinegar, salt, and pepper.  Reduce the vinegar to approximately half the volume (so that
+      a spoon passed through the pan leaves a clear streak).  Pour the vinegar in with rest and mix well.
+credit:
+    name: Emilie Abijanac
+    url: https://justcook.butcherbox.com/garlic-herb-crusted-ribeye-roast-with-horseradish-cream-and-bacon-shallot-marmalade/

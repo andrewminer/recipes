@@ -1,0 +1,44 @@
+title: Scalloped Sweet Potatoes
+timings:
+  prep: 15 minutes
+  cook: 45 minutes
+icons: [gluten-free, vegetarian]
+servings: 12
+description: >
+  Au Gratin potatoes are delicious, but swapping them out for sweet potatoes takes things to an entirely new level. I've
+  never yet failed to get surprised and delighted responses from this dish.
+steps:
+  - ingredients:
+    directions: >
+      Preheat the oven to 400°F.
+  - ingredients:
+      - { amount: 1.5, unit: lb, item: "sweet potatoes, orange" }
+      - { amount: 1.5, unit: lb, item: "sweet potatoes, white" }
+      - { amount: 1, unit: cups, item: "cheese, gruyere (shredded)" }
+    directions: >
+      Peel and slice the sweet potatoes into ¼” slices. Arrange in a 9”⨉13” backing dish so that each slice overlaps
+      slightly with the prior one, alternating colors to create a pleasing pattern.  Sprinkle with cheese, and then
+      create a second layer of potato.
+  - ingredients:
+      - { amount: 2.5, unit: cups, item: "heavy cream" }
+      - { amount: 1, unit: tsp, item: "thyme, dried" }
+      - { amount: 1.5, unit: tsp, item: "salt" }
+      - { amount: 1.5, unit: tsp, item: "pepper, black" }
+      - { amount: 1, unit: tsp, item: "mustard powder" }
+      - { amount: 0.5, unit: tsp, item: "nutmeg, ground" }
+      - { amount: 0.25, unit: tsp, item: "garlic powder" }
+      - { amount: 0.25, unit: tsp, item: "onion powder" }
+    directions: >
+      Combine the cream and spices in a small saucepan.  Cook over medium-high heat until bubble just start to form.
+  - ingredients:
+      - { amount: 1, unit: cups, item: "cheese, gruyere (shredded)" }
+    directions: >
+      Pour the cream mixture over the sweet potatoes in the baking dish. Sprinkle with the remaining cheese. Cover
+      loosely with foil, and bake until the potatoes can be pierced effortlessly with a knife (about 45 minutes).
+  - ingredients: []
+    directions: >
+      Remove the foil, and switch the oven to broil on its highest setting. Carefully Watch until the top layer has
+      just started to brown, and then remove from the oven (about 1 minute).  Allow to cool for 10 minutes before
+      serving.
+credit:
+    url: http://www.casweetpotatoes.com/recipe/2019/01/21/creamy-cheesy-scalloped-sweetpotatoes
