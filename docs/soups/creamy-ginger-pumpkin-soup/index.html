@@ -5,21 +5,21 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="user-scalable=no, width=device-width" />
 
-    <body class="recipe">
+    <body class="recipe" itemscope itemtype="http://schema.org/Recipe">
         <section class="header">
-            <div class="image" style="background-image: url('./image.png')"></div>
+            <div class="image" style="background-image: url('./image.png')" itemprop="image"></div>
 
             <div class="about">
-                <h1>Creamy Ginger Pumpkin Soup</h1>
+                <h1 itemprop="name">Creamy Ginger Pumpkin Soup</h1>
 
                 <div class="timing">
-prep 10 min,&nbsp;cook 30 min                </div>
+prep <span itemprop="prepTime">10 min</span>,&nbsp;cook <span itemprop"cookTime">30 min</span>                </div>
 
                 <div class="icons">
-                        <div class="icon serving"></div>× 4
+                        <div class="icon serving"></div>× <span itemprop="recipeYield">4</span>
                 </div>
 
-                <div class="description">This soup combines the zing of ginger with the smooth creaminess of pumpkin in a way which is wonderful to eat on its own, provide a base for a more complex soup, or even just drink straight from the jar.
+                <div class="description" itemprop="description">This soup combines the zing of ginger with the smooth creaminess of pumpkin in a way which is wonderful to eat on its own, provide a base for a more complex soup, or even just drink straight from the jar.
 </div>
             </div>
         </section>
@@ -29,78 +29,79 @@ prep 10 min,&nbsp;cook 30 min                </div>
                     <h3>1</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1 
                                         </div>
                                         <div class="item">onion (yellow)</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1 tbsp
                                         </div>
                                         <div class="item">butter</div>
                         </ul>
                     </div>
-                    <div class="detail">Melt the butter in a large pot, adding in the onions and cooking until they are tender and translucent.
+                    <div class="detail" itemprop="recipeInstructions">Melt the butter in a large pot, adding in the onions and cooking until they are tender and translucent.
 </div>
                 </div>
                 <div class="step">
                     <h3>2</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             14 oz
                                         </div>
                                         <div class="item">pumpkin purée</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             2 cup
                                         </div>
                                         <div class="item">chicken broth</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             2 tbsp
                                         </div>
                                         <div class="item">ginger (fresh, minced)</div>
                         </ul>
                     </div>
-                    <div class="detail">Add the broth, pumpkin, and ginger. Bring to a boil, and then reduce to a simmer until all the elements are fully soft (about 20 min).
+                    <div class="detail" itemprop="recipeInstructions">Add the broth, pumpkin, and ginger. Bring to a boil, and then reduce to a simmer until all the elements are fully soft (about 20 min).
 </div>
                 </div>
                 <div class="step">
                     <h3>3</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             2 tsp
                                         </div>
                                         <div class="item">garam masala</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1 tsp
                                         </div>
                                         <div class="item">tumeric</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1 cup
                                         </div>
                                         <div class="item">half-n-half</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             ½ tsp
                                         </div>
                                         <div class="item">salt</div>
                         </ul>
                     </div>
-                    <div class="detail">Purée in batches and return to the soup pot. Add the spices and cream. Bring back to temperature, but do not allow to boil.
+                    <div class="detail" itemprop="recipeInstructions">Purée in batches and return to the soup pot. Add the spices and cream. Bring back to temperature, but do not allow to boil.
 </div>
                 </div>
         </section>
 
             <section class="credits">
-                    Deantini,&nbsp;
+                    <span itemprop="author">Deantini</span>
+,&nbsp;
                     <a href="https://www.food.com/recipe/creamy-ginger-pumpkin-soup-383687">https://www.food.com/recipe/creamy-ginger-pumpkin-soup-383687</a>
             </section>
 

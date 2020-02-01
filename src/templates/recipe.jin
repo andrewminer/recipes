@@ -5,22 +5,22 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="user-scalable=no, width=device-width" />
 
-    <body class="recipe">
+    <body class="recipe" itemscope itemtype="http://schema.org/Recipe">
         <section class="header">
-            <div class="image" style="background-image: url('./image.png')"></div>
+            <div class="image" style="background-image: url('./image.png')" itemprop="image"></div>
 
             <div class="about">
-                <h1>{{ title }}</h1>
+                <h1 itemprop="name">{{ title }}</h1>
 
                 <div class="timing">
                     {% if timings.prep -%}
-                        prep {{ timings.prep }}
+                        prep <span itemprop="prepTime">{{ timings.prep }}</span>
                     {%- endif -%}
                     {%- if timings.prep and timings.cook -%}
                         ,&nbsp;
                     {%- endif -%}
                     {%- if timings.cook -%}
-                        cook {{ timings.cook }}
+                        cook <span itemprop"cookTime">{{ timings.cook }}</span>
                     {%- endif %}
                 </div>
 
@@ -29,11 +29,11 @@
                         <div class="icon {{ icon }}"></div>
                     {% endfor %}
                     {% if servings %}
-                        <div class="icon serving"></div>× {{ servings }}
+                        <div class="icon serving"></div>× <span itemprop="recipeYield">{{ servings }}</span>
                     {% endif %}
                 </div>
 
-                <div class="description">{{ description }}</div>
+                <div class="description" itemprop="description">{{ description }}</div>
             </div>
         </section>
 
@@ -45,7 +45,7 @@
                         <ul>
                             {% if step.ingredients %}
                                 {% for ingredient in step.ingredients %}
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             {{ as_fraction(ingredient.amount) }} {{ ingredient.unit }}
                                         </div>
@@ -54,7 +54,7 @@
                             {% endif %}
                         </ul>
                     </div>
-                    <div class="detail">{{ step.directions }}</div>
+                    <div class="detail" itemprop="recipeInstructions">{{ step.directions }}</div>
                 </div>
             {% endfor %}
         </section>
@@ -62,7 +62,7 @@
         {% if credit %}
             <section class="credits">
                 {% if credit.name %}
-                    {{ credit.name -}}
+                    <span itemprop="author">{{ credit.name -}}</span>
                 {% endif -%}
                 {%- if credit.name and credit.url -%}
                     ,&nbsp;

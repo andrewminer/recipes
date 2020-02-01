@@ -5,21 +5,21 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="user-scalable=no, width=device-width" />
 
-    <body class="recipe">
+    <body class="recipe" itemscope itemtype="http://schema.org/Recipe">
         <section class="header">
-            <div class="image" style="background-image: url('./image.png')"></div>
+            <div class="image" style="background-image: url('./image.png')" itemprop="image"></div>
 
             <div class="about">
-                <h1>Chicken Marsala Florentine</h1>
+                <h1 itemprop="name">Chicken Marsala Florentine</h1>
 
                 <div class="timing">
-prep 10 min,&nbsp;cook 30 min                </div>
+prep <span itemprop="prepTime">10 min</span>,&nbsp;cook <span itemprop"cookTime">30 min</span>                </div>
 
                 <div class="icons">
-                        <div class="icon serving"></div>× 4
+                        <div class="icon serving"></div>× <span itemprop="recipeYield">4</span>
                 </div>
 
-                <div class="description">This is a gorgeous chicken dish with sun-dried tomatoes, spinach, and mushrooms. The amazing blend of flavors and textures is out of this world!
+                <div class="description" itemprop="description">This is a gorgeous chicken dish with sun-dried tomatoes, spinach, and mushrooms. The amazing blend of flavors and textures is out of this world!
 </div>
             </div>
         </section>
@@ -29,92 +29,93 @@ prep 10 min,&nbsp;cook 30 min                </div>
                     <h3>1</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             4 
                                         </div>
                                         <div class="item">chicken breasts</div>
                         </ul>
                     </div>
-                    <div class="detail">Place chicken breasts between two layers of parchment paper and flatten with a meat mallet until each piece is less than a half inch thick.
+                    <div class="detail" itemprop="recipeInstructions">Place chicken breasts between two layers of parchment paper and flatten with a meat mallet until each piece is less than a half inch thick.
 </div>
                 </div>
                 <div class="step">
                     <h3>2</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1/4 cup
                                         </div>
                                         <div class="item">flour (white</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1 tbsp
                                         </div>
                                         <div class="item">oregano (dried)</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                              
                                         </div>
                                         <div class="item">salt & pepper (to taste)</div>
                         </ul>
                     </div>
-                    <div class="detail">Combine the flour and spices in a shallow dish, and dredge the chicken through the mixture so that each piece is completely covered.
+                    <div class="detail" itemprop="recipeInstructions">Combine the flour and spices in a shallow dish, and dredge the chicken through the mixture so that each piece is completely covered.
 </div>
                 </div>
                 <div class="step">
                     <h3>3</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             4 tbsp
                                         </div>
                                         <div class="item">olive oil</div>
                         </ul>
                     </div>
-                    <div class="detail">Heat the oil on high in a skillet, and fry each piece of chicken until completely cooked and golden on both sides (160°F). Add more oil as needed. Once cooked, set the chicken aside in a warm place.
+                    <div class="detail" itemprop="recipeInstructions">Heat the oil on high in a skillet, and fry each piece of chicken until completely cooked and golden on both sides (160°F). Add more oil as needed. Once cooked, set the chicken aside in a warm place.
 </div>
                 </div>
                 <div class="step">
                     <h3>4</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             3/4 cup
                                         </div>
                                         <div class="item">butter</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1 cup
                                         </div>
                                         <div class="item">marsala wine</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             3 cups
                                         </div>
                                         <div class="item">mushrooms (brown)</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             3/4 cups
                                         </div>
                                         <div class="item">sun-dried tomatoes</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1/2 cup
                                         </div>
                                         <div class="item">spinach</div>
                         </ul>
                     </div>
-                    <div class="detail">Using the same skillet, melt the butter and add in the wine, mushrooms, and tomatoes. Cook until the mushrooms as soft (about 10 min). Add the spinach and cook until the spinach has turned soft (about a minute or two). Serve the vegetables and sauce over the chicken.
+                    <div class="detail" itemprop="recipeInstructions">Using the same skillet, melt the butter and add in the wine, mushrooms, and tomatoes. Cook until the mushrooms as soft (about 10 min). Add the spinach and cook until the spinach has turned soft (about a minute or two). Serve the vegetables and sauce over the chicken.
 </div>
                 </div>
         </section>
 
             <section class="credits">
-                    SHANOU,&nbsp;
+                    <span itemprop="author">SHANOU</span>
+,&nbsp;
                     <a href="https://www.allrecipes.com/recipe/47688/chicken-marsala-florentine">https://www.allrecipes.com/recipe/47688/chicken-marsala-florentine</a>
             </section>
 

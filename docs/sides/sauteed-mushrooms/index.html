@@ -5,24 +5,24 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="user-scalable=no, width=device-width" />
 
-    <body class="recipe">
+    <body class="recipe" itemscope itemtype="http://schema.org/Recipe">
         <section class="header">
-            <div class="image" style="background-image: url('./image.png')"></div>
+            <div class="image" style="background-image: url('./image.png')" itemprop="image"></div>
 
             <div class="about">
-                <h1>Sauteed Mushrooms</h1>
+                <h1 itemprop="name">Sauteed Mushrooms</h1>
 
                 <div class="timing">
-prep 10 min,&nbsp;cook 15 min                </div>
+prep <span itemprop="prepTime">10 min</span>,&nbsp;cook <span itemprop"cookTime">15 min</span>                </div>
 
                 <div class="icons">
                         <div class="icon gluten-free"></div>
                         <div class="icon low-carb"></div>
                         <div class="icon vegetarian"></div>
-                        <div class="icon serving"></div>× 4
+                        <div class="icon serving"></div>× <span itemprop="recipeYield">4</span>
                 </div>
 
-                <div class="description">These are the best sauteed mushrooms I've ever had. Slighly salty, and very savory, they serve very well as a topping for steak, baked potatoes and whatever else needs a strong flavor.
+                <div class="description" itemprop="description">These are the best sauteed mushrooms I've ever had. Slighly salty, and very savory, they serve very well as a topping for steak, baked potatoes and whatever else needs a strong flavor.
 </div>
             </div>
         </section>
@@ -32,59 +32,60 @@ prep 10 min,&nbsp;cook 15 min                </div>
                     <h3>1</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             3 tbsp
                                         </div>
                                         <div class="item">olive oil</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             3 tbsp
                                         </div>
                                         <div class="item">butter</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1 lb
                                         </div>
                                         <div class="item">button mushrooms (sliced)</div>
                         </ul>
                     </div>
-                    <div class="detail">Heat the olive oil and butter in a large saucepan over medium heat until it foams. Add the mushrooms and cook until reduced somewhat in size and slightly yellowed (about 5 minutes).
+                    <div class="detail" itemprop="recipeInstructions">Heat the olive oil and butter in a large saucepan over medium heat until it foams. Add the mushrooms and cook until reduced somewhat in size and slightly yellowed (about 5 minutes).
 </div>
                 </div>
                 <div class="step">
                     <h3>2</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1 clove
                                         </div>
                                         <div class="item">garlic</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1 tbsp
                                         </div>
                                         <div class="item">tamair (or soy sauce)</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1/4 tsp
                                         </div>
                                         <div class="item">garlic salt</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                              None
                                         </div>
                                         <div class="item">black pepper</div>
                         </ul>
                     </div>
-                    <div class="detail">Add the remaining ingredients and cook until the mushrooms are slightly browned and the sauced thickened (about 5-10 minutes).
+                    <div class="detail" itemprop="recipeInstructions">Add the remaining ingredients and cook until the mushrooms are slightly browned and the sauced thickened (about 5-10 minutes).
 </div>
                 </div>
         </section>
 
             <section class="credits">
-                    IrishMountainGirl,&nbsp;
+                    <span itemprop="author">IrishMountainGirl</span>
+,&nbsp;
                     <a href="http://allrecipes.com/recipe/222795/superb-sauteed-mushrooms">http://allrecipes.com/recipe/222795/superb-sauteed-mushrooms</a>
             </section>
 

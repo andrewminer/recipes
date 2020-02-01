@@ -5,23 +5,23 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="user-scalable=no, width=device-width" />
 
-    <body class="recipe">
+    <body class="recipe" itemscope itemtype="http://schema.org/Recipe">
         <section class="header">
-            <div class="image" style="background-image: url('./image.png')"></div>
+            <div class="image" style="background-image: url('./image.png')" itemprop="image"></div>
 
             <div class="about">
-                <h1>Hasselback Potatoes</h1>
+                <h1 itemprop="name">Hasselback Potatoes</h1>
 
                 <div class="timing">
-prep 20 min,&nbsp;cook 60 min                </div>
+prep <span itemprop="prepTime">20 min</span>,&nbsp;cook <span itemprop"cookTime">60 min</span>                </div>
 
                 <div class="icons">
                         <div class="icon gluten-free"></div>
                         <div class="icon vegetarian"></div>
-                        <div class="icon serving"></div>× 8
+                        <div class="icon serving"></div>× <span itemprop="recipeYield">8</span>
                 </div>
 
-                <div class="description">This Swedish dish takes its name from Hasselbacken, the Stockholm restaurant where it was first served.  The seasoned potatoes turn out crisp on hte outside and tender on the inside.
+                <div class="description" itemprop="description">This Swedish dish takes its name from Hasselbacken, the Stockholm restaurant where it was first served.  The seasoned potatoes turn out crisp on hte outside and tender on the inside.
 </div>
             </div>
         </section>
@@ -31,58 +31,59 @@ prep 20 min,&nbsp;cook 60 min                </div>
                     <h3>1</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             4 None
                                         </div>
                                         <div class="item">potatoes (large)</div>
                         </ul>
                     </div>
-                    <div class="detail">Preheat the oven to 425°F. Wash, but do not peel the potatoes. Place two wooden spoons on either side of the potato, and slice down to the spoon (taking care not to complete cut through) about every 1/8th of an inch along the length of the potato.
+                    <div class="detail" itemprop="recipeInstructions">Preheat the oven to 425°F. Wash, but do not peel the potatoes. Place two wooden spoons on either side of the potato, and slice down to the spoon (taking care not to complete cut through) about every 1/8th of an inch along the length of the potato.
 </div>
                 </div>
                 <div class="step">
                     <h3>2</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             2 tbsp
                                         </div>
                                         <div class="item">olive oil</div>
                         </ul>
                     </div>
-                    <div class="detail">Place the potatoes in a baking dish, and drizzle all over with olive oil. Place in the oven to cook until the start to spread open naturally (about 35–40 minutes).
+                    <div class="detail" itemprop="recipeInstructions">Place the potatoes in a baking dish, and drizzle all over with olive oil. Place in the oven to cook until the start to spread open naturally (about 35–40 minutes).
 </div>
                 </div>
                 <div class="step">
                     <h3>3</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             4 tbsp
                                         </div>
                                         <div class="item">butter</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1 cup
                                         </div>
                                         <div class="item">cheddar cheese (shredded)</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                              
                                         </div>
                                         <div class="item">salt & pepper</div>
                         </ul>
                     </div>
-                    <div class="detail">Cut the butter into slivers and wedge them in between each leaf of the potato. Sprinkle with shredded cheese, salt, and pepper. Add other toppings as desired (e.g., bacon, chives, etc.). Continue cook until nicely browned (about 20 minutes).
+                    <div class="detail" itemprop="recipeInstructions">Cut the butter into slivers and wedge them in between each leaf of the potato. Sprinkle with shredded cheese, salt, and pepper. Add other toppings as desired (e.g., bacon, chives, etc.). Continue cook until nicely browned (about 20 minutes).
 </div>
                 </div>
         </section>
 
             <section class="credits">
-                    POMPIER850,&nbsp;
+                    <span itemprop="author">POMPIER850</span>
+,&nbsp;
                     <a href="https://www.allrecipes.com/recipe/79518/hasselback-potatoes/">https://www.allrecipes.com/recipe/79518/hasselback-potatoes/</a>
             </section>
 

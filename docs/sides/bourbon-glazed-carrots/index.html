@@ -5,23 +5,23 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="user-scalable=no, width=device-width" />
 
-    <body class="recipe">
+    <body class="recipe" itemscope itemtype="http://schema.org/Recipe">
         <section class="header">
-            <div class="image" style="background-image: url('./image.png')"></div>
+            <div class="image" style="background-image: url('./image.png')" itemprop="image"></div>
 
             <div class="about">
-                <h1>Bourbon Glazed Carrots</h1>
+                <h1 itemprop="name">Bourbon Glazed Carrots</h1>
 
                 <div class="timing">
-prep 10 min,&nbsp;cook 20 min                </div>
+prep <span itemprop="prepTime">10 min</span>,&nbsp;cook <span itemprop"cookTime">20 min</span>                </div>
 
                 <div class="icons">
                         <div class="icon gluten-free"></div>
                         <div class="icon vegetarian"></div>
-                        <div class="icon serving"></div>× 4
+                        <div class="icon serving"></div>× <span itemprop="recipeYield">4</span>
                 </div>
 
-                <div class="description">These carrots are covered with a thick, syrupy sauce which is delicious, but definitely not low-calorie!
+                <div class="description" itemprop="description">These carrots are covered with a thick, syrupy sauce which is delicious, but definitely not low-calorie!
 </div>
             </div>
         </section>
@@ -31,44 +31,45 @@ prep 10 min,&nbsp;cook 20 min                </div>
                     <h3>1</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             2 lbs
                                         </div>
                                         <div class="item">carrots</div>
                         </ul>
                     </div>
-                    <div class="detail">Cut carrots into bite-sized pieces and place in a steamer.  Cook until soft (about 10 minutes).
+                    <div class="detail" itemprop="recipeInstructions">Cut carrots into bite-sized pieces and place in a steamer.  Cook until soft (about 10 minutes).
 </div>
                 </div>
                 <div class="step">
                     <h3>2</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             ¼ cup
                                         </div>
                                         <div class="item">butter</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             ¼ cup
                                         </div>
                                         <div class="item">brown sugar</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             2 tbsp
                                         </div>
                                         <div class="item">bourbon</div>
                         </ul>
                     </div>
-                    <div class="detail">When the carrots are finished, drain and set aside. Combine the butter, sugar, and boubon in same pot and heat on medium until thickened. Return the carrots to the pot and mix.
+                    <div class="detail" itemprop="recipeInstructions">When the carrots are finished, drain and set aside. Combine the butter, sugar, and boubon in same pot and heat on medium until thickened. Return the carrots to the pot and mix.
 </div>
                 </div>
         </section>
 
             <section class="credits">
-                    Flipper,&nbsp;
+                    <span itemprop="author">Flipper</span>
+,&nbsp;
                     <a href="http://allrecipes.com/recipe/229583/bourbon-glazed-carrots/">http://allrecipes.com/recipe/229583/bourbon-glazed-carrots/</a>
             </section>
 

@@ -5,24 +5,24 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="user-scalable=no, width=device-width" />
 
-    <body class="recipe">
+    <body class="recipe" itemscope itemtype="http://schema.org/Recipe">
         <section class="header">
-            <div class="image" style="background-image: url('./image.png')"></div>
+            <div class="image" style="background-image: url('./image.png')" itemprop="image"></div>
 
             <div class="about">
-                <h1>Eggnog</h1>
+                <h1 itemprop="name">Eggnog</h1>
 
                 <div class="timing">
-prep 15 min                </div>
+prep <span itemprop="prepTime">15 min</span>                </div>
 
                 <div class="icons">
                         <div class="icon gluten-free"></div>
                         <div class="icon low-carb"></div>
                         <div class="icon vegetarian"></div>
-                        <div class="icon serving"></div>× 6
+                        <div class="icon serving"></div>× <span itemprop="recipeYield">6</span>
                 </div>
 
-                <div class="description">This makes a very lovely, rich eggnog (with or without the alcohol), but you'll definitely want a mixer for it!
+                <div class="description" itemprop="description">This makes a very lovely, rich eggnog (with or without the alcohol), but you'll definitely want a mixer for it!
 </div>
             </div>
         </section>
@@ -32,62 +32,62 @@ prep 15 min                </div>
                     <h3>1</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             4 
                                         </div>
                                         <div class="item">eggs</div>
                         </ul>
                     </div>
-                    <div class="detail">In a mixer bowl, beat the egg yolks until the lighten in color. Set aside the whites for later.
+                    <div class="detail" itemprop="recipeInstructions">In a mixer bowl, beat the egg yolks until the lighten in color. Set aside the whites for later.
 </div>
                 </div>
                 <div class="step">
                     <h3>2</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1/3 cup
                                         </div>
                                         <div class="item">sugar (white)</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             2 cups
                                         </div>
                                         <div class="item">milk (whole)</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1 cup
                                         </div>
                                         <div class="item">heavy cream</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             3 oz
                                         </div>
                                         <div class="item">bourbon</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1 tsp
                                         </div>
                                         <div class="item">nutmeg (ground)</div>
                         </ul>
                     </div>
-                    <div class="detail">Turn the mixer on low, and gradually add the sugar while beating until it is fully dissolved. Stop the mixer and add the milk, cream, bourbon, and nutmeg. Stir well to combine.
+                    <div class="detail" itemprop="recipeInstructions">Turn the mixer on low, and gradually add the sugar while beating until it is fully dissolved. Stop the mixer and add the milk, cream, bourbon, and nutmeg. Stir well to combine.
 </div>
                 </div>
                 <div class="step">
                     <h3>3</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1 tbsp
                                         </div>
                                         <div class="item">sugar (white)</div>
                         </ul>
                     </div>
-                    <div class="detail">Using a mixer, but with a separate bowl, beat the egg whites until they form soft peaks.  Gradually add the sugar while the mixer is still running until stiff peaks form.
+                    <div class="detail" itemprop="recipeInstructions">Using a mixer, but with a separate bowl, beat the egg whites until they form soft peaks.  Gradually add the sugar while the mixer is still running until stiff peaks form.
 </div>
                 </div>
                 <div class="step">
@@ -96,13 +96,14 @@ prep 15 min                </div>
                         <ul>
                         </ul>
                     </div>
-                    <div class="detail">Mix the two bowls together, stirring to combine them fully. Chill before serving.
+                    <div class="detail" itemprop="recipeInstructions">Mix the two bowls together, stirring to combine them fully. Chill before serving.
 </div>
                 </div>
         </section>
 
             <section class="credits">
-                    Alton Brown,&nbsp;
+                    <span itemprop="author">Alton Brown</span>
+,&nbsp;
                     <a href="https://www.foodnetwork.com/recipes/alton-brown/eggnog-recipe2-2013745">https://www.foodnetwork.com/recipes/alton-brown/eggnog-recipe2-2013745</a>
             </section>
 

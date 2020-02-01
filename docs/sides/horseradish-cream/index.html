@@ -5,24 +5,24 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="user-scalable=no, width=device-width" />
 
-    <body class="recipe">
+    <body class="recipe" itemscope itemtype="http://schema.org/Recipe">
         <section class="header">
-            <div class="image" style="background-image: url('./image.png')"></div>
+            <div class="image" style="background-image: url('./image.png')" itemprop="image"></div>
 
             <div class="about">
-                <h1>Horseradish Cream</h1>
+                <h1 itemprop="name">Horseradish Cream</h1>
 
                 <div class="timing">
-prep 5 minutes                </div>
+prep <span itemprop="prepTime">5 minutes</span>                </div>
 
                 <div class="icons">
                         <div class="icon gluten-free"></div>
                         <div class="icon low-carb"></div>
                         <div class="icon vegetarian"></div>
-                        <div class="icon serving"></div>× 8
+                        <div class="icon serving"></div>× <span itemprop="recipeYield">8</span>
                 </div>
 
-                <div class="description">Most horseradish sauces are pretty overwhelming, but this one is so subtle that you could almost eat it by itself. It makes a great addition to any rich, meaty dish (roasts, prime rib, etc.). Even better, this can be made up to several days ahead of time and stored in the refrigerator.
+                <div class="description" itemprop="description">Most horseradish sauces are pretty overwhelming, but this one is so subtle that you could almost eat it by itself. It makes a great addition to any rich, meaty dish (roasts, prime rib, etc.). Even better, this can be made up to several days ahead of time and stored in the refrigerator.
 </div>
             </div>
         </section>
@@ -32,35 +32,36 @@ prep 5 minutes                </div>
                     <h3>1</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1 cup
                                         </div>
                                         <div class="item">yogurt, plain greek</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1 cup
                                         </div>
                                         <div class="item">mayonnaise</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             2½ oz
                                         </div>
                                         <div class="item">horseradish, creamed</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             ½ tsp
                                         </div>
                                         <div class="item">pepper, black</div>
                         </ul>
                     </div>
-                    <div class="detail">Combine all ingredients in a mixing bowl, whisking vigorously until smooth, creamy, and completely blended.
+                    <div class="detail" itemprop="recipeInstructions">Combine all ingredients in a mixing bowl, whisking vigorously until smooth, creamy, and completely blended.
 </div>
                 </div>
         </section>
 
             <section class="credits">
-                    Emilie Abijanac,&nbsp;
+                    <span itemprop="author">Emilie Abijanac</span>
+,&nbsp;
                     <a href="https://justcook.butcherbox.com/garlic-herb-crusted-ribeye-roast-with-horseradish-cream-and-bacon-shallot-marmalade/">https://justcook.butcherbox.com/garlic-herb-crusted-ribeye-roast-with-horseradish-cream-and-bacon-shallot-marmalade/</a>
             </section>
 

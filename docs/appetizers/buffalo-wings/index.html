@@ -5,21 +5,21 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="user-scalable=no, width=device-width" />
 
-    <body class="recipe">
+    <body class="recipe" itemscope itemtype="http://schema.org/Recipe">
         <section class="header">
-            <div class="image" style="background-image: url('./image.png')"></div>
+            <div class="image" style="background-image: url('./image.png')" itemprop="image"></div>
 
             <div class="about">
-                <h1>Buffalo Wings</h1>
+                <h1 itemprop="name">Buffalo Wings</h1>
 
                 <div class="timing">
-prep 15 min,&nbsp;cook 2 hours                </div>
+prep <span itemprop="prepTime">15 min</span>,&nbsp;cook <span itemprop"cookTime">2 hours</span>                </div>
 
                 <div class="icons">
-                        <div class="icon serving"></div>× 4
+                        <div class="icon serving"></div>× <span itemprop="recipeYield">4</span>
                 </div>
 
-                <div class="description">These spicy, tangy wings are maded with the original Buffalo sauce (a strong mix of vinegar and cayenne pepper), but baked instead of deep-fried.
+                <div class="description" itemprop="description">These spicy, tangy wings are maded with the original Buffalo sauce (a strong mix of vinegar and cayenne pepper), but baked instead of deep-fried.
 </div>
             </div>
         </section>
@@ -29,53 +29,53 @@ prep 15 min,&nbsp;cook 2 hours                </div>
                     <h3>1</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             20 
                                         </div>
                                         <div class="item">chicken wings</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             3/4 cup
                                         </div>
                                         <div class="item">flour</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1/2 tsp
                                         </div>
                                         <div class="item">cayenne pepper</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1/2 tsp
                                         </div>
                                         <div class="item">garlic powder</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1/2 tsp
                                         </div>
                                         <div class="item">salt</div>
                         </ul>
                     </div>
-                    <div class="detail">Prepare a large ziploc bag with the flour and spices. Then, cover a baking sheet with aluminum foil and grease lightly with oil. A few at a time, drop the chicken wings into the bag, seal, and shake to cover the chicken.  Lay out the wings on the tray as you go along. Place the tray in the refigerator for an hour to set.
+                    <div class="detail" itemprop="recipeInstructions">Prepare a large ziploc bag with the flour and spices. Then, cover a baking sheet with aluminum foil and grease lightly with oil. A few at a time, drop the chicken wings into the bag, seal, and shake to cover the chicken.  Lay out the wings on the tray as you go along. Place the tray in the refigerator for an hour to set.
 </div>
                 </div>
                 <div class="step">
                     <h3>2</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1/2 cup
                                         </div>
                                         <div class="item">Frank's RedHot Buffalo Sauce</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1/2 cup
                                         </div>
                                         <div class="item">butter</div>
                         </ul>
                     </div>
-                    <div class="detail">Melt the better and hot sauce in a tall, narrow container (e.g., a coffee mug). Using tongs, dunk the wings, one at a time, and return to the baking sheet. Reserve the remaining sauce.
+                    <div class="detail" itemprop="recipeInstructions">Melt the better and hot sauce in a tall, narrow container (e.g., a coffee mug). Using tongs, dunk the wings, one at a time, and return to the baking sheet. Reserve the remaining sauce.
 </div>
                 </div>
                 <div class="step">
@@ -84,13 +84,14 @@ prep 15 min,&nbsp;cook 2 hours                </div>
                         <ul>
                         </ul>
                     </div>
-                    <div class="detail">Pre-heat the oven to 400°F. Bake the wings for 45 minutes, turning them over mid-way. The remaining sauce can be placed in a small bowl to serve with the wings along with some ranch dressing.
+                    <div class="detail" itemprop="recipeInstructions">Pre-heat the oven to 400°F. Bake the wings for 45 minutes, turning them over mid-way. The remaining sauce can be placed in a small bowl to serve with the wings along with some ranch dressing.
 </div>
                 </div>
         </section>
 
             <section class="credits">
-                    Leesah,&nbsp;
+                    <span itemprop="author">Leesah</span>
+,&nbsp;
                     <a href="https://www.allrecipes.com/recipe/166638/baked-buffalo-wings">https://www.allrecipes.com/recipe/166638/baked-buffalo-wings</a>
             </section>
 

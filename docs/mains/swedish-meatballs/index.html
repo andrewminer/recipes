@@ -5,21 +5,21 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="user-scalable=no, width=device-width" />
 
-    <body class="recipe">
+    <body class="recipe" itemscope itemtype="http://schema.org/Recipe">
         <section class="header">
-            <div class="image" style="background-image: url('./image.png')"></div>
+            <div class="image" style="background-image: url('./image.png')" itemprop="image"></div>
 
             <div class="about">
-                <h1>Swedish Meatballs</h1>
+                <h1 itemprop="name">Swedish Meatballs</h1>
 
                 <div class="timing">
-prep 60 min                </div>
+prep <span itemprop="prepTime">60 min</span>                </div>
 
                 <div class="icons">
-                        <div class="icon serving"></div>× 8
+                        <div class="icon serving"></div>× <span itemprop="recipeYield">8</span>
                 </div>
 
-                <div class="description">This receipe makes the softest, most succulent meatballs you'll ever try.</div>
+                <div class="description" itemprop="description">This receipe makes the softest, most succulent meatballs you'll ever try.</div>
             </div>
         </section>
 
@@ -28,88 +28,89 @@ prep 60 min                </div>
                     <h3>1</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1 tbsp
                                         </div>
                                         <div class="item">butter, unsalted</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1 tbsp
                                         </div>
                                         <div class="item">onion (minced)</div>
                         </ul>
                     </div>
-                    <div class="detail">Melt the butter in a skillet and cook the onions until lightly browned.
+                    <div class="detail" itemprop="recipeInstructions">Melt the butter in a skillet and cook the onions until lightly browned.
 </div>
                 </div>
                 <div class="step">
                     <h3>2</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             ⅓ cup
                                         </div>
                                         <div class="item">breadcrumbs</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             ½ cup
                                         </div>
                                         <div class="item">water</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             ½ cup
                                         </div>
                                         <div class="item">half-n-half</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             ¾ lb
                                         </div>
                                         <div class="item">ground beef</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             ¼ lb
                                         </div>
                                         <div class="item">ground pork</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             2 tsp
                                         </div>
                                         <div class="item">salt</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             ⅓ tsp
                                         </div>
                                         <div class="item">sugar, granulated</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             ¼ tsp
                                         </div>
                                         <div class="item">white pepper (ground)</div>
                         </ul>
                     </div>
-                    <div class="detail">In a large bowl, whisk the breadcrumbs, water, and half-n-half together and let sit for a few minutes. Then mix in the remaining ingredients and knead until it forms a smooth paste.
+                    <div class="detail" itemprop="recipeInstructions">In a large bowl, whisk the breadcrumbs, water, and half-n-half together and let sit for a few minutes. Then mix in the remaining ingredients and knead until it forms a smooth paste.
 </div>
                 </div>
                 <div class="step">
                     <h3>3</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             3 tbsp
                                         </div>
                                         <div class="item">butter, unsalted</div>
                         </ul>
                     </div>
-                    <div class="detail">Melt more butter into the skillet. Using a small spoon, form meatballs and drop them into the melted butter. Cover and allow to cook on medium heat until an even color all the way through (about 10 minutes). Work in batches, setting aside the cooked meatballs in a warm oven to stay hot.
+                    <div class="detail" itemprop="recipeInstructions">Melt more butter into the skillet. Using a small spoon, form meatballs and drop them into the melted butter. Cover and allow to cook on medium heat until an even color all the way through (about 10 minutes). Work in batches, setting aside the cooked meatballs in a warm oven to stay hot.
 </div>
                 </div>
         </section>
 
             <section class="credits">
-                    Linda T.,&nbsp;
+                    <span itemprop="author">Linda T.</span>
+,&nbsp;
                     <a href="https://www.allrecipes.com/recipe/222371/swedish-meatballs-from-a-swede">https://www.allrecipes.com/recipe/222371/swedish-meatballs-from-a-swede</a>
             </section>
 

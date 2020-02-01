@@ -5,22 +5,22 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="user-scalable=no, width=device-width" />
 
-    <body class="recipe">
+    <body class="recipe" itemscope itemtype="http://schema.org/Recipe">
         <section class="header">
-            <div class="image" style="background-image: url('./image.png')"></div>
+            <div class="image" style="background-image: url('./image.png')" itemprop="image"></div>
 
             <div class="about">
-                <h1>Limoncello</h1>
+                <h1 itemprop="name">Limoncello</h1>
 
                 <div class="timing">
-prep 30 min,&nbsp;cook 7 days                </div>
+prep <span itemprop="prepTime">30 min</span>,&nbsp;cook <span itemprop"cookTime">7 days</span>                </div>
 
                 <div class="icons">
                         <div class="icon gluten-free"></div>
-                        <div class="icon serving"></div>× 32
+                        <div class="icon serving"></div>× <span itemprop="recipeYield">32</span>
                 </div>
 
-                <div class="description">One of the most delightful treats when travelling in Italy is to have fresh Limoncello available after nearly every meal! Fortunately, it's quite simple to make your own at home, so you can always have it available there as well.
+                <div class="description" itemprop="description">One of the most delightful treats when travelling in Italy is to have fresh Limoncello available after nearly every meal! Fortunately, it's quite simple to make your own at home, so you can always have it available there as well.
 </div>
             </div>
         </section>
@@ -30,38 +30,38 @@ prep 30 min,&nbsp;cook 7 days                </div>
                     <h3>1</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             10 
                                         </div>
                                         <div class="item">lemons (fresh)</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             750 ml
                                         </div>
                                         <div class="item">pure alcohol (e.g., Everclear)</div>
                         </ul>
                     </div>
-                    <div class="detail">Using a microplane zester, remove the zest from all the lemons, and drop into a sealable, glass jar.  Leave the jar to steep for a week at room temperature in an out-of-the-way location.
+                    <div class="detail" itemprop="recipeInstructions">Using a microplane zester, remove the zest from all the lemons, and drop into a sealable, glass jar.  Leave the jar to steep for a week at room temperature in an out-of-the-way location.
 </div>
                 </div>
                 <div class="step">
                     <h3>2</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             3½ cups
                                         </div>
                                         <div class="item">water</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             2½ cups
                                         </div>
                                         <div class="item">white sugar</div>
                         </ul>
                     </div>
-                    <div class="detail">Heat the water and sugar mixture until all the sugar has been completely absorbed.  Allow the water to return to room temperature and then pour into the jar with the alcohol and lemon mixture.  Allow to steep again overnight.
+                    <div class="detail" itemprop="recipeInstructions">Heat the water and sugar mixture until all the sugar has been completely absorbed.  Allow the water to return to room temperature and then pour into the jar with the alcohol and lemon mixture.  Allow to steep again overnight.
 </div>
                 </div>
                 <div class="step">
@@ -70,13 +70,14 @@ prep 30 min,&nbsp;cook 7 days                </div>
                         <ul>
                         </ul>
                     </div>
-                    <div class="detail">Strain the final mixture through a fine mesh (e.g., cheesecloth, paper towel, etc.) until all the pieces of lemon zest have been completely removed, and only liquid remains.  For storage, pour into bottles with an airtight stopper.
+                    <div class="detail" itemprop="recipeInstructions">Strain the final mixture through a fine mesh (e.g., cheesecloth, paper towel, etc.) until all the pieces of lemon zest have been completely removed, and only liquid remains.  For storage, pour into bottles with an airtight stopper.
 </div>
                 </div>
         </section>
 
             <section class="credits">
-                    Glada De Laurentils,&nbsp;
+                    <span itemprop="author">Glada De Laurentils</span>
+,&nbsp;
                     <a href="https://www.foodnetwork.com/recipes/giada-de-laurentiis/limoncello-recipe-1916618">https://www.foodnetwork.com/recipes/giada-de-laurentiis/limoncello-recipe-1916618</a>
             </section>
 

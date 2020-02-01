@@ -5,23 +5,23 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="user-scalable=no, width=device-width" />
 
-    <body class="recipe">
+    <body class="recipe" itemscope itemtype="http://schema.org/Recipe">
         <section class="header">
-            <div class="image" style="background-image: url('./image.png')"></div>
+            <div class="image" style="background-image: url('./image.png')" itemprop="image"></div>
 
             <div class="about">
-                <h1>Egg Drop Soup</h1>
+                <h1 itemprop="name">Egg Drop Soup</h1>
 
                 <div class="timing">
-prep 20 minutes                </div>
+prep <span itemprop="prepTime">20 minutes</span>                </div>
 
                 <div class="icons">
                         <div class="icon gluten-free"></div>
                         <div class="icon low-carb"></div>
-                        <div class="icon serving"></div>× 4
+                        <div class="icon serving"></div>× <span itemprop="recipeYield">4</span>
                 </div>
 
-                <div class="description">This Egg Drop soup is born from a love of the soup and MANY trips to my favorite Chinese restaurant (asking them many questions) resulting in this variation. Compare it to your local restaurant...The simplicity is the key. Soup can be re-heated or frozen and re-heated.
+                <div class="description" itemprop="description">This Egg Drop soup is born from a love of the soup and MANY trips to my favorite Chinese restaurant (asking them many questions) resulting in this variation. Compare it to your local restaurant...The simplicity is the key. Soup can be re-heated or frozen and re-heated.
 </div>
             </div>
         </section>
@@ -31,83 +31,84 @@ prep 20 minutes                </div>
                     <h3>1</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             3¼ cups
                                         </div>
                                         <div class="item">chicken broth</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             ⅛ tsp
                                         </div>
                                         <div class="item">ginger, powdered</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             2 tbsp
                                         </div>
                                         <div class="item">chives, fresh (diced)</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             ¼ tsp
                                         </div>
                                         <div class="item">salt</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             2 
                                         </div>
                                         <div class="item">eggs</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1 
                                         </div>
                                         <div class="item">egg yolk</div>
                         </ul>
                     </div>
-                    <div class="detail">Combine the broth, salt, ginger, and chives in a large saucepan and bring to a rolling boil.
+                    <div class="detail" itemprop="recipeInstructions">Combine the broth, salt, ginger, and chives in a large saucepan and bring to a rolling boil.
 </div>
                 </div>
                 <div class="step">
                     <h3>2</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             ¾ cups
                                         </div>
                                         <div class="item">chicken broth</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1½ tbsp
                                         </div>
                                         <div class="item">cornstarch</div>
                         </ul>
                     </div>
-                    <div class="detail">In a small mixing bowl, stir the broth and cornstarch together until smooth and set aside.
+                    <div class="detail" itemprop="recipeInstructions">In a small mixing bowl, stir the broth and cornstarch together until smooth and set aside.
 </div>
                 </div>
                 <div class="step">
                     <h3>3</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             2 
                                         </div>
                                         <div class="item">eggs</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1 
                                         </div>
                                         <div class="item">egg yolk</div>
                         </ul>
                     </div>
-                    <div class="detail">In a small mixing bowl, combine the eggs and extra egg yolk with a fork until fully combined.  Then, drizzle a little egg at a time into the hot broth mixture.  Once all of the egg has been added, gently stir in the cornstarch mixture a little at a time until the desired consistency is reached.
+                    <div class="detail" itemprop="recipeInstructions">In a small mixing bowl, combine the eggs and extra egg yolk with a fork until fully combined.  Then, drizzle a little egg at a time into the hot broth mixture.  Once all of the egg has been added, gently stir in the cornstarch mixture a little at a time until the desired consistency is reached.
 </div>
                 </div>
         </section>
 
             <section class="credits">
-                    W.J. Cory,&nbsp;
+                    <span itemprop="author">W.J. Cory</span>
+,&nbsp;
                     <a href="https://www.allrecipes.com/recipe/45515/restaurant-style-egg-drop-soup">https://www.allrecipes.com/recipe/45515/restaurant-style-egg-drop-soup</a>
             </section>
 

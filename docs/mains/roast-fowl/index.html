@@ -5,23 +5,23 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="user-scalable=no, width=device-width" />
 
-    <body class="recipe">
+    <body class="recipe" itemscope itemtype="http://schema.org/Recipe">
         <section class="header">
-            <div class="image" style="background-image: url('./image.png')"></div>
+            <div class="image" style="background-image: url('./image.png')" itemprop="image"></div>
 
             <div class="about">
-                <h1>Roast Fowl</h1>
+                <h1 itemprop="name">Roast Fowl</h1>
 
                 <div class="timing">
-prep 10 min,&nbsp;cook 2-5 hours                </div>
+prep <span itemprop="prepTime">10 min</span>,&nbsp;cook <span itemprop"cookTime">2-5 hours</span>                </div>
 
                 <div class="icons">
                         <div class="icon gluten-free"></div>
                         <div class="icon low-carb"></div>
-                        <div class="icon serving"></div>× 3-10
+                        <div class="icon serving"></div>× <span itemprop="recipeYield">3-10</span>
                 </div>
 
-                <div class="description">I roast fowl, whether chicken or turkey, using basically the same approach, with the only difference coming down to timing. Whenever possible, it is better to roast longer and at a lower temperature. However, you can speed things up by raising the temperature, but at the cost of the meat being a little less tender, and a little less evenly cooked. However, this recipe guarantees a surberbly rich and moist roast fowl.
+                <div class="description" itemprop="description">I roast fowl, whether chicken or turkey, using basically the same approach, with the only difference coming down to timing. Whenever possible, it is better to roast longer and at a lower temperature. However, you can speed things up by raising the temperature, but at the cost of the meat being a little less tender, and a little less evenly cooked. However, this recipe guarantees a surberbly rich and moist roast fowl.
 </div>
             </div>
         </section>
@@ -31,68 +31,69 @@ prep 10 min,&nbsp;cook 2-5 hours                </div>
                     <h3>1</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1 stalk
                                         </div>
                                         <div class="item">celery</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1 
                                         </div>
                                         <div class="item">onion (chopped)</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             10 leaves
                                         </div>
                                         <div class="item">basil</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             5 stems
                                         </div>
                                         <div class="item">rosemary</div>
                         </ul>
                     </div>
-                    <div class="detail">Chop the vegetables roughly, placing them in a large roasting pan. Add enough water to fill pan about 1” deep. Clean the bird, removing the visera, crop, etc. and place on a rack in the pan.  This should leave a small gap between the bottom of the bird and the top of the water.
+                    <div class="detail" itemprop="recipeInstructions">Chop the vegetables roughly, placing them in a large roasting pan. Add enough water to fill pan about 1” deep. Clean the bird, removing the visera, crop, etc. and place on a rack in the pan.  This should leave a small gap between the bottom of the bird and the top of the water.
 </div>
                 </div>
                 <div class="step">
                     <h3>2</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1 
                                         </div>
                                         <div class="item">fowl</div>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             2 tbsp
                                         </div>
                                         <div class="item">olive oil</div>
                         </ul>
                     </div>
-                    <div class="detail">Roast in the oven (convection, if possible) at 300°F in order to cook at about 20 min/lb. If you have more time, lower the temperature (min. of 200°F), if you have less time, raise the temperature (max. of 350°F). Using a meat thermometer, check the temperature of the bird about every 30 min. When the bird reaches a temperature of 160°F, remove the foil cover, and use a basting brush to wet the turkey all over. Set aside 6 cups of the liquid from the roasting pan—avoiding any solids. Continue to roast until the bird has reached 170°F.
+                    <div class="detail" itemprop="recipeInstructions">Roast in the oven (convection, if possible) at 300°F in order to cook at about 20 min/lb. If you have more time, lower the temperature (min. of 200°F), if you have less time, raise the temperature (max. of 350°F). Using a meat thermometer, check the temperature of the bird about every 30 min. When the bird reaches a temperature of 160°F, remove the foil cover, and use a basting brush to wet the turkey all over. Set aside 6 cups of the liquid from the roasting pan—avoiding any solids. Continue to roast until the bird has reached 170°F.
 </div>
                 </div>
                 <div class="step">
                     <h3>3</h3>
                     <div class="ingredients">
                         <ul>
-                                    <li>
+                                    <li itemprop="recipeIngredient">
                                         <div class="amount">
                                             1 tbsp
                                         </div>
                                         <div class="item">corn starch</div>
                         </ul>
                     </div>
-                    <div class="detail">While the bird finishes cooking, add the reserved liquid to a large saucepan on high heat.  Add the corn starch to a small dish of cold water until completely mixed, and then gradually add the mixture to the saucepan, stirring constantly. Continue to cook on high, stirring constantly, until the gravy has the consistency of honey.
+                    <div class="detail" itemprop="recipeInstructions">While the bird finishes cooking, add the reserved liquid to a large saucepan on high heat.  Add the corn starch to a small dish of cold water until completely mixed, and then gradually add the mixture to the saucepan, stirring constantly. Continue to cook on high, stirring constantly, until the gravy has the consistency of honey.
 </div>
                 </div>
         </section>
 
             <section class="credits">
-                    Andrew Miner            </section>
+                    <span itemprop="author">Andrew Miner</span>
+            </section>
 
         <section class="navigation">
             <a href="../..">« Back</a>
