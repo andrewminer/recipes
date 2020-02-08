@@ -5,7 +5,8 @@ timings:
 icons: ["gluten-free", "low-carb"]
 servings:
 description: >
-  pass
+  With humble ingredients comes a delightful and zesty meal. The garlic, red pepper, caraway and bacon drippings take
+  save this dish from being dull... just be careful with the red pepper flakes!
 steps:
   - ingredients:
       - { amount: 6, unit: "slices", item: "bacon" }
