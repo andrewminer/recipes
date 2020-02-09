@@ -12,13 +12,6 @@ steps:
       - { amount: 0.5, unit: cup, item: "milk, whole" }
       - { amount: 0.5, unit: cup, item: "water" }
       - { amount: 0.5, unit: cup, item: "flour, bread" }
-      - { amount: 6, unit: cup, item: "flour, bread" }
-      - { amount: 0.33, unit: cup, item: "milk powder, non-fat" }
-      - { amount: 0.33, unit: cup, item: "sugar, granulated" }
-      - { amount: 2, unit: tsp, item: "salt" }
-      - { amount: 1.33, unit: cup, item: "milk, whole" }
-      - { amount: 1, unit: packet, item: "yeast, active dry" }
-      - { amount: 8, unit: tbsp, item: "butter, unsalted" }
     directions: >
       Whisk togther over medium heat until formed into a pudding. Set aside until cooled to 115°F.
   - ingredients:
@@ -26,9 +19,6 @@ steps:
       - { amount: 0.33, unit: cup, item: "milk powder, non-fat" }
       - { amount: 0.33, unit: cup, item: "sugar, granulated" }
       - { amount: 2, unit: tsp, item: "salt" }
-      - { amount: 1.33, unit: cup, item: "milk, whole" }
-      - { amount: 1, unit: packet, item: "yeast, active dry" }
-      - { amount: 8, unit: tbsp, item: "butter, unsalted" }
     directions: >
       Whisk together and set aside.
   - ingredients:
