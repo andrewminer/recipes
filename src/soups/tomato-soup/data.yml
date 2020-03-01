@@ -2,7 +2,7 @@ title: Tomato Soup
 timings:
   prep: 30 minutes
 icons: [gluten-free, low-carb]
-servings: 1
+servings: 8
 description: >
   This tomato soup is thick, slighly creamy, and very hearty.  Unlike store-bought tomato soup, it's also not
   overburdened with sugar to make it taste good. Instead, I use canned San Marzano tomatoes (often kept in a separate
@@ -38,5 +38,6 @@ steps:
       - { amount: 0.5, unit: cup, item: "heavy cream" }
       - { amount: 1, unit: tsp, item: "black pepper" }
     directions: >
-      Discard the bay leaf. Purée the soup in batches in a large blender.  Return the puréed soup to the pot and bring
-      back to a low simmer.  Add the heavy cream and pepper.
+      Discard the bay leaf. Purée the soup in batches in a large blender if you want a smooth soup, or just skip this
+      step if you'd like to keep some texture.  Return the puréed soup to the pot and bring back to a low simmer.  Add
+      the heavy cream and pepper.
