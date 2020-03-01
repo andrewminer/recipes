@@ -1,0 +1,29 @@
+title: Buttery Peas with Thyme
+timings:
+  prep: 10 minutes
+icons: [gluten-free, low-carb, vegetarian]
+servings: 4
+description: >
+  This is a simple, but tasty way to prepare what is often a pretty boring vegetable.
+steps:
+  - ingredients:
+      - { amount: 2, unit: tbsp, item: "butter, unsalted" }
+      - { amount: 0.5, unit: cup, item: "onion, yellow (diced)" }
+      - { amount: 2, unit: tsp, item: "sugar, granulated" }
+      - { amount: 0.25, unit: tsp, item: "salt" }
+      - { amount: 2, unit: tsp, item: "garlic (minced)" }
+      - { amount: 3, unit: cups, item: "peas, frozen" }
+      - { amount: 0.25, unit: tsp, item: "pepper, black" }
+    directions: >
+      Melt the butter over medium heat in a skillet. Once the butter starts to foam, add the onions and sautée until
+      they are golden and translucent. Add the sugar, salt, and garlic. Cook until the garlic starts to brown.
+  - ingredients:
+      - { amount: 3, unit: cups, item: "peas, frozen" }
+      - { amount: 0.5, unit: tsp, item: "thyme, dried" }
+      - { amount: 0.25, unit: tsp, item: "pepper, black" }
+    directions: >
+      Add the peas and thyme and cook, stirring often, until the peas are soft and heated through (about 5 minutes).
+      Season with black pepper and serve.
+credit:
+    name: Mel
+    url: https://www.melskitchencafe.com/buttery-peas-with-thyme/
