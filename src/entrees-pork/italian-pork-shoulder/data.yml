@@ -1,0 +1,42 @@
+title: Italian Pork Shoulder
+timings:
+  prep: 15 minutes
+  cook: 4–5 hours
+icons: [gluten-free, low-carb]
+servings: 6
+description: >
+  This pork shoulder is super easy to make, and turns out a savory meal whenever you're ready to sit down to eat. The
+  combination of fennel and balsamic vinegar adds a flavorful bit of interest to the rich base of tomato and onions.
+steps:
+  - ingredients:
+      - { amount: 3, unit: lb, item: "pork shoulder" }
+      - { amount: 2, unit: tbsp, item: "italian seasoning" }
+      - { amount: 0.5, unit: tsp, item: "red pepper flakes" }
+      - { amount: 2, unit: tsp, item: "salt" }
+      - { amount: 1, unit: tsp, item: "black pepper" }
+    directions: >
+      Mix the seasonings in a small bowl. Rub all over the roast until complete coated.
+  - ingredients:
+      - { amount: 2, unit: tbsp, item: "safflower oil" }
+      - { amount: 5, unit: tsp, item: "garlic (minced)" }
+    directions: >
+      Pre-heat the oil in a heavy-bottomed skillet until shimmering hot. Add the garlic and sautée on high heat until it
+      begins to brown.  Using a pair of tongs, sear the roast on all sides until evenly browned and coated with the
+      garlic.  Then place into the slow-cooker.
+  - ingredients:
+      - { amount: 1, unit: cup, item: "onion, yellow (diced)" }
+      - { amount: 1, unit: cup, item: "fennel bulb (diced)" }
+      - { amount: 0.25, unit: cup, item: "vinegar, balsamic" }
+    directions: >
+      Sautée the onions and fennel in the same skillet until golden and translucent (adding more oil, if necessary).
+      Add the balsamic vinegar and deglaze the pan. Continue until the volume of liquid has been reduced by half.
+  - ingredients:
+      - { amount: 28, unit: oz, item: "tomatoes, caned whole peeled" }
+      - { amount: 0.5, unit: cup, item: "carrot (chopped)" }
+    directions: >
+      Add the onions, fennel, tomatoes and carrot to the slow cooker with the pork. Set the cooker to high until it
+      starts to simmer, and then turn back to low. Cook until the pork falls off the bone and shreds easily with a fork
+      (4–5 hours).
+credit:
+    name: ButcherBox
+    url: http://justcook.butcherbox.com/fennel-tomato-italian-pork-shoulder
