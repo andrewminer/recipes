@@ -13,8 +13,26 @@
 - id: baking
   title: Baking
 
-- id: mains
-  title: Main Courses
+- id: entrees-beef
+  title: Entrées—Beef
+
+- id: entrees-chicken
+  title: Entrées—Chicken
+
+- id: entrees-egg
+  title: Entrées—Egg
+
+- id: entrees-fish
+  title: Entrées—Fish
+
+- id: entrees-lamb
+  title: Entrées—Lamb
+
+- id: entrees-pork
+  title: Entrées—Pork
+
+- id: entrees-vegetarian
+  title: Entrées—Vegetarian
 
 - id: sides
   title: Vegetables & Sides

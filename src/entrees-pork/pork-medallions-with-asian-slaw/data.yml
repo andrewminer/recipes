@@ -1,0 +1,48 @@
+title: Pork Medallions with Asian Slaw
+timings:
+  prep: 30 minutes
+  cook: 30 minutes
+icons: [gluten-free]
+servings: 4
+description: >
+  The marinade for this dish is tangy, sweet, and slightl spicy in all the most delightful ways.  Plus, using the
+  tenderloin ensures that the meat is soft and succulent.
+steps:
+  - ingredients:
+      - { amount: 1.5, unit: lb, item: "pork tenderloin" }
+    directions: >
+      Trim the pork of any silverskin and excess fat. Cut along the diagonal into ½" medallions. Set aside in a bowl.
+  - ingredients:
+      - { amount: 0.33, unit: cup, item: "tamari sauce" }
+      - { amount: 2, unit: tbsp, item: "rice vinegar" }
+      - { amount: 2, unit: tbsp, item: "sugar, brown, light" }
+      - { amount: 1.5, unit: tbsp, item: "ginger, fresh (puréed)" }
+      - { amount: 0.5, unit: tbsp, item: "sesame oil" }
+      - { amount: 2, unit: tsp, item: "chili sauce (e.g., Sriacha)" }
+      - { amount: 2, unit: tsp, item: "garlic (minced)" }
+    directions: >
+      Whisk together the tamari, rice vinegar, brown sugar, ginger, sesame oil, chili sauce, and garlic. Pour ½ cup of
+      the mixture in with the pork and ensure all the pork is covered. Cover and set aside for 30 minutes.
+  - ingredients:
+      - { amount: 1, unit: lb, item: "cabbage, napa (thinly sliced)" }
+      - { amount: 1, unit: cup, item: "carrot (grated)" }
+      - { amount: 4, item: "scallions (thinly sliced, green & white portions)" }
+      - { amount: 2, unit: tbsp, item: "rice vinegar" }
+      - { amount: 1, unit: tbsp, item: "safflower oil" }
+      - { amount: 1, unit: tbsp, item: "sugar, brown, light" }
+      - { amount: 0.5, unit: tbsp, item: "sesame oil" }
+      - { amount: 1, unit: tsp, item: "chili sauce (e.g., Sriacha)" }
+      - { amount: 1, unit: tsp, item: "salt" }
+    directions: >
+      In a large bowl, toss the cabbage, carrots, and scallions.  Add the rice vinegar, safflower oil, brown sugar,
+      sesame oil, chili sauce, and salt. Toss, set aside for 15 minutes, and toss again.  Transfer to a serving dish.
+  - ingredients:
+      - { amount: 4, unit: tbsp, item: "safflower oil" }
+    directions: >
+      Heat the oil in a wide skillet until simmering hot. Remove the pork from the marinade, shaking off any excess,
+      and place in a single layer in the skillet. Discard the excess marinade. Cook without touching them until well
+      browned, flip, and cook until they reach 160°F. Lay out the pork over the slaw in the serving dish.  Repeat as
+      necessary until all the medallions are cooked.
+credit:
+    name: Tony Rosenfeld
+    url: https://www.finecooking.com/recipe/spicy-korean-style-pork-medallions-with-asian-slaw
