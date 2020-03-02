@@ -1,0 +1,24 @@
+title: Curried Green Beans
+timings:
+  prep: 5 minutes
+  cook: 10 minutes
+icons: [gluten-free, low-carb, vegetarian]
+servings: 4
+description: >
+  I invented this recipe for green beans after spending a while playing around with Indian cooking.  It has become one
+  of my most-requested recipes.  If you want to kick up the heat a bit, add a tiny touch of cayenne pepper.
+steps:
+  - ingredients:
+      - { amount: 2, unit: lb, item: "green beans" }
+    directions: >
+      Steam the green beans until they are just al-dente. Transfer to a serving dish.
+  - ingredients:
+      - { amount: 6, unit: tbsp, item: "butter, unsalte" }
+      - { amount: 1, unit: tbsp, item: "coriander powder" }
+      - { amount: 1, unit: tbsp, item: "cumin powder" }
+      - { amount: 2, unit: tbsp, item: "garam masala" }
+    directions: >
+      Melt the butter in a large skillet.  Once melted, add the spices and mix together until no clumps remain.
+  - ingredients: []
+    directions: >
+      Pour the spice mixure over the green beans and toss.
