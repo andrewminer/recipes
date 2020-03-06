@@ -29,13 +29,16 @@ steps:
       Slowly whisk in the chicken broth and continue to mix until a smooth sauce has formed.
   - ingredients:
       - { amount: 1.5, unit: lbs, item: "chicken thighs (chopped)" }
+      - { amount: 1, unit: cup, item: "mushrooms, crimini (chopped)" }
     directions: >
-      Add the chicken and cook covered until the chicken is cooked all the way through (about 10 min).
+      Add the chicken and mushrooms and cook covered until the chicken is cooked all the way through (about 10 min).
   - ingredients:
       - { amount: 0.5, unit: cup, item: "peas (frozen)" }
       - { amount: 0.25, unit: cup, item: "heavy cream" }
       - { amount: 3, unit: tbsp, item: "parsley (fresh, minced)" }
       - { amount: 1, unit: tbsp, item: "sherry, dry" }
+      - { amount: 1, unit: tsp, item: "salt" }
+      - { amount: 1, unit: tsp, item: "black pepper" }
     directions: >
-      Stir in the peas, heavy cream, and sherry. Cook until heated through and simmering again.  Serve either in bowls
-      as it is, or poured over biscuits, or baked into a pie crust.
+      Stir in the peas, heavy cream, sherry, and seasoning. Cook until heated through and simmering again.  Serve either
+      in bowls as it is, or poured over biscuits, or baked into a pie crust.
