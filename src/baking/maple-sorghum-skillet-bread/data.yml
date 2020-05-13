@@ -1,0 +1,48 @@
+title: Maple-Sorghum Skillet Bread
+timings:
+  prep: 15 minutes
+  cook: 50 minutes
+icons: [gluten-free, vegetarian]
+servings: 8
+description: >
+  This bread is prepared and cooked very much like cornbread; it even has a similar texture.  The flavor, though is
+  much sweeter (the maple syrup), and it tends to be somewhat less gritty.
+steps:
+  - ingredients: []
+    directions: >
+      Adjust the oven rack to the middle position and pre-heat to 450°F.  Place a cast-iron skillet on the rack, and
+      allow it to heat for 10min after the oven has come to temperature.
+  - ingredients:
+      - { amount: 1.33, unit: "cups", item: "sorghum flower" }
+      - { amount: 3.75, unit: "cups", item: "cornmeal" }
+      - { amount: 1.25, unit: "cups", item: "sour cream" }
+      - { amount: 0.5, unit: "cup", item: "milk, whole" }
+      - { amount: 0.5, unit: "cup", item: "maple syrup" }
+    directions:
+      Whisk the sorghum flower, cornmeal, sour cream, milk, and maply syrup together in a bowl to form a thick batter.
+  - ingredients:
+      - { amount: 0.25, unit: "cup", item: "safflower oil" }
+    directions: >
+      Add the oil to the skillet and continue to heat until just smoking (about 5min).
+  - ingredients:
+      - { amount: 4, unit: "tbsp", item: "butter, unsalted" }
+      - { amount: 1, unit: "tsp", item: "baking powder" }
+      - { amount: 0.5, unit: "tsp", item: "baking soda" }
+      - { amount: 0.75, unit: "tsp", item: "salt" }
+      - { amount: 0.25, unit: "tsp", item: "xanthan gum" }
+      - { amount: 2, item: "eggs, large" }
+    directions: >
+      Remove the skillet from the oven and add the butter.  Once melted, pour the butter and oil mixture into the bowl
+      containing the batter.  Whisk in the butter mixture with the remaining dry ingredients, and finally add the eggs
+      and combine with the rest.
+  - ingredients: []
+    directions: >
+      Immediately pour the batter into the skillet and return it to the oven. Bake until the top turns golden and begins
+      to crack, and a toothpick inserted into the center comes out clean (about 20–25 min).
+  - ingredients: []
+    directions: >
+      Once fully cooked, remove the skillet from the oven and allow to cool for about 5 min.  Then, gently remove the
+      bread from the skillet and allow to cool for a further 20 min on a wire rack.
+credit:
+  name: "How Can It Be Gluten-Free Cookbook: Volume 2, pgs. 178–179"
+  url: https://shop.americastestkitchen.com/the-how-can-it-be-gluten-free-cookbook-volume-2.html
