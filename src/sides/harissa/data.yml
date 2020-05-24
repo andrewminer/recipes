@@ -1,0 +1,40 @@
+title: Harissa
+timings:
+  prep: 20 minutes
+  cook: 15 minutes
+icons: [gluten-free, low-carb, vegetarian]
+servings: 16
+description: >
+  Harissa is not merely a hot, pepper sauce; its delightfully exotic blend of spices brings a special dimension to it
+  beyond mere heat.  It's a wonderful addition to liven up other dishes, or merely to be eaten on its own with bread
+  or crackers.
+steps:
+  - ingredients:
+      - { amount: 2, item: "peppers, red bell" }
+    directions: >
+      Pre-heat the oven's broiler and move the rack one step from the top.  Line a baking sheet with foil, and lay out
+      the red peppers, halved, with the skins up.  Cook until they just start to blacken on top (about 5 min), and then
+      seal in a bowl with plastic wrap and set aside.
+  - ingredients:
+      - { amount: 6, item: "peppers, fresno" }
+      - { amount: 1, item: "peppers, habañero" }
+    directions: >
+      Bring a pot of lightly-salted water to a boil. Drop the whole peppers into the water and boil until soft (about 3
+      min). Drain the pot, and let the peppers cool until safe to handle.
+  - ingredients:
+      - { amount: 0.25, unit: tsp, item: "caraway seeds" }
+      - { amount: 0.25, unit: tsp, item: "coriander seeds" }
+      - { amount: 0.5, unit: tsp, item: "cumin, ground" }
+      - { amount: 0.5, unit: tsp, item: "mint, dried" }
+      - { amount: 1, unit: tsp, item: "salt" }
+      - { amount: 3, unit: tbsp, item: "garlic (minced)" }
+      - { amount: 2, unit: tbsp, item: "lemon juice" }
+      - { amount: 1, unit: tbsp, item: "olive oil" }
+    directions: >
+      In a dry skillet, roast the seeds until they brown a bit and start to smell fragrant (about 2 min).  Use a spice
+      grinder or small food processor to blend the seeds and remaining dry spices until the mixture is homogenous. Dice
+      all the peppers (red bell, fresno, and habañero).  Drop everything except the olive oil into a blender and purée
+      until smooth. Add the olive oil just at the end, and pulse just enough to mix it.
+credit:
+    name: Chef John
+    url: "https://www.allrecipes.com/recipe/223301/chef-johns-harissa-sauce"
