@@ -1,56 +1,53 @@
 title: Cheese Soufflé
 timings:
     prep: 20 min
-    cook: 35 min
+    cook: 25 min
 icons: [gluten-free, vegetarian]
 servings: 4
 description: >
   This cheese soufflé turns out a fluffy, slightly salty, cheese delight!
 steps:
   - ingredients:
-      - { amount: 2, unit: tbsp, item: parmesean cheese }
-      - { item: olive oil spray }
+      - { amount: 2, unit: tbsp, item: "cheese, parmesean (shredded)" }
+      - { amount: 1, unit: tbsp, item: "butter" }
     directions: >
-      Adjust oven rack to the middle position pre-heat to 350°F. Spray an 8” soufflé dish with a light coating of oil,
-      and then sprinkle with parmesean cheese.
+      Adjust oven rack to the middle position pre-heat to 360°F. Coat an 8” soufflé dish with butter, and then sprinkle
+      with parmesean cheese.
   - ingredients:
-      - { amount: 0.25, unit: cup, item: flour (white, all-purpose) }
-      - { amount: 0.25, unit: tsp, item: paprika }
-      - { amount: 0.25, unit: tsp, item: salt }
-      - { amount: 0.125, unit: tsp, item: cayenne pepper }
-      - { amount: 0.125, unit: tsp, item: white pepper }
-      - { amount: 1, unit: pinch, item: nutneg }
-      - { amount: 4, unit: tbsp, item: butter (unsalted) }
-      - { amount: 1.33, unit: cup, item: milk (whole) }
+      - { amount: 0.25, unit: cup, item: "flour, all-purpose" }
+      - { amount: 0.25, unit: tsp, item: "paprika" }
+      - { amount: 0.25, unit: tsp, item: "salt" }
+      - { amount: 0.125, unit: tsp, item: "pepper, cayenne" }
+      - { amount: 0.125, unit: tsp, item: "pepper, white" }
+      - { amount: 0.125, unit: tsp, item: "nutneg" }
+      - { amount: 4, unit: tbsp, item: "butter, unsalted" }
+      - { amount: 1.33, unit: cup, item: "milk, whole" }
     directions: >
       Combine the flour, salt, and spices in a bowl. Melt the butter in a saucepan over medium-high heat.  Stir in the
       flour mixture and cook until golden.  Slowly pour in the milk while whisking slowly and bring to a simmer.  Cook,
       whiskly constantly, until the thickened and smooth.
   - ingredients:
-      - { amount: 6, unit: oz, item: Gruyère cheese }
-      - { amount: 5, unit: tbsp, item: parmesean cheese }
+      - { amount: 1, unit: cup, item: "cheese, gruyère (shredded)" }
+      - { amount: 0.5, unit: cup, item: "cheese, parmesean (shredded)" }
+      - { amount: 6, item: "egg yolks" }
+      - { amount: 1.5, unit: tsp, item: "herbes de provence" }
     directions: >
-      Remove the saucepan from the heat and mix in the cheese until melted and smooth (about 5min).  Let cool for about
-      10min.
+      Turn the heat to the lowest setting and mix in the cheese until melted and smooth. Then whisk in the egg yolks and
+      herbs.
   - ingredients:
-      - { amount: 6, item: egg yolks }
-      - { amount: 1.5, unit: tsp, item: parsley (minced) }
+      - { amount: 6, item: "egg whites" }
+      - { amount: 0.25, unit: tsp, item: "cream of tartar" }
     directions: >
-      Whisk in the egg yolks and parsley.
+      Using a standing mixer with a whisk, whip the egg whites and cream of tartar on medium-low foamy (about 1 min).
+      Increase to medium-high speed, and whip until stiff peaks form (3–4 min).  Add the egg whites to the cheese
+      mixture and gently fold them in without breaking up the foam of the egg whites.
   - ingredients:
-      - { amount: 6, item: egg whites }
-      - { amount: 0.25, unit: tsp, item: cream of tartar }
+      - { amount: 1, unit: tbsp, item: "cheese, parmesean (shredded)" }
+      - { amount: 0.5, unit: tsp, item: "herbes de provence" }
     directions: >
-      Using a standing mixer with a whisk, whip the egg whites and cream of tartar on medium-low foamy (about 1min).
-      Increase to medium-high speed, and whip until stiff peaks form (3–4min). Add cheese mixture and continue to whip
-      until fully combined (15sec).
-  - ingredients:
-      - { amount: 1, unit: tbsp, item: parmesean cheese }
-      - { amount: 0.5, unit: tsp, item: parsley (minced) }
-    directions: >
-      Pour the mixture into the soufflé dish and sprinkle with remaining parmesean cheese. Bake until risen well above
-      the edge of the dish with a golden-brown top and an interior temperature of at least 170°F (30–35min). Sprinkle
-      the parsley on top.
+      Pour the entire mixture into the soufflé dish and sprinkle with remaining parmesean cheese and herbs. Bake until
+      risen well above the edge of the dish with a golden-brown top and an interior temperature of at least 170°F (about
+      25 min).
 credit:
     name: Cook's Illustrated
     url: https://www.cooksillustrated.com/recipes/7670
