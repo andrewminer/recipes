@@ -1,0 +1,87 @@
+title: Beef Stew with Bacon and Plums
+timings:
+  prep: 90 minutes
+  cook: 3 hours
+icons: [gluten-free, overnight]
+servings: 10
+description: >
+  This delightfully rich and savory stew is a close cousin of the much more famous Beef Bourguignon. Except, instead of
+  pearl onions and mushrooms, this stew features butternut squash and dried plums. In anything, it's even more
+  spectacular than its cousin as the squash and plums add sweet notes which complement the rich savoriness of the beef
+  and bacon.
+steps:
+  - ingredients:
+      - { amount: 3.5, unit: lb, item: "beef, chuck roast" }
+      - { amount: 1, unit: tbsp, item: "salt, coarse" }
+    directions: >
+      Trim and cut the roast into large, bite-sized pieces. Sprinkle evenly with salt, cover, and chill overnight.
+  - ingredients:
+      - { amount: 6, unit: oz, item: "bacon, smoked, thick-cut" }
+      - { amount: 3, unit: tbsp, item: "olive oil" }
+    directions: >
+      Preheat the oven to 450°F. Cut the bacon into lardons and fry in a skillet with the olive oil until all the fat
+      has been rendered, and the remaining meat is well browned.  Reserve the bacon grease. Dry the bacon meat with
+      paper towels and set aside.
+  - ingredients:
+      - { amount: 4, unit: cup, item: "butternut squash (1” cubes)" }
+      - { amount: 2, unit: tbsp, item: "butter, unsalted" }
+      - { amount: 1, unit: tsp, item: "salt, coarse" }
+    directions: >
+      Place the squash in a large baking dish and cover with 1 tbsp of bacon grease, and 1 tbsp of melted butter.
+      Sprinkle with salt and toss to coat the squash evenly. Place, uncovered, in the oven and roast until tender and
+      starting to singe on top (20—30 min), stirring once in the middle. Transfer to a large bowl, cover, and set aside.
+      Then reduce the oven to 275°F.
+  - ingredients:
+    directions: >
+      While the squash cooks, add the remaining bacon grease and olive oil to the skillet, and heat until shimmering.
+      Meanwhile, dry the beef completely with paper towels. Brown the beef in batches, taking care not to overcrowd the
+      skillet.  Once browned, set the beef aside.  Reserve 1 tbsp of the hot oil in the pan, discarding the rest.
+  - ingredients:
+      - { amount: 1, item: "leek" }
+    directions: >
+      Cut the leek in half lengthwise, and reserve a few stalks from the center-most layer.  Dice the remainder of the
+      white portion of the leek, discarding the green.  Set the prepared white portions aside.
+  - ingredients:
+      - { amount: 2, unit: cup, item: "onions, yellow (diced)" }
+      - { amount: 1, unit: tsp, item: "salt, coarse" }
+      - { amount: 3, unit: tsp, item: "garlic (minced)" }
+    directions: >
+      Add 1 tbsp of butter to the reserved hot oil. Once the butter foams, add the onions, sprinkle with salt, and
+      sautée. Use the butter and oil to deglaze the skillet as the onions cook.  When the onions have just started to
+      soften (2–3 min), add diced leeks and garlic.  Sprinkle with salt, and cook until the onions are completely soft
+      and translucent (3–4 min). Add the mixture to the baking dish formerly used for the squash.
+  - ingredients:
+      - { amount: 2.75, unit: cup, item: "red wine, Pinot Noir" }
+    directions: >
+      Add the red wine to the skillet and bring to a boil.  Reduce the heat slightly, and continue boiling until the
+      volume has reduced by half. Add the reserved beef to the baking dish with the onions, and cover with the wine
+      reduction.
+  - ingredients:
+      - { amount: 1, item: "cinnamon stick (crushed)" }
+      - { amount: 2, item: "cloves, whole" }
+      - { amount: 7, item: "peppercorns, whole" }
+      - { amount: 5, unit: stems, item: "parsley, fresh" }
+    directions: >
+      Prepare a sachet containing the cinnamon, cloves, and peppercorns with string and cheese cloth.  Separately, tie
+      the parsley stems and leek centers together.
+  - ingredients:
+      - { amount: 3, item: "bay leaves" }
+      - { amount: 2, unit: tbsp, item: "tomato paste" }
+      - { amount: 0.25, unit: tsp, item: "thyme, dried" }
+      - { amount: 1.5, unit: cup, item: "chicken stock" }
+    directions: >
+      Tuck the completed sachet and the bay leaves under the beef layer near the center of the dish, leaving the string
+      hanging out over the edge.  Add tiny dollops of tomato paste all around.  Sprinkle thyme over everything, and
+      place the leek & parsley stems on top.  Add enough chicken stock to just cover the contents of the baking dish.
+      Cover tightly with foil, and place in the oven on a baking sheet.  Cook for 2 hours.
+  - ingredients:
+      - { amount: 1, unit: cup, item: "prunes, pitted" }
+      - { amount: 0.25, unit: cup, item: "parsley, fresh (minced)" }
+    directions: >
+      Uncover the baking sheet, and add the prunes in a single layer on top. Cover again, and bake until the meat is
+      easy pierced with a knife (about 45 min). Uncover, skim the fat layer (if any), and remove the sachet, parsley
+      bundle, and bay leaves.  Add the squash, and bake uncovered for a further 20 min, basting occasionally.  Sprinkle
+      with fresh parsley to serve.
+credit:
+    name: Scott Peacock
+    url: https://www.bhg.com/recipe/rich-beef-stew-with-bacon-and-plums/
