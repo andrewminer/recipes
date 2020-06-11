@@ -1,0 +1,50 @@
+title: English Muffins
+timings:
+    prep: 25 min
+    cook: 2 hours
+icons: ["vegetarian"]
+servings: 16
+description: >
+  When made carefully, English Muffins are the lightest and fluffiest bread you'll ever experience. Slightly singed on
+  the tops and bottoms, and all clouds and cotten candy inside.
+steps:
+  - ingredients:
+        - { amount: 1.75, unit: cups, item: "milk, whole" }
+        - { amount: 2, unit: tbsp, item: "sugar, granulated" }
+        - { amount: 2, unit: tsp, item: "yeast, instant" }
+    directions: >
+      In a saucepan, heat the milk on medium-high heat. Meanwhile, add the yeast and sugar to a small bowl. Once the
+      milk reaches 120°F, pour it over the yeast and sugar mixture and set aside until it foams vigorously (about 5
+      min).
+  - ingredients:
+        - { amount: 4.5, unit: cups, item: "flour, bread" }
+        - { amount: 1.5, unit: tsp, item: "salt" }
+        - { amount: 1, item: "egg" }
+        - { amount: 3, unit: tbsp, item: "butter (softened)" }
+    directions: >
+      Add the flour and salt to the bowl of a standing mixer. Lightly whisk to combine.  Make a large hollow in the
+      center of the flour, and add the egg, butter, and milk mixture.  Starting with the metal beater attachment, run
+      the mixer on low until a dough starts to form (about 1 min), and then switch to the dough hook.  Continue running
+      the machine on low until a single ball of dough forms.  If the dough is still crumbly after several minutes, add a
+      tbsp of water and run the mixer for several more minutes.  If the dough is still sticky after several minutes, add
+      a tbsp of flour instead. Continue adding and waiting until a very soft, slightly sticky dough forms.
+  - ingredients: []
+    directions: >
+      Grease a bowl roughly twice the size of your dough ball with butter, and drop the dough in.  Cover with plastic
+      wrap and set aside in a warm place (e.g., an oven set to 100°F).  Wait until the dough has roughly doubled in
+      size (about 1 hour).
+  - ingredients:
+        - { amount: 1, unit: tbsp, item: "semolina or corn meal"}
+    directions: >
+      Generously sprinkle a electric griddle (turned off) with semolina or corn meal.  Being as gentle as possible,
+      divide the dough into 16 small balls, and place them spaced about 1” apart on the griddle.  Cover with parchment
+      paper, and allow the dough to rise a second time (about 20 min).  Preheat the oven to 350°F with a pizza stone
+      inside.
+  - ingredients: []
+    directions: >
+      Remove the parchment paper, and turn the griddle to low (about 250°F) and cook until the muffins are browned on
+      the bottoms (about 7—10 min).  Flip and cook until they reach 200°F in the centers.  If they haven't done so after
+      10 min on the second side, transfer them to the pizza stone and bake in the oven until they do.
+  - ingredients: []
+    directions: >
+      Allow the muffins to cool for at least 15 min before eating, and split with a fork before serving.
