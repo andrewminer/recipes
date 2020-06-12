@@ -35,7 +35,7 @@ steps:
       water and mix until completely combined. While whisking continuously, slowly pour the cornstarch mixture into the
       soup.
   - ingredients:
-      - { amount: , unit: , item: "tofu, extra firm" }
+      - { amount: 8, unit: oz, item: "tofu, extra firm" }
     directions: >
       Bring the soup back to a boil while stirring constantly, and add the tofu. Cook briefly until the tofu has come up
       to temperature (about 2 min).
