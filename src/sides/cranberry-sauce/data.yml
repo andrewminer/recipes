@@ -1,0 +1,30 @@
+title: Cranberry Sauce
+timings:
+  prep: 20 min
+icons: [gluten-free, vegetarian]
+servings: 10
+description: >
+  This receipe for cranberry sauce is perfect because it's not too tart, and not too sweet, and allows the berries full
+  scope to speak for themselves.  This approach produces a clear gelatinous sauce (called jellied cranberry sauce in
+  the US) without any actual gelatin, and the by-product of a jam-like cranberry mash.
+steps:
+  - ingredients:
+      - { amount: 12, unit: oz, item: "cranberries, fresh" }
+    directions: >
+      Wash the berries and discard any which are split, soft, or crushed.
+  - ingredients:
+      - { amount: 1, unit: cup, item: "sugar, granulated" }
+      - { amount: 0.75, unit: cup, item: "water" }
+      - { amount: 0.25, unit: tsp, item: "salt" }
+    directions: >
+      Bring the water, sugar, and salt to a boil over high heat.  Add the cranberries, and bring back to a boil.  Reduce
+      the heat to medium and continue cooking until most of the berries have burst open and the sauce is thick enough
+      to coat a spoon (about 5–10min).
+  - ingredients: []
+    directions: >
+      Pour everything through a wire mesh strainer into a bowl.  Using a wooden spoon, mash the berries, forcing all the
+      liquid possible through the strainer.  Transfer the liquid portion to the refrigerator (where it will solidify
+      into a jelly), and set aside the mashed pulp for other uses.
+credit:
+    name: America's Test Kitchen
+    url: https://www.americastestkitchen.com/recipes/1504-simple-cranberry-sauce
