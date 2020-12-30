@@ -1,0 +1,33 @@
+title: Pastry Dough
+timings:
+  prep: 15 minutes
+icons: [vegetarian]
+servings: 1
+description: >
+  This dough forms the basis for pies, tarts, quiches, and other sorts of light crusts.  This recipe makes enough dough
+  to line the bottom of a 9” pie dish, so adjust the quantities according to what you intend to make.  It helps a lot to
+  chill the butter, shortening, and water ahead of time.
+steps:
+  - ingredients:
+      - { amount: 1, unit: cup, item: "flour, all-purpose" }
+      - { amount: 6, unit: oz, item: "butter, unsalted" }
+      - { amount: 2, unit: tbsp, item: "vegetable shortening" }
+      - { amount: 0.5, unit: tsp, item: "salt" }
+      - { amount: 0.125, unit: tsp, item: "sugar, granulated" }
+    directions: >
+      Add all the ingredients to a mixing bowl and combine with a pastry cutter until pea-sized chunks have formed.
+  - ingredients:
+      - { amount: 0.25, unit: cup, item: "water, iced" }
+    directions: >
+      Pour in about 3/4 of the water and mix quickly with your hand until a contiguous paste has formed.  Keep adding
+      water as needed until a smooth and slightly sticky dough has formed.
+  - ingredients: []
+    directions: >
+      Lay out the dough on a lightly floured surface, and knead it by smearing it vigorously about 6” across the surface
+      using the heel of your hand.  Then, gather the dough back together, fold it in half, turn it 90°, and repeat.
+      Keep this up until completely combined.  Then, place the dough in the center of some waxed paper and cover with
+      another piece.  Using a rolling pin, flatten until it is smooth and makes a disc about the same diameter as the
+      short side of your paper.  Refrigerate at least 2 hours before using.
+credit:
+    name: Julia Child
+    url: Mastering the Art of French Cooking, Volume I, pgs. 139–146
