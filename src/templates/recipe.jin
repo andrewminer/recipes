@@ -47,7 +47,10 @@
                                 {% for ingredient in step.ingredients %}
                                     <li itemprop="recipeIngredient">
                                         <div class="amount">
-                                            {{ as_fraction(ingredient.amount) }} {{ ingredient.unit }}
+                                            {{ as_fraction(ingredient.amount) }}
+                                            {% if ingredient.unit %}
+                                                {{ ingredient.unit }}
+                                            {% endif %}
                                         </div>
                                         <div class="item">{{ ingredient.item }}</div>
                                 {% endfor %}
