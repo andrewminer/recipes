@@ -1,0 +1,26 @@
+title: Mustard Cabbage Salad
+timings:
+  prep: 10 minutes
+icons: [gluten-free, low-carb, vegetarian]
+servings: 6
+description: >
+  This simple salad comes with a tangy, delightful dressing which is a perfect compliment to a savory dinner.
+  pass
+steps:
+  - ingredients:
+      - { amount: 5, unit: tbsp, item: "olive oil" }
+      - { amount: 2, unit: tbsp, item: "lemon juice" }
+      - { amount: 1, unit: tbsp, item: "mustard, dijon" }
+      - { amount: 1, unit: tsp, item: "salt" }
+      - { amount: 1, unit: tsp, item: "pepper, black" }
+    directions: >
+      Combine all ingredients in a sealed container and shake vigorously.  Set aside to chill in the refrigerator.
+  - ingredients:
+      - { amount: 1, unit: head, item: "cabbage, napa" }
+      - { amount: 2, item: "carrots (shredded)" }
+      - { amount: 0.5, item: "onion (in half-rings)" }
+    directions:
+      Reduce the cabbage to bite-sized pieces, discarding the hard core.  Add the onion and carrots.  Pour out dressing
+      and toss before serving.
+credit:
+    name: Andrew Miner
