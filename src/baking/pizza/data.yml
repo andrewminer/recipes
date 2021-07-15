@@ -1,43 +1,47 @@
 title: Pizza
 timings:
-    prep: 2-3 days
+    prep: 90 min
     cook: 10 min
-icons: ["overnight", "vegetarian"]
-servings: 12
+icons: ["vegetarian"]
+servings: 4
 description: >
   This recipe will give you a classic NY-style pizza, but a huge part of the final result is going to come down to the
-  quality of tomato sauce, cheese and toppings you choose... so choose wisely!
+  quality of the flour, tomato sauce, cheese and toppings you choose... so choose wisely!
 steps:
   - ingredients:
-      - { amount: 500, unit: "g", item: "water (110°F–115°F)" }
-      - { amount: 3.5, unit: "g", item: "instant dry yeast" }
-      - { amount: 8, unit: "g", item: "sugar" }
+      - { amount: 250, unit: "g", item: "water (110°F–115°F)" }
+      - { amount: 2, unit: "g", item: "instant dry yeast" }
+      - { amount: 4, unit: "g", item: "sugar" }
     directions: >
-      Add the yeast and sugar to the water without stirring and wait about 5 minutes.
+      Mix the yeast and sugar in a bowl.  Add the water and set aside until it is foaming (5 min).
   - ingredients:
-      - { amount: 800, unit: "g", item: "bread flour (King Arthur's)" }
-      - { amount: 16, unit: "g", item: "salt" }
+      - { amount: 400, unit: "g", item: "bread flour (Caputo 00 flour, generic 00 flour, or bread flour)" }
+      - { amount: 8, unit: "g", item: "salt" }
+      - { amount: 1.5, unit: "tsp", item: "olive oil" }
     directions: >
-      Stir the yeast mixture. In a separate bowl, combine the salt and flour. Gradually incorporate the flour mixture
-      into the water until fully mixed.
+      Combine the flour and salt and blend together.  Create a depression in the center and add the yeast mixture and
+      olive oil.  Slowly pull the edges of the "bowl" into the liquid and mix until it forms a single mass of dough.
   - ingredients:
-      - { amount: 3, unit: "tsp", item: "olive oil" }
     directions: >
-      Add the oil and knead the dough, ensuring that the dough ends up between 75°F–80°F.  Divide the dough into 3 equal
-      portions and store in the refrigerator in an oiled ziploc bag. It should be allowed to rise slowly over 2–3 days
-      before use. Freeze if not used in that time.
+      Dump out the dough on a lightly-floured counter.  Knead the dough gently, dusting your hands with flour if the
+      dough is too sticky, and wetting your hands with warm water if it is too dry.  Ideally, the dough will be smooth,
+      stretchy, and just a tiny bit sticky.  Lightly grease a bowl with olive oil, drop in the dough, and cover with
+      plastic wrap.  Set aside in a warm (70°F–80°F) place until the dough has doubled in size (about 1 hour).
+
   - ingredients: []
     directions: >
-      Preheat a pizza stone in the oven to 550°F (this can take up to an hour).
+      Spread out a double-width sheet of parchment paper on the counter, and create a seam by folding it together. Place
+      your pizza stone on the paper and mark its outer diameter.  Place the pizza stone in the oven and pre-heat while
+      the dough rises.
   - ingredients: []
     directions: >
-      Open up each portion of dough as described <a href='https://youtu.be/GtAeKM_f2WU'>here</a>, taking care not to
-      de-gas the crust. Finish by spreading the dough on two overlapping pieces of parchment paper dusted with flour.
+      Open up the dough as described <a href='https://youtu.be/GtAeKM_f2WU'>here</a>, taking care not to work the dough
+      more than needed.  Finish by lightly rolling out the dough with a rolling pin until it reaches the mark indicating
+      the edge of your stone.  Curl the outer edge of back toward the center to form the crust.
   - ingredients:
-      - { amount: 6, unit: "cups", item: "tomato purée (2 per pizza)" }
-      - { amount: 12, unit: "oz", item: "mozzerella cheese, shredded (4 per pizza)" }
+      - { amount: 1, unit: "cup", item: "tomato purée" }
+      - { amount: 6, unit: "oz", item: "mozzerella cheese, shredded, low-moisture" }
     directions: >
       Apply sauce, cheese, and your preferred toppings to each of the pizzas.  Then, carefully slide the parchment paper
-      with one pizza onto the hot stone, and then slide the parchment paper away, leaving the dough directly on the
-      stone.  Return to the oven and bake until the cheese is bubbling and the crust begins to turn golden brown (4–6
-      min). Repeat for the remaining pizzas.
+      with one pizza onto the hot stone.  Return to the oven and bake until the cheese is bubbling and the crust begins
+      to turn golden brown (4–6 min).
