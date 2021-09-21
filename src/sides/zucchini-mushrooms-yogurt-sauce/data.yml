@@ -1,0 +1,37 @@
+title: Zucchini with Mushrooms in a Yogurt Sauce
+timings:
+  prep: 10 minutes
+  cook: 10 minutes
+icons: [gluten-free, low-carb, vegetarian]
+servings: 4
+description: >
+  This is my wife's favorite veggie dish.  The robust flavors of the veggies, combined with the spices and creamy tang
+  of yogurt are an amazing blend of flavors and textures.
+steps:
+  - ingredients:
+      - { amount: 2, unit: tbsp, item: "oil, frying" }
+      - { amount: 1, unit: cup, item: "onion, yellow (diced)" }
+    directions: >
+      Heat the oil in a skillet until shimmering hot.  Add the onion, and cook until golden brown (about 5 minutes).
+  - ingredients:
+      - { amount: 1, unit: tsp, item: "coriander" }
+      - { amount: 1, unit: tsp, item: "cumin" }
+      - { amount: 1, unit: tsp, item: "salt" }
+      - { amount: 0.5, unit: tsp, item: "chili powder" }
+      - { amount: 3, unit: cups, item: "mushrooms, crimini (sliced)" }
+    directions: >
+      Add the spices, and stir until well blended.  Add in the mushrooms and cook until they have released all their
+      water and started to shrink and brown around the edges.  Keep cooking until the sauce reduces to a thick syrup.
+  - ingredients:
+      - { amount: 2, unit: , item: "zucchini (sliced)" }
+    directions: >
+      Add the zucchini slices and cook until they are soft and translucent.
+  - ingredients:
+      - { amount: 3, unit: tbsp, item: "yogurt, greek" }
+      - { amount: 1, unit: tbsp, item: "cilantro, fresh (chopped)" }
+    directions: >
+      Add the yogurt and mix gently (the veggies will be soft and fragile by now) until full combined.  Transfer to a
+      serving dish and sprinkle the chopped cilantro over the top.
+credit:
+    name: Best Ever Indian Cookbook (pg 385)
+    url: https://amzn.to/3nT6LpP
