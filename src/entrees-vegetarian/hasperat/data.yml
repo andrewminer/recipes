@@ -9,8 +9,8 @@ description: >
   recipe has ever been published, so this is my personal take on it, inspired by a receipe I found online.
 steps:
   - ingredients:
-      - { amount: 3, unit: cups, item: "water" }
-      - { amount: 3, unit: tbsp, item: "salt, coarse" }
+      - { amount: 4, unit: cups, item: "water" }
+      - { amount: 4, unit: tbsp, item: "salt, coarse" }
       - { amount: 2, item: "pepper, red bell" }
       - { amount: 2, item: "pepper, poblano" }
       - { amount: 5, item: "pepper, habañero" }
