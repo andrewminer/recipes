@@ -1,0 +1,32 @@
+title: Jacket Potatoes
+timings:
+  prep: 5 minutes
+  cook: 2 hours
+icons: [gluten-free, vegetarian]
+servings: 4
+description: >
+  These are the best baked potatoes ever.  With a slightly different preparation, they wind up with extra crispy skins
+  and extra fluffy, soft insides.  I'll never go back to the "campfire" potatoes in foil again.
+steps:
+  - ingredients: {}
+    directions: >
+      Pre-heat the oven to 400°F.
+  - ingredients:
+      - { amount: 4, item: "potatoes, large russet" }
+    directions: >
+      Wash the potatoes, and then cut a quarter inch cross into the tops.  Place in an oven at 400°F for 10min short of
+      two hours.
+  - ingredients: {}
+    directions: >
+      Remove the potatoes from the oven and deepen the slits by another quarter of an inch.  Return to the oven for 10
+      more minutes.
+  - ingredients:
+      - { amount: 4, unit: tbsp, item: butter }
+      - { item: salt }
+      - { item: pepper, black }
+    directions: >
+      Remove from the oven and allow to cool slightly.  Pinch to open up the potato and serve with a generous slab of
+      butter and dusted with salt and pepper.
+credit:
+    name: Joanna Goddard
+    url: https://cupofjo.com/2014/08/how-to-make-english-jacket-potatoes/
