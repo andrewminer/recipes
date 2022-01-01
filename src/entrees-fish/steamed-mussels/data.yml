@@ -1,0 +1,28 @@
+title: Steamed Mussels
+timings:
+  prep: 15 minutes
+  cook: 10 minutes
+icons: [gluten-free, low-carb, vegetarian]
+servings: 1
+description: >
+  pass
+steps:
+  - ingredients:
+      - { amount: 2, unit: tbsp, item: "butter, unsalted" }
+      - { amount: 0.25, unit: cup, item: "shallots (minced)" }
+    directions: >
+      Using a medium stock pot, sauté the shallots in butter until soft and translucent.
+  - ingredients:
+      - { amount: 0.75, unit: cup, item: "wine, dry white" }
+      - { amount: 3, unit: lbs, item: "mussels (cleaned)" }
+    directions: >
+      Pour in the wine and mussels. Raise the heat to medium high, cover, and steam until the mussels have all opened
+      up (about 5 min).
+  - ingredients:
+      - { amount: 0.5, unit: cup, item: "parsley, fresh (chopped)" }
+      - { item: "pepper, black" }
+    directions: >
+      Pour the mussels and cooking liquid into a serving dish, sprinkle with parsley, and grind fresh pepper over all.
+credit:
+    name: Stephano
+    url: https://www.allrecipes.com/recipe/21742/steamed-mussels-ii/
