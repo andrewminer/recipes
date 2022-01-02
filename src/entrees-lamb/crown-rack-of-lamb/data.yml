@@ -1,0 +1,47 @@
+title: Crown Rack of Lamb
+timings:
+  prep: 45 minutes
+  cook: 30 minutes
+icons: [gluten-free, low-carb]
+servings: 1
+description: >
+  This is both a delicious and impressive way to prepare lamb ribs.  It is common fill the center with some kind of
+  starch (e.g., risotto, potatoes, etc.).
+steps:
+  - ingredients:
+      - { amount: 2, unit: , item: "lamb racks, 6–8 ribs each" }
+    directions: >
+      Pre-heat the oven to 375°F while you prepare the lamb.<br /><br />
+
+      Consider the rack as a series of lower-case b's connected together where the upright portion is the "stem", and
+      the round portion is the "body".  Trim the fat along the stems until it nearly reaches the body, leaving the bone
+      exposed.  Make cuts in the meat to separate the body of each 'b' from the next, while leaving the stem of each
+      fully connected.<br /><br />
+
+      Bend both racks into semicircles with stems in the center of the circle, and the bodies on the outside.  Place
+      them next to one another to form a complete circle, and use kitchen twine around the bodies to hold everything
+      together.  Add a second round of twine around the base of the stems to add more support.
+  - ingredients:
+      - { amount: 1, unit: tbsp, item: "olive oil" }
+      - { amount: 1, unit: tsp, item: "salt, coarse" }
+      - { amount: 0.5, unit: tsp, item: "pepper, black" }
+      - { amount: 6, unit: tsp, item: "garlic (minced)" }
+      - { amount: 4, unit: tsp, item: "thyme, fresh (chopped)" }
+      - { amount: 1.5, unit: tsp, item: "coriander, ground" }
+    directions: >
+      Combine the olive oil, herbs, and spices in a small dish.  Generously slather the mixture all around the meat.
+      Place the ribs in a bundt pan, and cook on the middle rack until the meat reaches 130°F (about 30–35 min, or 8–12
+      min / lb).
+  - ingredients:
+      - { amount: 1.5, unit: tbsp, item: "vinegar, white wine" }
+      - { amount: 1, unit: tsp, item: "mustard, Dijon" }
+      - { amount: 1, unit: tsp, item: "rosemary, fresh (chopped)" }
+      - { item: "salt" }
+      - { item: "pepper, black" }
+    directions: >
+      Remove the lamb from the pan, cover in foil, and transfer to a wire rack to rest (for 5–20 min).  Meanwhile, pour
+      the drippings from the bundt pan into a saucepan and combine over low heat with the remaining ingredients. Taste
+      for flavor and adjust with salt & pepper as needed.
+credit:
+    name:
+    url:
