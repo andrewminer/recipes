@@ -1,0 +1,43 @@
+title: Chicken Paprikash
+timings:
+  prep: 20 minutes
+  cook: 15 minutes
+icons: [gluten-free, low-carb]
+servings: 6
+description: >
+  This is a simple, fast, and delicious preparation for chicken that makes for an excellent weeknight dinner.  I use
+  chicken breasts so no one has to negotiate bones, but boneless thighs would work just as well.  I like to serve it on
+  a bed of egg noodles with a vegetable on the side.
+steps:
+  - ingredients:
+      - { amount: 4, unit: lb, item: "chicken breasts (skinned, chopped)" }
+      - { amount: 2, unit: tsp, item: "salt, coarse" }
+      - { amount: 1, unit: tsp, item: "pepper, black" }
+      - { amount: 2, unit: tbsp, item: "oil, high-heat" }
+    directions: >
+      Heat the oil in a Dutch oven until shimmering hot.  Season the chicken with salt and pepper and brown in batches
+      so as not to crowd the chicken.  Remove with a slotted spoon and set aside to keep warm.
+  - ingredients:
+      - { amount: 2, item: "onions (sliced)" }
+      - { amount: 2, unit: tbsp, item: "garlic (minced)" }
+    directions: >
+      Sauté the onions in the remaining oil until soft and translucent.  Add the garlic and sauté for a minute or two
+      longer.
+  - ingredients:
+      - { amount: 3, unit: tbsp, item: "flour, gluten-free" }
+      - { amount: 3, unit: tbsp, item: "paprika, sweet Hungarian" }
+      - { amount: 2, unit: cups, item: "stock, chicken" }
+    directions: >
+      Reduce the heat to low and add the flour and paprika.  Cook until the paprikia is fragrant (3–5 min). Add the
+      stock slowly, stirring constantly until smooth.  Return the chicken to the pan, and cook until the chicken is
+      cooked all the way through (about 10 min).
+  - ingredients:
+      - { amount: 1, unit: cup, item: "sour cream" }
+      - { amount: 2, unit: tbsp, item: "parsley, fresh (minced)" }
+    directions: >
+      Remove the chicken pieces to a serving platter.  Skim the remaining fat on the surface of the broth.  Reduce until
+      thickened slightly, and then add the sour cream.  Heat, but do not allow to boil.  Pour the sauce over the chicken
+      and sprinkle with parsley to serve.
+credit:
+    name: Lily Julow
+    url: https://www.tasteofhome.com/recipes/chicken-paprikash
