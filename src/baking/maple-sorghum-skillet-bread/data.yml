@@ -14,8 +14,8 @@ steps:
       allow it to heat for 10min after the oven has come to temperature.
   - ingredients:
       - { amount: 1.33, unit: "cups", item: "sorghum flower" }
-      - { amount: 3.75, unit: "cups", item: "cornmeal" }
       - { amount: 1.25, unit: "cups", item: "sour cream" }
+      - { amount: 0.75, unit: "cups", item: "cornmeal" }
       - { amount: 0.5, unit: "cup", item: "milk, whole" }
       - { amount: 0.5, unit: "cup", item: "maple syrup" }
     directions:
