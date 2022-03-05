@@ -1,6 +1,5 @@
-Flask~=1.1
+Flask~=2.0.0
 jedi
-jinja2~=2.10
 libsass
 python-dotenv~=0.0
 pyyaml

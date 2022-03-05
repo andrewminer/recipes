@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 import os
 import subprocess
@@ -42,7 +42,7 @@ project_root = os.path.dirname(os.path.abspath(sys.argv[0]))
 docs_dir = os.path.join(project_root, "docs")
 src_dir = os.path.join(project_root, "src")
 template_dir = os.path.join(src_dir, "templates")
-venv_dir = os.path.join(project_root, "usr")
+venv_dir = os.path.join(project_root, ".venv")
 bin_dir = os.path.join(venv_dir, "bin")
 
 activate = os.path.join(bin_dir, "activate")
@@ -63,8 +63,8 @@ def shell(*args, **kwargs):
 def command_generate():
     os.makedirs(docs_dir, exist_ok=True)
     shell(f"cp -R {src_dir}/images {docs_dir}/")
-    shell(f"{python} src/generate_styles.py {src_dir} {docs_dir}")
-    shell(f"{python} src/generate.py {template_dir} {src_dir} {docs_dir}")
+    shell(f"source {activate} && {python} src/generate_styles.py {src_dir} {docs_dir}")
+    shell(f"source {activate} && {python} src/generate.py {template_dir} {src_dir} {docs_dir}")
 
 
 def command_init():
@@ -76,11 +76,11 @@ def command_init():
 
 
 def command_python():
-    shell(f"{python}")
+    shell(f"source {activate} && {python}")
 
 
 def command_server():
-    server_func = lambda: shell(f"cd {docs_dir} && {python} -m http.server 8080")
+    server_func = lambda: shell(f"source {activate} && cd {docs_dir} && {python} -m http.server 8080")
     thread = Thread(target=server_func, daemon=True)
     thread.start()
 
@@ -92,8 +92,8 @@ def command_server():
 # Startup Script #######################################################################################################
 
 if __name__ == "__main__":
-    if sys.version_info < (3, 5):
-        print(f"Python {sys.version} provided, but at least version 3.5 is required.")
+    if sys.version_info < (3, 10):
+        print(f"Python {sys.version} provided, but at least version 3.10 is required.")
         sys.exit(1)
 
     for arg in sys.argv[1:]:
