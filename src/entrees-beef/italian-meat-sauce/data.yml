@@ -1,0 +1,38 @@
+title: Italian Meat Sauce
+timings:
+  prep: 15 minutes
+  cook: 90 minutes
+icons: [gluten-free]
+servings: 16
+description: >
+  While sticking very close to the traditional formula, this recipe adds interest by adding some sausage and extra
+  spices to make it really stand out.
+steps:
+  - ingredients:
+      - { amount: 2, unit: lb, item: "ground beef, 20%" }
+      - { amount: 2, unit: lb, item: "sausage, pork" }
+      - { amount: 1, unit: cup, item: "onion (chopped)" }
+      - { amount: 4, unit: tbsp, item: "garlic (minced)" }
+    directions: >
+      In a dutch oven, cook the meat, onions, and garlic over a medium heat until browned.
+  - ingredients:
+      - { amount: 56, unit: oz, item: "tomatoes, crushed" }
+      - { amount: 24, unit: oz, item: "tomato paste" }
+      - { amount: 26, unit: oz, item: "tomato purée" }
+      - { amount: 1, unit: cup, item: "water" }
+      - { amount: 4, unit: tbsp, item: "sugar, granulated" }
+      - { amount: 1, unit: tbsp, item: "basil, dried" }
+      - { amount: 1, unit: tsp, item: "fennel seeds" }
+      - { amount: 2, unit: tsp, item: "Italian seasoning" }
+      - { amount: 2, unit: tbsp, item: "salt" }
+      - { amount: 0.5, unit: tsp, item: "pepper, black" }
+      - { amount: 4, unit: tbsp, item: "parsley, fresh (chopped)" }
+    directions: >
+      Stir in the tomatoes, water, sugar, and spices. Cover and simmer for about 90 minutes, stirring occasionally.
+  - ingredients: []
+    directions: >
+      Using newly-washed canning jars, jar up the sauce and leave out on the counter until it has cooled enough for all
+      the lids to "pop" inward and seal the jar.  Store refigerated until needed.
+credit:
+    name: John Chandler
+    url: https://www.allrecipes.com/recipe/23600/worlds-best-lasagna
