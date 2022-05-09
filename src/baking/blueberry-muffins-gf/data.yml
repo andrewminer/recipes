@@ -1,0 +1,58 @@
+title: Blueberry Muffins (GF)
+timings:
+  prep: 20 minutes
+  cook: 60 minutes
+icons: [gluten-free]
+servings: 6
+description: >
+  As a rule, I'm always skeptical of any recipes which tries to mimic something it isn't.  Vegan
+  hamburgers, gluten-free muffins, and anything else of the sort almost always disappoints the true
+  fan of the original.  Not these muffins.  I was absolutely shocked at how perfectly fluffy,
+  delicious, and indestinguishable from the genuine article these muffins were.
+steps:
+  - ingredients:
+      - { amount: 300, unit: g, item: "<a href='/baking/gluten-free-flour'>Gluten Free Flour</a>" }
+      - { amount: 1, unit: tbsp, item: "baking powder" }
+      - { amount: 0.5, unit: tsp, item: "salt, fine" }
+      - { amount: 0.25, unit: tsp, item: "cinnamon (ground)" }
+      - { amount: 0.25, unit: tsp, item: "xantham gum" }
+    directions: >
+      Whisk the ingredients together in a large bowl.
+  - ingredients:
+      - { amount: 150, unit: g, item: "sugar, granulated" }
+      - { amount: 8, unit: tbsp, item: "butter (melted)" }
+      - { amount: 0.5, unit: cup, item: "yogurt, whole-milk" }
+      - { amount: 3, item: "eggs, large" }
+      - { amount: 1, unit: tsp, item: "vanilla extract" }
+    directions: >
+      Combine the next batch of ingredients in a separate suitable bowl for a standing mixer. Mix
+      with a spatula attachment on the slowest speed until the ingredients combine into a smooth
+      paste.
+  - ingredients: []
+    directions: >
+      While the mixer is still running, add the flour mixture a little at a time, waiting for each
+      addition to disappear into the batter before adding another.  Keep adding the flour mix until
+      the batter just barely starts to pull away from the side of the bowl.
+  - ingredients:
+      - { amount: 1.5, unit: cups, item: "blueberries" }
+    directions: >
+      Turn off the mixer and remove the bowl.  Fold in the blueberries very gently using a rubber
+      spatula. Be careful to avoid breaking them.
+  - ingredients: []
+    directions: >
+      Cover the batter with plastic wrap and leave on the counter for 30min.  In the meantime,
+      pre-heat the oven on bake to 375°F.
+  - ingredients:
+      - { amount: 2, unit: tbsp, item: "sugar, turbinado" }
+    directions: >
+      Scoop out enough batter in each cup of a cupcake pan so that it's not quite full. Sprinkle a
+      little sugar over top of each cupcake.  Place the cupcake pan in the oven.
+  - ingredients: []
+    directions: >
+      Cook for 16–20min, turning the pan once in the middle of the cook time.  The muffins are done
+      when they are golden brown on top, and a toothpick inserted into the middle comes out clean.
+      Allow the pan to cool for 10min on the counter, then transfer the muffins to a cooling rack
+      and allow them to cool for a further 10min.
+credit:
+    name: The How Can It Be Gluten-Free Cookbook, by America's Test Kitchen, pg 44
+    url: https://www.americastestkitchen.com/books/the-how-can-it-be-gluten-free-cookbook
