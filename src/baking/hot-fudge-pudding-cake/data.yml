@@ -1,0 +1,55 @@
+title: Hot Fudge Pudding Cake
+timings:
+  prep: 20 minutes
+  cook: 50 minutes
+icons: [gluten-free]
+servings: 8
+description: >
+  This delightful puddle of chocolate ends up as a layer of thick, rich chocolate cake floating over
+  a bubbling layer of chocolate pudding.  It's part brownie, and part lava cake.  Since it doesn't
+  need to rise, it works well to substitute GF flour here as well.
+steps:
+  - ingredients: []
+    directions: Pre-heat the oven to 325°F on bake.
+  - ingredients:
+      - { amount: 6, unit: tbsp, item: "butter, unsalted (cut into 1tbsp pieces)" }
+      - { amount: 50, unit: g, item: "chocolate, bittersweet (chopped)" }
+      - { amount: 0.33, unit: cup, item: "cocoa powder, unsweetened" }
+    directions: >
+      Melt the butter and chocolate in a cast iron pan over low heat.  Mix in the cocoa powder and
+      stir until smooth (2–4min). Set aside to cool slightly.
+  - ingredients:
+      - { amount: 100, unit: g, item: "flour, all-purpose" }
+      - { amount: 2, unit: tsp, item: "baking powder" }
+      - { amount: 0.25, unit: tsp, item: "salt" }
+    directions: >
+      Whisk the flour, baking powder, and salt together in a bowl and set aside.
+  - ingredients:
+      - { amount: 0.33, unit: cup, item: "sugar, light brown" }
+      - { amount: 0.33, unit: cup, item: "sugar, granulated" }
+      - { amount: 0.66, unit: cup, item: "cocoa powder, unsweetened" }
+    directions: >
+      In a separate bowl, whisk together the sugar and cocoa. Be sure to break up all clumps with
+      your fingers, if necessary.
+  - ingredients:
+      - { amount: 1, unit: cup, item: "coffee" }
+      - { amount: 0.5, unit: cup, item: "water" }
+    directions: >
+      Combine the coffee and water in a large measuring cup.
+  - ingredients:
+      - { amount: 0.66, unit: cup, item: "sugar, granulated" }
+      - { amount: 0.33, unit: cup, item: "milk, whole" }
+      - { amount: 1, unit: tbsp, item: "vanilla extract" }
+      - { amount: 1, item: "egg yolk" }
+    directions: >
+      Whisk the listed ingredients in with the cooled chocolate mixure.  Whisk in the flour mixture
+      until just barely combined.  Sprinkle the brown sugar mixture over the top.  Gently pour the
+      coffee mixture over the whole thing.
+  - ingredients: []
+    directions: >
+      Transfer the pan to the oven and bake until puffed and starting to pull away from the sides
+      (about 35min), rotating the pan half-way through.  Then, transfer the entire pan to a cooling
+      rack for 15min before serving in the pan.
+credit:
+    name: America's Test Kitchen
+    url: https://www.americastestkitchen.com/recipes/9241-cast-iron-hot-fudge-pudding-cake
