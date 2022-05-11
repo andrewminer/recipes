@@ -1,0 +1,41 @@
+title: Pork Sausages with Porcini Mushrooms
+timings:
+  prep: 15 minutes
+  cook: 45 minutes
+icons: [gluten-free, low-carb]
+servings: 3
+description: >
+  While the recipe is deceptively simple, the intense rich flavor of the mushrooms, wine and sausage
+  completely took me by surprise the first time I made this dish.  It's since become a family
+  favorite in my house.
+steps:
+  - ingredients:
+      - { amount: 1, unit: oz, item: "mushrooms, dried porcini" }
+    directions: >
+      Soak the mushrooms in barely-warm water for at least 30min.  When done soaking, squeeze the
+      excess water from the mushrooms by hand, retaining every drop of water from both soaking and
+      squeezing.  Rise the mushrooms several times, taking care to dislodge any bits of dirt.
+      Strain the soaking water through a fine sieve and set aside.
+  - ingredients:
+      - { amount: 1, unit: tbsp, item: "olive oil, extra virgin" }
+      - { amount: 1.5, unit: lbs, item: "pork sausage, mild" }
+    directions: >
+      Using a sauté pan large enough to hold all the sausages in a single layer, get the oil
+      shimmering hot, and add the sausages. Reduce heat to medium, cover, and cook until they have
+      browned all over.
+  - ingredients:
+      - { amount: 0.5, unit: cup, item: "wine, dry red" }
+    directions: >
+      Uncover the pan, add the red wine, and reduce the temperature to a simmer.  Continue to turn
+      the sausages from time to time until the wine has disappeared.  Then add the liquid retained
+      from soaking the mushrooms.  Bring to a boil, and reduce to a simmer.  Cover, and continue
+      cooking, taking time to turn the sausages and scrape up all the browned bits from time to time
+      until the liquid has nearly disappeared as well.
+  - ingredients: []
+    directions: >
+      Once nearly all the liquid is gone, remove the sausages to a serving platter.  Separate the
+      oils from the sauce, and pour the sauce over the sausages.  Use the oil for mixing with
+      polenta or mashed potatoes.
+credit:
+    name: Essentials of Italian Cooking by Marcella Hazan, pg 432
+    url: https://www.amazon.com/Essentials-Classic-Italian-Cooking-Marcella/dp/039458404X

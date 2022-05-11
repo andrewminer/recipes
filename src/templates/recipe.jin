@@ -65,7 +65,7 @@
         {% if credit %}
             <section class="credits">
                 {% if credit.name %}<span itemprop="author">{{ credit.name -}}</span>{% endif -%}
-                {%- if credit.name and credit.url -%},&nbsp;{% endif %}
+                {%- if credit.name and credit.url -%}<br />{% endif %}
                 {% if credit.url %}<a href="{{ credit.url }}">{{ credit.url }}</a>{% endif %}
             </section>
         {% endif %}
