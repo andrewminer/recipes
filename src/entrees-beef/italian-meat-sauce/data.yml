@@ -17,7 +17,7 @@ steps:
       In a dutch oven, cook the meat, onions, and garlic over a medium heat until browned.
   - ingredients:
       - { amount: 56, unit: oz, item: "tomatoes, crushed" }
-      - { amount: 24, unit: oz, item: "tomato paste" }
+      - { amount: 12, unit: oz, item: "tomato paste" }
       - { amount: 26, unit: oz, item: "tomato purée" }
       - { amount: 1, unit: cup, item: "water" }
       - { amount: 4, unit: tbsp, item: "sugar, granulated" }
