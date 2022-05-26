@@ -1,0 +1,45 @@
+title: Beef Brisket Stew
+timings:
+  prep: 30 minutes
+  cook: 3 hours
+icons: [gluten-free]
+servings: 8
+description: >
+  This is a beef brisket stew I invented one day while puttering around the kitchen.  The long cook
+  time ensures that the beef is tender enough to pull apart with a fork, while all the rich savory
+  flavors of wine, tomato, and tamari blend perfectly with the beef juices in the pot.
+steps:
+  - ingredients:
+      - { amount: 6, unit: tbsp, item: "oil, safflower" }
+    directions: >
+      Heat the oil in a large dutch oven until shimmering hot.  Pre-heat the oven to bake at 225°F.
+  - ingredients:
+      - { amount: 2.5, unit: lb, item: "beef brisket" }
+    directions: >
+      Truss the brisket so that it forms a compact mass with no loose flaps.  Brown all sides in
+      the dutch oven, and put aside on a cutting board.
+  - ingredients:
+      - { amount: 1, unit: cup, item: "onion, yellow (diced)" }
+    directions: >
+      Cook the onions in the same oil until soft and translucent.
+  - ingredients:
+      - { amount: 0.5, unit: cup, item: "wine, marsala" }
+      - { amount: 2, unit: cup, item: "stock, beef" }
+      - { amount: 0.5, unit: cup, item: "tomato puree" }
+      - { amount: 2, unit: tbsp, item: "tamari" }
+      - { amount: 2, item: "bay leaves" }
+    directions: >
+      Add the wine, stock, tomato puree, soy sauce, and bay leaves.  Bring to a boil and then reduce
+      the heat to simmer.  Add the trussed brisket, cover, and place in the oven to cook slowly over
+      the day (at least 3h).
+  - ingredients:
+      - { amount: 1, unit: lb, item: "potatoes, yukon gold (chopped)" }
+      - { amount: 1, unit: lb, item: "carrots (sliced)" }
+      - { amount: 0.5, unit: lb, item: "celery (sliced)" }
+    directions: >
+      Remove the pot from the oven and increase the temperature to 350°F.  Remove the brisket, and
+      set it aside on a large cutting board.  Add the vegetables, and bring back to a boil before
+      reducing to a simmer.  Shred the beef with a pair of forks and return it to the pot.  Return
+      the pot to the oven, uncovered, for at least another 30min.
+credit:
+    name: Andrew Miner
