@@ -1,0 +1,57 @@
+title: Biftech Haché à la Lyonnaise
+timings:
+  prep: 0 minutes
+  cook: 0 minutes
+icons: [gluten-free, low-carb]
+servings: 4
+description: >
+  These are the most amazing hamburgers you will have in your entire life.  I enjoy a good
+  hamburger, but the American variety can't hold a candle to these amazing delights.  The (very
+  French) combination of plenty of butter, a generous splash of vermouth, and delicate handling put
+  these in a category by themselves.
+steps:
+  - ingredients:
+      - { amount: 0.75, unit: cup, item: "onion, yellow (minced)" }
+      - { amount: 3, unit: tbsp, item: "butter, unsalted" }
+    directions: >
+      Cook the onion slowly in butter until transparent, but not browned. Set aside in a mixing
+      bowl.
+  - ingredients:
+      - { amount: 1.5, unit: lb, item: "ground beef, 10% fat" }
+      - { amount: 1.5, unit: tsp, item: "salt" }
+      - { amount: 0.125, unit: tsp, item: "pepper, black" }
+      - { amount: 0.125, unit: tsp, item: "thyme" }
+      - { amount: 1, item: "egg" }
+    directions: >
+      Add the beef, butter, salt, pepper, thyme, and the egg to the mixing bowl and combine by hand
+      until a smooth paste has formed.
+  - ingredients: []
+    directions: >
+      Form 6oz patties about 3/4" thick.  Set aside on parchment paper.
+  - ingredients:
+      - { amount: 0.5, unit: cup, item: "flour, gluten-free" }
+    directions: >
+      Spread the flour in a shallow dish, and dredge each patty until coated.  Shake off any excess
+      and place them back on the paper.
+  - ingredients:
+      - { amount: 6, unit: tbsp, item: "oil, safflower" }
+    directions: >
+      Heat the oil in a skillet large enough to accomodate all the hamburgers in a single layer.
+      Once the oil is shimmering hot, place the patties down in a single layer. DO NOT touch them
+      until they have browned half-way up the sides (about 2–3 min).
+  - ingredients: []
+    directions: >
+      Very gently, turn the patties over and continue to sauté them until browned fully up the
+      sides (another 2–3 min).  DO NOT touch them at all while they cook, and handle them as little
+      as possible while turning.
+  - ingredients:
+      - { amount: 0.5, unit: cup, item: "vermouth" }
+      - { amount: 2, unit: tbsp, item: "butter, unsalted" }
+    directions: >
+      Gently transfer the patties to a platter and leave in a warm place.  Discard the fat in the
+      skillet, and add the vermouth.  Reduce it until it coats the back of a spoon, and then melt in
+      the final portion of butter.  Reduce just a bit further, and the pour the sauce over the
+      patties and serve.
+credit:
+    name: Julia Child, Mastering the Art of French Cooking
+    url: https://amzn.to/3lMte5K
