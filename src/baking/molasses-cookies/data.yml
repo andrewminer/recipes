@@ -1,0 +1,59 @@
+title: Molasses Cookies (GF)
+timings:
+  prep: 30 minutes
+  cook: 45 minutes
+icons: [gluten-free, vegetarian]
+servings: 30
+description: >
+  Most gluten-free baked goods leave a lot to be desired.  They tend to be crumbly, dry, brittle, or
+  all three.  Theses are different.  They're soft, moist, and altogether delicious.  Not only would
+  you never guess they're gluten-free, but I think they rank among the best cookies I've ever had.
+steps:
+  - ingredients:
+      - { amount: 0.75, unit: cup, item: "butter, unsalted" }
+      - { amount: 1, item: "egg" }
+    directions: >
+      Set out the butter and egg to come to room temperature.
+  - ingredients:
+      - { amount: 2.25, unit: cup, item: "gluten-free flour, King Arthur's" }
+      - { amount: 1.5, unit: tsp, item: "baking soda" }
+      - { amount: 2, unit: tsp, item: "ginger (ground)" }
+      - { amount: 1.25, unit: tsp, item: "cinnamon (ground)" }
+      - { amount: 0.25, unit: tsp, item: "cloves (ground)" }
+      - { amount: 0.25, unit: tsp, item: "nutmeg (ground)" }
+      - { amount: 0.25, unit: tsp, item: "salt" }
+      - { amount: 0.25, unit: tsp, item: "xantham gum" }
+    directions: >
+      Whisk the dry ingredients together and set aside.
+  - ingredients:
+      - { amount: 0.5, unit: cup, item: "sugar, dark brown" }
+      - { amount: 0.25, unit: cup, item: "sugar, granulated" }
+    directions: >
+      Using a stand mixer, beat the sugar and butter (now room temperature) together on high speed
+      until creamy and fully combined.
+  - ingredients:
+      - { amount: 0.25, unit: cup, item: "molasses, dark" }
+    directions: >
+      Add the molasses, and continue beating until combined.
+  - ingredients:
+      - { amount: 2, unit: tsp, item: "vanilla extract" }
+    directions: >
+      Add the egg (now room temperature) and vanilla extract, and continue beating until combined.
+  - ingredients: []
+    directions: >
+      Turn the machine down to slow, and add the dry ingredients a little at a time until a sticky
+      dough has formed. Refrigerate the dough for at least 30min, but possibly overnight.
+  - ingredients:
+      - { amount: 0.33, unit: cup, item: "sugar, granulated" }
+    directions: >
+      Pre-heat the oven to 350°F.  Remove dough from the refrigerator (if chilled longer than 2
+      hours, allow to rest at room temperature for 30 min).  Put the sugar in a small bowl.  Prepare
+      two baking sheets by covering them with parchment paper.  Roll 1 tbsp of dough into a ball,
+      and then coat in the sugar by rolling it around in the bowl.  Place each about 3" apart.
+      Flatten each ball slightly until it is about 3/4" tall.
+  - ingredients: []
+    directions: >
+      Bake for 11–12 minutes until the edges appear set and cracks form on the surface.
+credit:
+    name: Sally
+    url: https://sallysbakingaddiction.com/soft-molasses-cookies/
